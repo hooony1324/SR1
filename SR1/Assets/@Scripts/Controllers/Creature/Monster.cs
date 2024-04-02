@@ -5,166 +5,181 @@ using static Define;
 
 public class Monster : Creature
 {
-	public override ECreatureState CreatureState
-	{
-		get { return base.CreatureState; }
-		set
-		{
-			if (_creatureState != value)
-			{
-				base.CreatureState = value;
-				switch (value)
-				{
-					case ECreatureState.Idle:
-						UpdateAITick = 0.5f;
-						break;
-					case ECreatureState.Move:
-						UpdateAITick = 0.0f;
-						break;
-					case ECreatureState.Skill:
-						UpdateAITick = 0.0f;
-						break;
-					case ECreatureState.Dead:
-						UpdateAITick = 1.0f;
-						break;
-				}
-			}
-		}
-	}
+    public override ECreatureState CreatureState
+    {
+        get { return base.CreatureState; }
+        set
+        {
+            if (_creatureState != value)
+            {
+                base.CreatureState = value;
+                switch (value)
+                {
+                    case ECreatureState.Idle:
+                        UpdateAITick = 0.5f;
+                        break;
+                    case ECreatureState.Move:
+                        UpdateAITick = 0.0f;
+                        break;
+                    case ECreatureState.Skill:
+                        UpdateAITick = 0.0f;
+                        break;
+                    case ECreatureState.Dead:
+                        UpdateAITick = 1.0f;
+                        break;
+                }
+            }
+        }
+    }
 
-	public override bool Init()
-	{
-		if (base.Init() == false)
-			return false;
+    public override bool Init()
+    {
+        if (base.Init() == false)
+            return false;
 
-		CreatureType = ECreatureType.Monster;
-		CreatureState = ECreatureState.Idle;
-		Speed = 3.0f;
+        CreatureType = ECreatureType.Monster;
 
-		StartCoroutine(CoUpdateAI());
+        StartCoroutine(CoUpdateAI());
 
-		return true;
-	}
+        return true;
+    }
 
-	void Start()
-	{
-		_initPos = transform.position;
-	}
+    public override void SetInfo(int templateID)
+    {
+        base.SetInfo(templateID);
 
-	#region AI
-	public float SearchDistance { get; private set; } = 8.0f;
-	public float AttackDistance { get; private set; } = 4.0f;
-	Creature _target;
-	Vector3 _destPos;
-	Vector3 _initPos;
+        // State
+        CreatureState = ECreatureState.Idle;
+    }
 
-	protected override void UpdateIdle()
-	{
-		Debug.Log("Idle");
+    void Start()
+    {
+        _initPos = transform.position;
+    }
 
-		// Patrol
-		{
-			int patrolPercent = 10;
-			int rand = Random.Range(0, 100);
-			if (rand <= patrolPercent)
-			{
-				_destPos = _initPos + new Vector3(Random.Range(-2, 2), Random.Range(-2, 2));
-				CreatureState = ECreatureState.Move;
-				return;
-			}
-		}
+    #region AI
+    public float SearchDistance { get; private set; } = 8.0f;
+    public float AttackDistance { get; private set; } = 4.0f;
+    Creature _target;
+    Vector3 _destPos;
+    Vector3 _initPos;
 
-		// Search Player
-		{
-			Creature target = null;
-			float bestDistanceSqr = float.MaxValue;
-			float searchDistanceSqr = SearchDistance * SearchDistance;
+    protected override void UpdateIdle()
+    {
+        // Patrol
+        {
+            int patrolPercent = 10;
+            int rand = Random.Range(0, 100);
+            if (rand <= patrolPercent)
+            {
+                _destPos = _initPos + new Vector3(Random.Range(-2, 2), Random.Range(-2, 2));
+                CreatureState = ECreatureState.Move;
+                return;
+            }
+        }
 
-			foreach (Hero hero in Managers.Object.Heroes)
-			{
-				Vector3 dir = hero.transform.position - transform.position;
-				float distToTargetSqr = dir.sqrMagnitude;
+        // Search Player
+        {
+            Creature target = null;
+            float bestDistanceSqr = float.MaxValue;
+            float searchDistanceSqr = SearchDistance * SearchDistance;
 
-				Debug.Log(distToTargetSqr);
+            foreach (Hero hero in Managers.Object.Heroes)
+            {
+                Vector3 dir = hero.transform.position - transform.position;
+                float distToTargetSqr = dir.sqrMagnitude;
 
-				if (distToTargetSqr > searchDistanceSqr)
-					continue;
+                Debug.Log(distToTargetSqr);
 
-				if (distToTargetSqr > bestDistanceSqr)
-					continue;
+                if (distToTargetSqr > searchDistanceSqr)
+                    continue;
 
-				target = hero;
-				bestDistanceSqr = distToTargetSqr;
-			}
+                if (distToTargetSqr > bestDistanceSqr)
+                    continue;
 
-			_target = target;
+                target = hero;
+                bestDistanceSqr = distToTargetSqr;
+            }
 
-			if (_target != null)
-				CreatureState = ECreatureState.Move;
-		}
-	}
+            _target = target;
 
-	protected override void UpdateMove()
-	{
-		Debug.Log("Move");
+            if (_target != null)
+                CreatureState = ECreatureState.Move;
+        }
+    }
 
-		if (_target == null)
-		{
-			// Patrol or Return
-			Vector3 dir = (_destPos - transform.position);
-			float moveDist = Mathf.Min(dir.magnitude, Time.deltaTime * Speed);
-			transform.TranslateEx(dir.normalized * moveDist);
+    protected override void UpdateMove()
+    {
+        if (_target == null)
+        {
+            // Patrol or Return
+            Vector3 dir = (_destPos - transform.position);
+            if (dir.sqrMagnitude <= 0.01f)
+            {
+                CreatureState = ECreatureState.Idle;
+                return;
+            }
 
-			if (dir.sqrMagnitude <= 0.01f)
-			{
-				CreatureState = ECreatureState.Idle;
-			}
-		}
-		else
-		{
-			// Chase
-			Vector3 dir = (_target.transform.position - transform.position);
-			float distToTargetSqr = dir.sqrMagnitude;
-			float attackDistanceSqr = AttackDistance * AttackDistance;
+            SetRigidBodyVelocity(dir.normalized * MoveSpeed);
+        }
+        else
+        {
+            // Chase
+            Vector3 dir = (_target.transform.position - transform.position);
+            float distToTargetSqr = dir.sqrMagnitude;
+            float attackDistanceSqr = AttackDistance * AttackDistance;
 
-			if (distToTargetSqr < attackDistanceSqr)
-			{
-				// 공격 범위 이내로 들어왔으면 공격.
-				CreatureState = ECreatureState.Skill;
-				StartWait(2.0f);
-			}
-			else
-			{
-				// 공격 범위 밖이라면 추적.
-				float moveDist = Mathf.Min(dir.magnitude, Time.deltaTime * Speed);
-				transform.TranslateEx(dir.normalized * moveDist);
+            if (distToTargetSqr < attackDistanceSqr)
+            {
+                // 공격 범위 이내로 들어왔으면 공격.
+                CreatureState = ECreatureState.Skill;
+                StartWait(2.0f);
+            }
+            else
+            {
+                // 공격 범위 밖이라면 추적.
+                SetRigidBodyVelocity(dir.normalized * MoveSpeed);
 
-				// 너무 멀어지면 포기.
-				float searchDistanceSqr = SearchDistance * SearchDistance;
-				if (distToTargetSqr > searchDistanceSqr)
-				{
-					_destPos = _initPos;
-					_target = null;
-					CreatureState = ECreatureState.Move;
-				}
-			}
-		}
-	}
+                // 너무 멀어지면 포기.
+                float searchDistanceSqr = SearchDistance * SearchDistance;
+                if (distToTargetSqr > searchDistanceSqr)
+                {
+                    _destPos = _initPos;
+                    _target = null;
+                    CreatureState = ECreatureState.Move;
+                }
+            }
+        }
+    }
 
-	protected override void UpdateSkill()
-	{
-		Debug.Log("Skill");
+    protected override void UpdateSkill()
+    {
 
-		if (_coWait != null)
-			return;
+        if (_coWait != null)
+            return;
 
-		CreatureState = ECreatureState.Move;
-	}
+        CreatureState = ECreatureState.Move;
+    }
 
-	protected override void UpdateDead()
-	{
-		Debug.Log("Dead");
+    protected override void UpdateDead()
+    {
 
-	}
-	#endregion
+    }
+    #endregion
+
+    #region Battle
+    public override void OnDamaged(BaseObject attacker)
+    {
+        base.OnDamaged(attacker);
+    }
+
+    public override void OnDead(BaseObject attacker)
+    {
+        base.OnDead(attacker);
+
+        // TODO : Drop Item
+
+        Managers.Object.Despawn(this);
+    }
+    #endregion
 }
