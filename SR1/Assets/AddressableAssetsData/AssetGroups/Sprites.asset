@@ -35,6 +35,48 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7070e5b061f1d1847868d9eb0b4e7cb9
+    m_Address: 002.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2866e1f69feba374e9ba7499aec76c6d
+    m_Address: 001.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f557cfa0156e6ed4d86f4e08e23c8298
+    m_Address: 003.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad9b13230f9c3894884e35fdd463d9f9
+    m_Address: 005.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 189e2249395e05a40af50684e2358c25
+    m_Address: 004.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c509d375ff80f1d4bb34e7bbc7102fcb
+    m_Address: wizard_shot.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84cffaee5a5586d4fba82f0f2139cc73
+    m_Address: goblin_shot.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 44a2531e51a56944598bc231451ecb34, type: 2}
   m_SchemaSet:
