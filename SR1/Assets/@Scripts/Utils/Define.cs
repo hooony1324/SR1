@@ -65,7 +65,8 @@ public static class Define
         TargetMonster,
         CollectEnv,
         ReturnToCamp,
-        ForceMove
+        ForceMove,
+        ForcePath
     }
 
     public enum EEnvState
@@ -97,6 +98,21 @@ public static class Define
         Big
     }
 
+    public enum EFindPathResult
+    {
+        Fail_LerpCell,
+        Fail_NoPath,
+        Fail_MoveTo,
+        Success,
+    }
+
+    public enum ECellCollisionType
+    {
+        None,
+        SemiWall,
+        Wall,
+    }
+
     public const int CAMERA_PROJECTION_SIZE = 12;
 
     // HARD CODING
@@ -105,6 +121,9 @@ public static class Define
     public const int HERO_DEFAULT_MELEE_ATTACK_RANGE = 1;
     public const int HERO_DEFAULT_RANGED_ATTACK_RANGE = 5;
     public const float HERO_DEFAULT_STOP_RANGE = 1.5f;
+
+    public const int HERO_DEFAULT_MOVE_DEPTH = 5;
+    public const int MONSTER_DEFAULT_MOVE_DEPTH = 3;
 
     public const int HERO_WIZARD_ID = 201000;
     public const int HERO_KNIGHT_ID = 201001;
@@ -117,6 +136,10 @@ public static class Define
 
     public const int ENV_TREE1_ID = 300001;
     public const int ENV_TREE2_ID = 301000;
+
+    public const char MAP_TOOL_WALL = '0';
+    public const char MAP_TOOL_NONE = '1';
+    public const char MAP_TOOL_SEMI_WALL = '2';
 }
 
 public static class AnimName

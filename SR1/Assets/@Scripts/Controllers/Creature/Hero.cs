@@ -7,20 +7,7 @@ using static Define;
 
 public class Hero : Creature
 {
-    bool _needArrange = true;
-    public bool NeedArrange
-    {
-        get { return _needArrange; }
-        set
-        {
-            _needArrange = value;
-
-            if (value)
-                ChangeColliderSize(EColliderSize.Big);
-            else
-                TryResizeCollider();
-        }
-    }
+    public bool NeedArrange { get; set; }
 
     public override ECreatureState CreatureState
     {
@@ -30,19 +17,6 @@ public class Hero : Creature
             if (_creatureState != value)
             {
                 base.CreatureState = value;
-
-                switch (value)
-                {
-                    case ECreatureState.Move:
-                        RigidBody.mass = CreatureData.Mass * 5.0f;
-                        break;
-                    case ECreatureState.Skill:
-                        RigidBody.mass = CreatureData.Mass * 500.0f;
-                        break;
-                    default:
-                        RigidBody.mass = CreatureData.Mass;
-                        break;
-                }
             }
         }
     }
@@ -79,6 +53,10 @@ public class Hero : Creature
         Managers.Game.OnJoystickStateChanged -= HandleOnJoystickStateChanged;
         Managers.Game.OnJoystickStateChanged += HandleOnJoystickStateChanged;
 
+        // Map
+        Collider.isTrigger = true;
+        RigidBody.simulated = false;
+
         StartCoroutine(CoUpdateAI());
 
         return true;
@@ -111,16 +89,12 @@ public class Hero : Creature
     #region AI
     protected override void UpdateIdle()
     {
-        SetRigidBodyVelocity(Vector2.zero);
-
         // 0. 이동 상태라면 강제 변경
         if (HeroMoveState == EHeroMoveState.ForceMove)
         {
             CreatureState = ECreatureState.Move;
             return;
         }
-
-        // 0. 너무 멀어졌다면 강제로 이동
 
         // 1. 몬스터
         Creature creature = FindClosestInRange(HERO_SEARCH_DISTANCE, Managers.Object.Monsters) as Creature;
@@ -153,11 +127,19 @@ public class Hero : Creature
 
     protected override void UpdateMove()
     {
+        if (HeroMoveState == EHeroMoveState.ForcePath)
+        {
+            MoveByForcePath();
+            return;
+        }
+
+        if (CheckHeroCampDistanceAndForcePath())
+            return;
+
         // 0. 누르고 있다면, 강제 이동
         if (HeroMoveState == EHeroMoveState.ForceMove)
         {
-            Vector3 dir = HeroCampDest.position - transform.position;
-            SetRigidBodyVelocity(dir.normalized * MoveSpeed);
+            EFindPathResult result = FindPathAndMoveToCellPos(HeroCampDest.position, HERO_DEFAULT_MOVE_DEPTH);
             return;
         }
 
@@ -174,7 +156,6 @@ public class Hero : Creature
 
             SkillBase skill = Skills.GetReadySkill();
             ChaseOrAttackTarget(HERO_SEARCH_DISTANCE, skill);
-            //ChaseOrAttackTarget(AttackDistance, HERO_SEARCH_DISTANCE);
             return;
         }
 
@@ -207,33 +188,94 @@ public class Hero : Creature
         // 3. Camp 주변으로 모이기
         if (HeroMoveState == EHeroMoveState.ReturnToCamp)
         {
-            Vector3 dir = HeroCampDest.position - transform.position;
-            float stopDistanceSqr = HERO_DEFAULT_STOP_RANGE * HERO_DEFAULT_STOP_RANGE;
-            if (dir.sqrMagnitude <= stopDistanceSqr)
-            {
-                HeroMoveState = EHeroMoveState.None;
-                CreatureState = ECreatureState.Idle;
-                NeedArrange = false;
+            Vector3 destPos = HeroCampDest.position;
+            if (FindPathAndMoveToCellPos(destPos, HERO_DEFAULT_MOVE_DEPTH) == EFindPathResult.Success)
                 return;
-            }
-            else
+
+            // 실패 사유 검사.
+            BaseObject obj = Managers.Map.GetObject(destPos);
+            if (obj.IsValid())
             {
-                // 멀리 있을 수록 빨라짐
-                float ratio = Mathf.Min(1, dir.magnitude); // TEMP
-                float moveSpeed = MoveSpeed * (float)Math.Pow(ratio, 3);
-                SetRigidBodyVelocity(dir.normalized * moveSpeed);
-                return;
+                // 내가 그 자리를 차지하고 있다면
+                if (obj == this)
+                {
+                    HeroMoveState = EHeroMoveState.None;
+                    NeedArrange = false;
+                    return;
+                }
+
+                // 다른 영웅이 멈춰있다면.
+                Hero hero = obj as Hero;
+                if (hero != null && hero.CreatureState == ECreatureState.Idle)
+                {
+                    HeroMoveState = EHeroMoveState.None;
+                    NeedArrange = false;
+                    return;
+                }
             }
         }
 
         // 4. 기타 (누르다 뗐을 때)
-        CreatureState = ECreatureState.Idle;
+        if (LerpCellPosCompleted)
+            CreatureState = ECreatureState.Idle;
+    }
+
+    Queue<Vector3Int> _forcePath = new Queue<Vector3Int>();
+
+    bool CheckHeroCampDistanceAndForcePath()
+    {
+        // 너무 멀어서 못 간다.
+        Vector3 destPos = HeroCampDest.position;
+        Vector3Int destCellPos = Managers.Map.World2Cell(destPos);
+        if ((CellPos - destCellPos).magnitude <= 10)
+            return false;
+
+        if (Managers.Map.CanGo(destCellPos, ignoreObjects: true) == false)
+            return false;
+
+        List<Vector3Int> path = Managers.Map.FindPath(CellPos, destCellPos, 100);
+        if (path.Count < 2)
+            return false;
+
+        HeroMoveState = EHeroMoveState.ForcePath;
+
+        _forcePath.Clear();
+        foreach (var p in path)
+        {
+            _forcePath.Enqueue(p);
+        }
+        _forcePath.Dequeue();
+
+        return true;
+    }
+
+    void MoveByForcePath()
+    {
+        if (_forcePath.Count == 0)
+        {
+            HeroMoveState = EHeroMoveState.None;
+            return;
+        }
+
+        Vector3Int cellPos = _forcePath.Peek();
+
+        if (MoveToCellPos(cellPos, 2))
+        {
+            _forcePath.Dequeue();
+            return;
+        }
+
+        // 실패 사유가 영웅이라면.
+        Hero hero = Managers.Map.GetObject(cellPos) as Hero;
+        if (hero != null && hero.CreatureState == ECreatureState.Idle)
+        {
+            HeroMoveState = EHeroMoveState.None;
+            return;
+        }
     }
 
     protected override void UpdateSkill()
     {
-        SetRigidBodyVelocity(Vector2.zero);
-
         if (HeroMoveState == EHeroMoveState.ForceMove)
         {
             CreatureState = ECreatureState.Move;
@@ -249,29 +291,9 @@ public class Hero : Creature
 
     protected override void UpdateDead()
     {
-        SetRigidBodyVelocity(Vector2.zero);
+
     }
     #endregion
-
-    private void TryResizeCollider()
-    {
-        // 일단 충돌체 아주 작게.
-        ChangeColliderSize(EColliderSize.Small);
-
-        foreach (var hero in Managers.Object.Heroes)
-        {
-            if (hero.HeroMoveState == EHeroMoveState.ReturnToCamp)
-                return;
-        }
-
-        // ReturnToCamp가 한 명도 없으면 콜라이더 조정.
-        foreach (var hero in Managers.Object.Heroes)
-        {
-            // 단 채집이나 전투중이면 스킵.
-            if (hero.CreatureState == ECreatureState.Idle)
-                hero.ChangeColliderSize(EColliderSize.Big);
-        }
-    }
 
     private void HandleOnJoystickStateChanged(EJoystickState joystickState)
     {
