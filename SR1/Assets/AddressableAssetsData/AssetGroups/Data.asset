@@ -23,8 +23,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: bc123d159ea79fc4d902f9d725a6be00
-    m_Address: MonsterData
+  - m_GUID: 59a70c70d4bac31418202f5c681bb81b
+    m_Address: BaseMapCollision
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
@@ -35,8 +35,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f30a82aecb3ecf84599f5753cff44212
-    m_Address: SkillData
+  - m_GUID: bc123d159ea79fc4d902f9d725a6be00
+    m_Address: MonsterData
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
@@ -47,8 +47,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 59a70c70d4bac31418202f5c681bb81b
-    m_Address: BaseMapCollision
+  - m_GUID: f30a82aecb3ecf84599f5753cff44212
+    m_Address: SkillData
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
