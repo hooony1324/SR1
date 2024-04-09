@@ -17,14 +17,14 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 8a6efd5afaa64114bb93b70c16056e15
   m_SerializeEntries:
-  - m_GUID: 2d584ccc718074f45894f6e8461d5704
-    m_Address: EnvData
+  - m_GUID: 59a70c70d4bac31418202f5c681bb81b
+    m_Address: BaseMapCollision
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 59a70c70d4bac31418202f5c681bb81b
-    m_Address: BaseMapCollision
+  - m_GUID: 2d584ccc718074f45894f6e8461d5704
+    m_Address: EnvData
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
@@ -49,6 +49,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f30a82aecb3ecf84599f5753cff44212
     m_Address: SkillData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 596aa34be6a8f0646a0b7f78587f8650
+    m_Address: EffectData
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
