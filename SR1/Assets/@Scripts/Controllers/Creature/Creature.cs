@@ -16,6 +16,16 @@ public class Creature : BaseObject
 
     public EffectComponent Effects { get; set; }
 
+    float DistToTargetSqr
+    {
+        get
+        {
+            Vector3 dir = (Target.transform.position - transform.position);
+            float distToTarget = Math.Max(0, dir.magnitude - Target.ExtraCells * 1f - ExtraCells * 1f); // TEMP
+            return distToTarget * distToTarget;
+        }
+    }
+
     #region Stats
     public float Hp { get; set; }
     public CreatureStat MaxHp;
@@ -187,8 +197,7 @@ public class Creature : BaseObject
             return;
         }
 
-        Vector3 dir = (Target.CenterPosition - CenterPosition);
-        float distToTargetSqr = dir.sqrMagnitude;
+        float distToTargetSqr = DistToTargetSqr;
         float attackDistanceSqr = AttackDistance * AttackDistance;
         if (distToTargetSqr > attackDistanceSqr)
         {
@@ -236,6 +245,32 @@ public class Creature : BaseObject
     #endregion
 
     #region Battle
+    public void HandleDotDamage(EffectBase effect)
+    {
+        if (effect == null)
+            return;
+        if (effect.Owner.IsValid() == false)
+            return;
+
+        // TEMP
+        float damage = (Hp * effect.EffectData.PercentAdd) + effect.EffectData.Amount;
+        if (effect.EffectData.ClassName.Contains("Heal"))
+            damage *= -1f;
+
+        float finalDamage = Mathf.Round(damage);
+        Hp = Mathf.Clamp(Hp - finalDamage, 0, MaxHp.Value);
+
+        Managers.Object.ShowDamageFont(CenterPosition, finalDamage, transform, false);
+
+        // TODO : OnDamaged 통합
+        if (Hp <= 0)
+        {
+            OnDead(effect.Owner, effect.Skill);
+            CreatureState = ECreatureState.Dead;
+            return;
+        }
+    }
+
     public override void OnDamaged(BaseObject attacker, SkillBase skill)
     {
         base.OnDamaged(attacker, skill);
@@ -261,7 +296,11 @@ public class Creature : BaseObject
 
         // 스킬에 따른 Effect 적용
         if (skill.SkillData.EffectIds != null)
-            Effects.GenerateEffects(skill.SkillData.EffectIds.ToArray(), EEffectSpawnType.Skill);
+            Effects.GenerateEffects(skill.SkillData.EffectIds.ToArray(), EEffectSpawnType.Skill, skill);
+
+        // AOE
+        if (skill != null && skill.SkillData.AoEId != 0)
+            skill.GenerateAoE(transform.position);
     }
 
     public override void OnDead(BaseObject attacker, SkillBase skill)
@@ -301,8 +340,7 @@ public class Creature : BaseObject
 
     protected void ChaseOrAttackTarget(float chaseRange, float attackRange)
     {
-        Vector3 dir = (Target.transform.position - transform.position);
-        float distToTargetSqr = dir.sqrMagnitude;
+        float distToTargetSqr = DistToTargetSqr;
         float attackDistanceSqr = attackRange * attackRange;
 
         if (distToTargetSqr <= attackDistanceSqr)
@@ -349,7 +387,7 @@ public class Creature : BaseObject
             return EFindPathResult.Fail_LerpCell;
 
         // A*
-        List<Vector3Int> path = Managers.Map.FindPath(CellPos, destCellPos, maxDepth);
+        List<Vector3Int> path = Managers.Map.FindPath(this, CellPos, destCellPos, maxDepth);
         if (path.Count < 2)
             return EFindPathResult.Fail_NoPath;
 
