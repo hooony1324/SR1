@@ -1,0 +1,90 @@
+{
+  "dropTables": [
+    {
+      "TemplateId": 80000,
+      "RewardExp": 0,
+      "Rewards": [
+        {
+          "ItemTemplateId": 400000,
+          "Probability": 100,
+          "Count": 1
+        },
+        {
+          "ItemTemplateId": 400600,
+          "Probability": 50,
+          "Count": 1
+        },
+        {
+          "ItemTemplateId": 41000,
+          "Probability": 10,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "TemplateId": 80001,
+      "RewardExp": 0,
+      "Rewards": [
+        {
+          "ItemTemplateId": 400100,
+          "Probability": 100,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "TemplateId": 80002,
+      "RewardExp": 0,
+      "Rewards": [
+        {
+          "ItemTemplateId": 400200,
+          "Probability": 100,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "TemplateId": 80003,
+      "RewardExp": 0,
+      "Rewards": [
+        {
+          "ItemTemplateId": 400300,
+          "Probability": 100,
+          "Count": 1000
+        }
+      ]
+    },
+    {
+      "TemplateId": 80004,
+      "RewardExp": 0,
+      "Rewards": [
+        {
+          "ItemTemplateId": 41000,
+          "Probability": 100,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "TemplateId": 80005,
+      "RewardExp": 0,
+      "Rewards": [
+        {
+          "ItemTemplateId": 400000,
+          "Probability": 30,
+          "Count": 20
+        },
+        {
+          "ItemTemplateId": 400100,
+          "Probability": 50,
+          "Count": 30
+        },
+        {
+          "ItemTemplateId": 400200,
+          "Probability": 20,
+          "Count": 5
+        }
+      ]
+    }
+  ]
+}

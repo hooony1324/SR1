@@ -1,0 +1,7 @@
+000_test.png
+size:40,40
+filter:Linear,Linear
+pma:true
+01
+bounds:2,2,34,33
+offsets:3,3,40,39

@@ -1,40 +1,62 @@
-using Spine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Data;
+using Spine;
 using UnityEngine;
+using static Define;
 using Event = Spine.Event;
 
-public abstract class SkillBase : InitBase
+public abstract class SkillBase : BaseObject
 {
-    public Creature Owner { get; protected set; }
-    public float RemainCoolTime { get; set; }
-
-    public Data.SkillData SkillData { get; private set; }
-
-    public override bool Init()
+    public Creature Owner { get; set; }
+    
+    #region Level
+    int level = 0;
+    public int Level
     {
-        if (base.Init() == false)
-            return false;
+        get { return level; }
+        set { level = value; }
+    }
+    #endregion
+    
+    #region skillData
 
+    public ESkillType SkillType { get; set; }
+    [SerializeField]
+    private Data.SkillData _skillData;
+    public Data.SkillData SkillData 
+    {
+        get
+        { 
+            return _skillData;
+        }
+        set 
+        { 
+            _skillData = value;
+        }
+    }
+    #endregion
+
+    public float RemainCoolTime { get; set; }
+    public float SkillAnimDuration = 0;
+    public TrackEntry CastingTrackEntry;
+    public TrackEntry SkillTrackEntry;
+
+    public InteractionObject SkillTarget { get; set; }
+
+    protected bool _activated = true;
+    public bool Activated { get { return _activated; } }
+
+    protected override bool Init()
+    {
+        base.Init();
         return true;
     }
 
-    public virtual void SetInfo(Creature owner, int skillTemplateID)
+    protected override void OnDisable()
     {
-        Owner = owner;
-        SkillData = Managers.Data.SkillDic[skillTemplateID];
-
-        // Register AnimEvent
-        if (Owner.SkeletonAnim != null && Owner.SkeletonAnim.AnimationState != null)
-        {
-            Owner.SkeletonAnim.AnimationState.Event -= OnOwnerAnimEventHandler;
-            Owner.SkeletonAnim.AnimationState.Event += OnOwnerAnimEventHandler;
-        }
-    }
-
-    private void OnDisable()
-    {
+        base.OnDisable();
         if (Managers.Game == null)
             return;
         if (Owner.IsValid() == false)
@@ -45,89 +67,150 @@ public abstract class SkillBase : InitBase
             return;
 
         Owner.SkeletonAnim.AnimationState.Event -= OnOwnerAnimEventHandler;
+        // Owner.SkeletonAnim.AnimationState.Complete -= OnAnimCompleteHandler;
     }
+    
+    public virtual void OnChangedSkillData() { }
 
-    public virtual void DoSkill()
-    {
-        // 준비된 스킬에서 해제
-        if (Owner.Skills != null)
-            Owner.Skills.ActiveSkills.Remove(this);
-
-        float timeScale = 1.0f;
-
-        if (Owner.Skills.DefaultSkill == this)
-            Owner.PlayAnimation(0, SkillData.AnimName, false).TimeScale = timeScale;
-        else
-            Owner.PlayAnimation(0, SkillData.AnimName, false).TimeScale = 1;
-
-        StartCoroutine(CoCountdownCooldown());
-    }
-
-    private IEnumerator CoCountdownCooldown()
+    public virtual void DoSkill(Action callback = null)
     {
         RemainCoolTime = SkillData.CoolTime;
-        yield return new WaitForSeconds(SkillData.CoolTime);
-        RemainCoolTime = 0;
+        SkillTarget = Owner.Target;
+        //준비된스킬에서 해제
+        if(Owner.Skills.ReadySkills.Contains(this))
+            Owner.Skills.ReadySkills.Remove(this);
 
-        // 준비된 스킬에 추가
-        if (Owner.Skills != null)
-            Owner.Skills.ActiveSkills.Add(this);
-    }
-
-    public virtual void CancelSkill()
-    {
-
-    }
-
-    protected virtual void GenerateProjectile(Creature owner, Vector3 spawnPos)
-    {
-        Projectile projectile = Managers.Object.Spawn<Projectile>(spawnPos, SkillData.ProjectileId);
-
-        LayerMask excludeMask = 0;
-        excludeMask.AddLayer(Define.ELayer.Default);
-        excludeMask.AddLayer(Define.ELayer.Projectile);
-        excludeMask.AddLayer(Define.ELayer.Env);
-        excludeMask.AddLayer(Define.ELayer.Obstacle);
-
-        switch (owner.CreatureType)
+        //공속은 기본스킬에만 적용
+        float timeScale = Owner.AttackSpeedRate;
+        if (Owner.Skills.DefaultSkill == this)//평타인 경우
         {
-            case Define.ECreatureType.Hero:
-                excludeMask.AddLayer(Define.ELayer.Hero);
-                break;
-            case Define.ECreatureType.Monster:
-                excludeMask.AddLayer(Define.ELayer.Monster);
-                break;
+            TrackEntry skill = Owner.PlayAnimation(0, SkillData.AnimName, false);
+            skill.TimeScale = timeScale;
+            SkillAnimDuration = skill.Animation.Duration;        
+        }
+        else
+        {
+            //캐스팅이 있는 경우 캐스팅 애니메이션 먼저 play
+            if (string.IsNullOrEmpty(SkillData.CastingAnimname) == false)
+            {
+                CastingTrackEntry = Owner.PlayAnimation(0, SkillData.CastingAnimname, false);
+                SkillTrackEntry = Owner.AddAnimation(0, SkillData.AnimName, false, 0);
+
+                CastingTrackEntry.TimeScale = 1;
+                SkillTrackEntry.TimeScale = 1;
+                SkillAnimDuration = CastingTrackEntry.Animation.Duration + SkillTrackEntry.Animation.Duration - MIX_DURATION;
+            }
+            else
+            {
+                SkillTrackEntry = Owner.PlayAnimation(0, SkillData.AnimName, false);
+                SkillTrackEntry.TimeScale = 1;
+                SkillAnimDuration = SkillTrackEntry.Animation.Duration;
+            }
         }
 
-        projectile.SetSpawnInfo(Owner, this, excludeMask);
+        StartCoroutine(CoCooldown());
     }
 
-    private void OnOwnerAnimEventHandler(TrackEntry trackEntry, Event e)
+    public virtual void CancelSkill() { }
+
+    public virtual void SetInfo(int skillId)
+    {
+        Owner = GetComponent<Creature>();
+        Owner.SkeletonAnim.AnimationState.Event -= OnOwnerAnimEventHandler;
+        Owner.SkeletonAnim.AnimationState.Event += OnOwnerAnimEventHandler;
+        // Owner.SkeletonAnim.AnimationState.Complete -= OnAnimCompleteHandler;
+        // Owner.SkeletonAnim.AnimationState.Complete += OnAnimCompleteHandler;
+        SkillData = Managers.Data.SkillDic[skillId];
+        RemainCoolTime = SkillData.CoolTime - Owner.CooldownReduction;
+        _activated = true;
+    }
+
+    protected virtual void GenerateProjectile(Vector3 spawnPos)
+    {
+        Projectile projectile = null;
+
+        GameObject go = Managers.Object.SpawnProjectile(spawnPos, "ProjectilePrefab");
+        projectile = go.GetOrAddComponent<Projectile>();
+        projectile.SetInfo(Owner, this, MotionFinished);
+    }
+
+    protected virtual void OnOwnerAnimEventHandler(TrackEntry arg1, Event arg2)
     {
         // 다른스킬의 애니메이션 이벤트도 받기 때문에 자기꺼만 써야함
-        if (trackEntry.Animation.Name == SkillData.AnimName)
-            OnAttackEvent();
+        if (arg1.Animation.Name != _skillData.AnimName)
+            return;
+        
+        if(Owner.Skills.CurrentSkill.SkillData.TempleteId != SkillData.TempleteId)
+            return;
+
+        if (arg1.Animation.Name == _skillData.AnimName)
+        {
+            OnAttackEvent(arg1, arg2);
+        }
     }
 
-    protected abstract void OnAttackEvent();
+    protected virtual void OnAttackEvent(TrackEntry arg1, Event arg2) { }
 
-    public virtual void GenerateAoE(Vector3 spawnPos)
+    protected virtual void MotionFinished(Vector3 endPos, Vector3 targetPos, int skillTempleteId) { }
+    
+    protected virtual void GenerateAoE(Vector3 spawnPos, Vector3 targetPos)
     {
         AoEBase aoe = null;
         int id = SkillData.AoEId;
-        string className = Managers.Data.AoEDic[id].ClassName;
+        EAoEType type = Managers.Data.AoEDic[id].Type;
+        
+        GameObject go = Managers.Object.SpawnGameObject(spawnPos, "AoEPrefab");
 
-        Type componentType = Type.GetType(className);
-
-        if (componentType == null)
+        switch (type)
         {
-            Debug.LogError("AoE Type not found: " + className);
-            return;
+            case EAoEType.ConeShape:
+                aoe = go.GetOrAddComponent<AoEBase>();
+                break;
+            case EAoEType.CircleShape:
+                aoe = go.GetOrAddComponent<AoEBase>();
+                break;
+            case EAoEType.SingleTarget:
+                aoe = go.GetOrAddComponent<AoEBase>();
+                break;
+            case EAoEType.CircleTrigger:
+                aoe = go.GetOrAddComponent<CircleTriggerAoE>();
+                break;
         }
+        // aoe = go.GetOrAddComponent<>()AddComponent(componentType) as AoEBase;
+        aoe.SetInfo(SkillData.AoEId, Owner, this, targetPos);
+    }
 
-        GameObject go = Managers.Object.SpawnGameObject(spawnPos, "AoE");
-        go.name = Managers.Data.AoEDic[id].ClassName;
-        aoe = go.AddComponent(componentType) as AoEBase;
-        aoe.SetInfo(SkillData.AoEId, Owner, this);
+    protected List<EffectBase> ApplyEffects(InteractionObject target)
+    {
+        if(SkillData.EffectIds != null)
+            return target.Effects.GenerateEffects(SkillData.EffectIds, EEffectSpawnType.Skill, Owner);
+        return null;
+    }
+
+    //For ComboSkill
+    protected void ApplyEffect(InteractionObject target, int effectId)
+    {
+        var list = new List<int> { effectId };
+        target.Effects.GenerateEffects(list, EEffectSpawnType.Skill, Owner);
+    }
+
+    private IEnumerator CoCooldown()
+    {
+        RemainCoolTime = _skillData.CoolTime;
+        _activated = false;
+        yield return new WaitForSeconds(_skillData.CoolTime);
+        RemainCoolTime = 0;
+
+        _activated = true;
+
+        // 준비된 스킬에 추가
+        if (Owner.Skills != null)
+            Owner.Skills.ReadySkills.Add(this);
+    }
+
+    public void Clear()
+    {
+        StopAllCoroutines();
+        RemainCoolTime = SkillData.CoolTime;
     }
 }

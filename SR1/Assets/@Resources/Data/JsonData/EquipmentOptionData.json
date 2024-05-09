@@ -1,0 +1,7024 @@
+{
+  "datas": [
+    {
+      "DataId": 1,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 1,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 2,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 1,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 3,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 1,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 12.0
+    },
+    {
+      "DataId": 4,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 1,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 16.0
+    },
+    {
+      "DataId": 5,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 5,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 6,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 5,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 7,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 5,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 12.0
+    },
+    {
+      "DataId": 8,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 5,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 16.0
+    },
+    {
+      "DataId": 9,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 10,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 10,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 10,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 11,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 10,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 12.0
+    },
+    {
+      "DataId": 12,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 10,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 16.0
+    },
+    {
+      "DataId": 13,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 15,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 14,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 15,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 15,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 15,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 12.0
+    },
+    {
+      "DataId": 16,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 15,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 16.0
+    },
+    {
+      "DataId": 17,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 20,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 18,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 20,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 19,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 20,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 12.0
+    },
+    {
+      "DataId": 20,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 20,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 16.0
+    },
+    {
+      "DataId": 21,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 25,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 22,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 25,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 23,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 25,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 12.0
+    },
+    {
+      "DataId": 24,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 25,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 16.0
+    },
+    {
+      "DataId": 25,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 30,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 26,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 30,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 27,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 30,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 12.0
+    },
+    {
+      "DataId": 28,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 30,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 16.0
+    },
+    {
+      "DataId": 29,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 35,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 30,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 35,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 31,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 35,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 12.0
+    },
+    {
+      "DataId": 32,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 35,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 16.0
+    },
+    {
+      "DataId": 33,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 40,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 34,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 40,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 35,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 40,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 12.0
+    },
+    {
+      "DataId": 36,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 40,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 16.0
+    },
+    {
+      "DataId": 37,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 45,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 38,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 45,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 39,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 45,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 12.0
+    },
+    {
+      "DataId": 40,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 45,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 16.0
+    },
+    {
+      "DataId": 41,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 50,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 42,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 50,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 43,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 50,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 12.0
+    },
+    {
+      "DataId": 44,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 50,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 16.0
+    },
+    {
+      "DataId": 45,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 55,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 46,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 55,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 47,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 55,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 12.0
+    },
+    {
+      "DataId": 48,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 55,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 16.0
+    },
+    {
+      "DataId": 49,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 60,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 50,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 60,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 51,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 60,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 12.0
+    },
+    {
+      "DataId": 52,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 60,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 16.0
+    },
+    {
+      "DataId": 53,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 65,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 54,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 65,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 55,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 65,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 12.0
+    },
+    {
+      "DataId": 56,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 65,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 16.0
+    },
+    {
+      "DataId": 57,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 70,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 58,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 70,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 59,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 70,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 12.0
+    },
+    {
+      "DataId": 60,
+      "Name": "AttackPowerIncrease",
+      "ItemLevel": 70,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 0,
+      "OptionValue": 16.0
+    },
+    {
+      "DataId": 61,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 1,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 62,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 1,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 63,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 1,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 64,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 1,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 65,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 5,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 66,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 5,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 67,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 5,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 68,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 5,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 69,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 10,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 70,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 10,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 71,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 10,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 72,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 10,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 73,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 15,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 74,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 15,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 75,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 15,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 76,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 15,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 77,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 20,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 78,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 20,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 79,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 20,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 80,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 20,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 81,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 25,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 82,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 25,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 83,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 25,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 84,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 25,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 85,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 30,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 86,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 30,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 87,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 30,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 88,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 30,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 89,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 35,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 90,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 35,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 91,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 35,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 92,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 35,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 93,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 40,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 94,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 40,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 95,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 40,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 96,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 40,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 97,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 45,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 98,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 45,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 99,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 45,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 100,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 45,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 101,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 50,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 102,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 50,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 103,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 50,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 104,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 50,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 105,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 55,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 106,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 55,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 107,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 55,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 108,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 55,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 109,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 60,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 110,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 60,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 111,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 60,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 112,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 60,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 113,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 65,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 114,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 65,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 115,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 65,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 116,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 65,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 117,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 70,
+      "OptionGrade": 1,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 118,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 70,
+      "OptionGrade": 2,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 119,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 70,
+      "OptionGrade": 3,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 120,
+      "Name": "AttackPowerMultiplier",
+      "ItemLevel": 70,
+      "OptionGrade": 4,
+      "CalcStatType": 14,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 121,
+      "Name": "HpIncrease",
+      "ItemLevel": 1,
+      "OptionGrade": 1,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 20.0
+    },
+    {
+      "DataId": 122,
+      "Name": "HpIncrease",
+      "ItemLevel": 1,
+      "OptionGrade": 2,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 40.0
+    },
+    {
+      "DataId": 123,
+      "Name": "HpIncrease",
+      "ItemLevel": 1,
+      "OptionGrade": 3,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 60.0
+    },
+    {
+      "DataId": 124,
+      "Name": "HpIncrease",
+      "ItemLevel": 1,
+      "OptionGrade": 4,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 80.0
+    },
+    {
+      "DataId": 125,
+      "Name": "HpIncrease",
+      "ItemLevel": 5,
+      "OptionGrade": 1,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 20.0
+    },
+    {
+      "DataId": 126,
+      "Name": "HpIncrease",
+      "ItemLevel": 5,
+      "OptionGrade": 2,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 40.0
+    },
+    {
+      "DataId": 127,
+      "Name": "HpIncrease",
+      "ItemLevel": 5,
+      "OptionGrade": 3,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 60.0
+    },
+    {
+      "DataId": 128,
+      "Name": "HpIncrease",
+      "ItemLevel": 5,
+      "OptionGrade": 4,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 80.0
+    },
+    {
+      "DataId": 129,
+      "Name": "HpIncrease",
+      "ItemLevel": 10,
+      "OptionGrade": 1,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 20.0
+    },
+    {
+      "DataId": 130,
+      "Name": "HpIncrease",
+      "ItemLevel": 10,
+      "OptionGrade": 2,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 40.0
+    },
+    {
+      "DataId": 131,
+      "Name": "HpIncrease",
+      "ItemLevel": 10,
+      "OptionGrade": 3,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 60.0
+    },
+    {
+      "DataId": 132,
+      "Name": "HpIncrease",
+      "ItemLevel": 10,
+      "OptionGrade": 4,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 80.0
+    },
+    {
+      "DataId": 133,
+      "Name": "HpIncrease",
+      "ItemLevel": 15,
+      "OptionGrade": 1,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 20.0
+    },
+    {
+      "DataId": 134,
+      "Name": "HpIncrease",
+      "ItemLevel": 15,
+      "OptionGrade": 2,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 40.0
+    },
+    {
+      "DataId": 135,
+      "Name": "HpIncrease",
+      "ItemLevel": 15,
+      "OptionGrade": 3,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 60.0
+    },
+    {
+      "DataId": 136,
+      "Name": "HpIncrease",
+      "ItemLevel": 15,
+      "OptionGrade": 4,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 80.0
+    },
+    {
+      "DataId": 137,
+      "Name": "HpIncrease",
+      "ItemLevel": 20,
+      "OptionGrade": 1,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 20.0
+    },
+    {
+      "DataId": 138,
+      "Name": "HpIncrease",
+      "ItemLevel": 20,
+      "OptionGrade": 2,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 40.0
+    },
+    {
+      "DataId": 139,
+      "Name": "HpIncrease",
+      "ItemLevel": 20,
+      "OptionGrade": 3,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 60.0
+    },
+    {
+      "DataId": 140,
+      "Name": "HpIncrease",
+      "ItemLevel": 20,
+      "OptionGrade": 4,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 80.0
+    },
+    {
+      "DataId": 141,
+      "Name": "HpIncrease",
+      "ItemLevel": 25,
+      "OptionGrade": 1,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 20.0
+    },
+    {
+      "DataId": 142,
+      "Name": "HpIncrease",
+      "ItemLevel": 25,
+      "OptionGrade": 2,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 40.0
+    },
+    {
+      "DataId": 143,
+      "Name": "HpIncrease",
+      "ItemLevel": 25,
+      "OptionGrade": 3,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 60.0
+    },
+    {
+      "DataId": 144,
+      "Name": "HpIncrease",
+      "ItemLevel": 25,
+      "OptionGrade": 4,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 80.0
+    },
+    {
+      "DataId": 145,
+      "Name": "HpIncrease",
+      "ItemLevel": 30,
+      "OptionGrade": 1,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 20.0
+    },
+    {
+      "DataId": 146,
+      "Name": "HpIncrease",
+      "ItemLevel": 30,
+      "OptionGrade": 2,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 40.0
+    },
+    {
+      "DataId": 147,
+      "Name": "HpIncrease",
+      "ItemLevel": 30,
+      "OptionGrade": 3,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 60.0
+    },
+    {
+      "DataId": 148,
+      "Name": "HpIncrease",
+      "ItemLevel": 30,
+      "OptionGrade": 4,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 80.0
+    },
+    {
+      "DataId": 149,
+      "Name": "HpIncrease",
+      "ItemLevel": 35,
+      "OptionGrade": 1,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 20.0
+    },
+    {
+      "DataId": 150,
+      "Name": "HpIncrease",
+      "ItemLevel": 35,
+      "OptionGrade": 2,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 40.0
+    },
+    {
+      "DataId": 151,
+      "Name": "HpIncrease",
+      "ItemLevel": 35,
+      "OptionGrade": 3,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 60.0
+    },
+    {
+      "DataId": 152,
+      "Name": "HpIncrease",
+      "ItemLevel": 35,
+      "OptionGrade": 4,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 80.0
+    },
+    {
+      "DataId": 153,
+      "Name": "HpIncrease",
+      "ItemLevel": 40,
+      "OptionGrade": 1,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 20.0
+    },
+    {
+      "DataId": 154,
+      "Name": "HpIncrease",
+      "ItemLevel": 40,
+      "OptionGrade": 2,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 40.0
+    },
+    {
+      "DataId": 155,
+      "Name": "HpIncrease",
+      "ItemLevel": 40,
+      "OptionGrade": 3,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 60.0
+    },
+    {
+      "DataId": 156,
+      "Name": "HpIncrease",
+      "ItemLevel": 40,
+      "OptionGrade": 4,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 80.0
+    },
+    {
+      "DataId": 157,
+      "Name": "HpIncrease",
+      "ItemLevel": 45,
+      "OptionGrade": 1,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 20.0
+    },
+    {
+      "DataId": 158,
+      "Name": "HpIncrease",
+      "ItemLevel": 45,
+      "OptionGrade": 2,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 40.0
+    },
+    {
+      "DataId": 159,
+      "Name": "HpIncrease",
+      "ItemLevel": 45,
+      "OptionGrade": 3,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 60.0
+    },
+    {
+      "DataId": 160,
+      "Name": "HpIncrease",
+      "ItemLevel": 45,
+      "OptionGrade": 4,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 80.0
+    },
+    {
+      "DataId": 161,
+      "Name": "HpIncrease",
+      "ItemLevel": 50,
+      "OptionGrade": 1,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 20.0
+    },
+    {
+      "DataId": 162,
+      "Name": "HpIncrease",
+      "ItemLevel": 50,
+      "OptionGrade": 2,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 40.0
+    },
+    {
+      "DataId": 163,
+      "Name": "HpIncrease",
+      "ItemLevel": 50,
+      "OptionGrade": 3,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 60.0
+    },
+    {
+      "DataId": 164,
+      "Name": "HpIncrease",
+      "ItemLevel": 50,
+      "OptionGrade": 4,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 80.0
+    },
+    {
+      "DataId": 165,
+      "Name": "HpIncrease",
+      "ItemLevel": 55,
+      "OptionGrade": 1,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 20.0
+    },
+    {
+      "DataId": 166,
+      "Name": "HpIncrease",
+      "ItemLevel": 55,
+      "OptionGrade": 2,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 40.0
+    },
+    {
+      "DataId": 167,
+      "Name": "HpIncrease",
+      "ItemLevel": 55,
+      "OptionGrade": 3,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 60.0
+    },
+    {
+      "DataId": 168,
+      "Name": "HpIncrease",
+      "ItemLevel": 55,
+      "OptionGrade": 4,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 80.0
+    },
+    {
+      "DataId": 169,
+      "Name": "HpIncrease",
+      "ItemLevel": 60,
+      "OptionGrade": 1,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 20.0
+    },
+    {
+      "DataId": 170,
+      "Name": "HpIncrease",
+      "ItemLevel": 60,
+      "OptionGrade": 2,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 40.0
+    },
+    {
+      "DataId": 171,
+      "Name": "HpIncrease",
+      "ItemLevel": 60,
+      "OptionGrade": 3,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 60.0
+    },
+    {
+      "DataId": 172,
+      "Name": "HpIncrease",
+      "ItemLevel": 60,
+      "OptionGrade": 4,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 80.0
+    },
+    {
+      "DataId": 173,
+      "Name": "HpIncrease",
+      "ItemLevel": 65,
+      "OptionGrade": 1,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 20.0
+    },
+    {
+      "DataId": 174,
+      "Name": "HpIncrease",
+      "ItemLevel": 65,
+      "OptionGrade": 2,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 40.0
+    },
+    {
+      "DataId": 175,
+      "Name": "HpIncrease",
+      "ItemLevel": 65,
+      "OptionGrade": 3,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 60.0
+    },
+    {
+      "DataId": 176,
+      "Name": "HpIncrease",
+      "ItemLevel": 65,
+      "OptionGrade": 4,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 80.0
+    },
+    {
+      "DataId": 177,
+      "Name": "HpIncrease",
+      "ItemLevel": 70,
+      "OptionGrade": 1,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 20.0
+    },
+    {
+      "DataId": 178,
+      "Name": "HpIncrease",
+      "ItemLevel": 70,
+      "OptionGrade": 2,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 40.0
+    },
+    {
+      "DataId": 179,
+      "Name": "HpIncrease",
+      "ItemLevel": 70,
+      "OptionGrade": 3,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 60.0
+    },
+    {
+      "DataId": 180,
+      "Name": "HpIncrease",
+      "ItemLevel": 70,
+      "OptionGrade": 4,
+      "CalcStatType": 5,
+      "StatModType": 0,
+      "OptionValue": 80.0
+    },
+    {
+      "DataId": 181,
+      "Name": "HpMultiplier",
+      "ItemLevel": 1,
+      "OptionGrade": 1,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 182,
+      "Name": "HpMultiplier",
+      "ItemLevel": 1,
+      "OptionGrade": 2,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 183,
+      "Name": "HpMultiplier",
+      "ItemLevel": 1,
+      "OptionGrade": 3,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 184,
+      "Name": "HpMultiplier",
+      "ItemLevel": 1,
+      "OptionGrade": 4,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 185,
+      "Name": "HpMultiplier",
+      "ItemLevel": 5,
+      "OptionGrade": 1,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 186,
+      "Name": "HpMultiplier",
+      "ItemLevel": 5,
+      "OptionGrade": 2,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 187,
+      "Name": "HpMultiplier",
+      "ItemLevel": 5,
+      "OptionGrade": 3,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 188,
+      "Name": "HpMultiplier",
+      "ItemLevel": 5,
+      "OptionGrade": 4,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 189,
+      "Name": "HpMultiplier",
+      "ItemLevel": 10,
+      "OptionGrade": 1,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 190,
+      "Name": "HpMultiplier",
+      "ItemLevel": 10,
+      "OptionGrade": 2,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 191,
+      "Name": "HpMultiplier",
+      "ItemLevel": 10,
+      "OptionGrade": 3,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 192,
+      "Name": "HpMultiplier",
+      "ItemLevel": 10,
+      "OptionGrade": 4,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 193,
+      "Name": "HpMultiplier",
+      "ItemLevel": 15,
+      "OptionGrade": 1,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 194,
+      "Name": "HpMultiplier",
+      "ItemLevel": 15,
+      "OptionGrade": 2,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 195,
+      "Name": "HpMultiplier",
+      "ItemLevel": 15,
+      "OptionGrade": 3,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 196,
+      "Name": "HpMultiplier",
+      "ItemLevel": 15,
+      "OptionGrade": 4,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 197,
+      "Name": "HpMultiplier",
+      "ItemLevel": 20,
+      "OptionGrade": 1,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 198,
+      "Name": "HpMultiplier",
+      "ItemLevel": 20,
+      "OptionGrade": 2,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 199,
+      "Name": "HpMultiplier",
+      "ItemLevel": 20,
+      "OptionGrade": 3,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 200,
+      "Name": "HpMultiplier",
+      "ItemLevel": 20,
+      "OptionGrade": 4,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 201,
+      "Name": "HpMultiplier",
+      "ItemLevel": 25,
+      "OptionGrade": 1,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 202,
+      "Name": "HpMultiplier",
+      "ItemLevel": 25,
+      "OptionGrade": 2,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 203,
+      "Name": "HpMultiplier",
+      "ItemLevel": 25,
+      "OptionGrade": 3,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 204,
+      "Name": "HpMultiplier",
+      "ItemLevel": 25,
+      "OptionGrade": 4,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 205,
+      "Name": "HpMultiplier",
+      "ItemLevel": 30,
+      "OptionGrade": 1,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 206,
+      "Name": "HpMultiplier",
+      "ItemLevel": 30,
+      "OptionGrade": 2,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 207,
+      "Name": "HpMultiplier",
+      "ItemLevel": 30,
+      "OptionGrade": 3,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 208,
+      "Name": "HpMultiplier",
+      "ItemLevel": 30,
+      "OptionGrade": 4,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 209,
+      "Name": "HpMultiplier",
+      "ItemLevel": 35,
+      "OptionGrade": 1,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 210,
+      "Name": "HpMultiplier",
+      "ItemLevel": 35,
+      "OptionGrade": 2,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 211,
+      "Name": "HpMultiplier",
+      "ItemLevel": 35,
+      "OptionGrade": 3,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 212,
+      "Name": "HpMultiplier",
+      "ItemLevel": 35,
+      "OptionGrade": 4,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 213,
+      "Name": "HpMultiplier",
+      "ItemLevel": 40,
+      "OptionGrade": 1,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 214,
+      "Name": "HpMultiplier",
+      "ItemLevel": 40,
+      "OptionGrade": 2,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 215,
+      "Name": "HpMultiplier",
+      "ItemLevel": 40,
+      "OptionGrade": 3,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 216,
+      "Name": "HpMultiplier",
+      "ItemLevel": 40,
+      "OptionGrade": 4,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 217,
+      "Name": "HpMultiplier",
+      "ItemLevel": 45,
+      "OptionGrade": 1,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 218,
+      "Name": "HpMultiplier",
+      "ItemLevel": 45,
+      "OptionGrade": 2,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 219,
+      "Name": "HpMultiplier",
+      "ItemLevel": 45,
+      "OptionGrade": 3,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 220,
+      "Name": "HpMultiplier",
+      "ItemLevel": 45,
+      "OptionGrade": 4,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 221,
+      "Name": "HpMultiplier",
+      "ItemLevel": 50,
+      "OptionGrade": 1,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 222,
+      "Name": "HpMultiplier",
+      "ItemLevel": 50,
+      "OptionGrade": 2,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 223,
+      "Name": "HpMultiplier",
+      "ItemLevel": 50,
+      "OptionGrade": 3,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 224,
+      "Name": "HpMultiplier",
+      "ItemLevel": 50,
+      "OptionGrade": 4,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 225,
+      "Name": "HpMultiplier",
+      "ItemLevel": 55,
+      "OptionGrade": 1,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 226,
+      "Name": "HpMultiplier",
+      "ItemLevel": 55,
+      "OptionGrade": 2,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 227,
+      "Name": "HpMultiplier",
+      "ItemLevel": 55,
+      "OptionGrade": 3,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 228,
+      "Name": "HpMultiplier",
+      "ItemLevel": 55,
+      "OptionGrade": 4,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 229,
+      "Name": "HpMultiplier",
+      "ItemLevel": 60,
+      "OptionGrade": 1,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 230,
+      "Name": "HpMultiplier",
+      "ItemLevel": 60,
+      "OptionGrade": 2,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 231,
+      "Name": "HpMultiplier",
+      "ItemLevel": 60,
+      "OptionGrade": 3,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 232,
+      "Name": "HpMultiplier",
+      "ItemLevel": 60,
+      "OptionGrade": 4,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 233,
+      "Name": "HpMultiplier",
+      "ItemLevel": 65,
+      "OptionGrade": 1,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 234,
+      "Name": "HpMultiplier",
+      "ItemLevel": 65,
+      "OptionGrade": 2,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 235,
+      "Name": "HpMultiplier",
+      "ItemLevel": 65,
+      "OptionGrade": 3,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 236,
+      "Name": "HpMultiplier",
+      "ItemLevel": 65,
+      "OptionGrade": 4,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 237,
+      "Name": "HpMultiplier",
+      "ItemLevel": 70,
+      "OptionGrade": 1,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 238,
+      "Name": "HpMultiplier",
+      "ItemLevel": 70,
+      "OptionGrade": 2,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 239,
+      "Name": "HpMultiplier",
+      "ItemLevel": 70,
+      "OptionGrade": 3,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 240,
+      "Name": "HpMultiplier",
+      "ItemLevel": 70,
+      "OptionGrade": 4,
+      "CalcStatType": 4,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 241,
+      "Name": "DamageReduction",
+      "ItemLevel": 1,
+      "OptionGrade": 1,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 242,
+      "Name": "DamageReduction",
+      "ItemLevel": 1,
+      "OptionGrade": 2,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 243,
+      "Name": "DamageReduction",
+      "ItemLevel": 1,
+      "OptionGrade": 3,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 6.0
+    },
+    {
+      "DataId": 244,
+      "Name": "DamageReduction",
+      "ItemLevel": 1,
+      "OptionGrade": 4,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 245,
+      "Name": "DamageReduction",
+      "ItemLevel": 5,
+      "OptionGrade": 1,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 246,
+      "Name": "DamageReduction",
+      "ItemLevel": 5,
+      "OptionGrade": 2,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 247,
+      "Name": "DamageReduction",
+      "ItemLevel": 5,
+      "OptionGrade": 3,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 6.0
+    },
+    {
+      "DataId": 248,
+      "Name": "DamageReduction",
+      "ItemLevel": 5,
+      "OptionGrade": 4,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 249,
+      "Name": "DamageReduction",
+      "ItemLevel": 10,
+      "OptionGrade": 1,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 250,
+      "Name": "DamageReduction",
+      "ItemLevel": 10,
+      "OptionGrade": 2,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 251,
+      "Name": "DamageReduction",
+      "ItemLevel": 10,
+      "OptionGrade": 3,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 6.0
+    },
+    {
+      "DataId": 252,
+      "Name": "DamageReduction",
+      "ItemLevel": 10,
+      "OptionGrade": 4,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 253,
+      "Name": "DamageReduction",
+      "ItemLevel": 15,
+      "OptionGrade": 1,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 254,
+      "Name": "DamageReduction",
+      "ItemLevel": 15,
+      "OptionGrade": 2,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 255,
+      "Name": "DamageReduction",
+      "ItemLevel": 15,
+      "OptionGrade": 3,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 6.0
+    },
+    {
+      "DataId": 256,
+      "Name": "DamageReduction",
+      "ItemLevel": 15,
+      "OptionGrade": 4,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 257,
+      "Name": "DamageReduction",
+      "ItemLevel": 20,
+      "OptionGrade": 1,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 258,
+      "Name": "DamageReduction",
+      "ItemLevel": 20,
+      "OptionGrade": 2,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 259,
+      "Name": "DamageReduction",
+      "ItemLevel": 20,
+      "OptionGrade": 3,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 6.0
+    },
+    {
+      "DataId": 260,
+      "Name": "DamageReduction",
+      "ItemLevel": 20,
+      "OptionGrade": 4,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 261,
+      "Name": "DamageReduction",
+      "ItemLevel": 25,
+      "OptionGrade": 1,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 262,
+      "Name": "DamageReduction",
+      "ItemLevel": 25,
+      "OptionGrade": 2,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 263,
+      "Name": "DamageReduction",
+      "ItemLevel": 25,
+      "OptionGrade": 3,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 6.0
+    },
+    {
+      "DataId": 264,
+      "Name": "DamageReduction",
+      "ItemLevel": 25,
+      "OptionGrade": 4,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 265,
+      "Name": "DamageReduction",
+      "ItemLevel": 30,
+      "OptionGrade": 1,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 266,
+      "Name": "DamageReduction",
+      "ItemLevel": 30,
+      "OptionGrade": 2,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 267,
+      "Name": "DamageReduction",
+      "ItemLevel": 30,
+      "OptionGrade": 3,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 6.0
+    },
+    {
+      "DataId": 268,
+      "Name": "DamageReduction",
+      "ItemLevel": 30,
+      "OptionGrade": 4,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 269,
+      "Name": "DamageReduction",
+      "ItemLevel": 35,
+      "OptionGrade": 1,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 270,
+      "Name": "DamageReduction",
+      "ItemLevel": 35,
+      "OptionGrade": 2,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 271,
+      "Name": "DamageReduction",
+      "ItemLevel": 35,
+      "OptionGrade": 3,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 6.0
+    },
+    {
+      "DataId": 272,
+      "Name": "DamageReduction",
+      "ItemLevel": 35,
+      "OptionGrade": 4,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 273,
+      "Name": "DamageReduction",
+      "ItemLevel": 40,
+      "OptionGrade": 1,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 274,
+      "Name": "DamageReduction",
+      "ItemLevel": 40,
+      "OptionGrade": 2,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 275,
+      "Name": "DamageReduction",
+      "ItemLevel": 40,
+      "OptionGrade": 3,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 6.0
+    },
+    {
+      "DataId": 276,
+      "Name": "DamageReduction",
+      "ItemLevel": 40,
+      "OptionGrade": 4,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 277,
+      "Name": "DamageReduction",
+      "ItemLevel": 45,
+      "OptionGrade": 1,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 278,
+      "Name": "DamageReduction",
+      "ItemLevel": 45,
+      "OptionGrade": 2,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 279,
+      "Name": "DamageReduction",
+      "ItemLevel": 45,
+      "OptionGrade": 3,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 6.0
+    },
+    {
+      "DataId": 280,
+      "Name": "DamageReduction",
+      "ItemLevel": 45,
+      "OptionGrade": 4,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 281,
+      "Name": "DamageReduction",
+      "ItemLevel": 50,
+      "OptionGrade": 1,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 282,
+      "Name": "DamageReduction",
+      "ItemLevel": 50,
+      "OptionGrade": 2,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 283,
+      "Name": "DamageReduction",
+      "ItemLevel": 50,
+      "OptionGrade": 3,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 6.0
+    },
+    {
+      "DataId": 284,
+      "Name": "DamageReduction",
+      "ItemLevel": 50,
+      "OptionGrade": 4,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 285,
+      "Name": "DamageReduction",
+      "ItemLevel": 55,
+      "OptionGrade": 1,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 286,
+      "Name": "DamageReduction",
+      "ItemLevel": 55,
+      "OptionGrade": 2,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 287,
+      "Name": "DamageReduction",
+      "ItemLevel": 55,
+      "OptionGrade": 3,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 6.0
+    },
+    {
+      "DataId": 288,
+      "Name": "DamageReduction",
+      "ItemLevel": 55,
+      "OptionGrade": 4,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 289,
+      "Name": "DamageReduction",
+      "ItemLevel": 60,
+      "OptionGrade": 1,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 290,
+      "Name": "DamageReduction",
+      "ItemLevel": 60,
+      "OptionGrade": 2,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 291,
+      "Name": "DamageReduction",
+      "ItemLevel": 60,
+      "OptionGrade": 3,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 6.0
+    },
+    {
+      "DataId": 292,
+      "Name": "DamageReduction",
+      "ItemLevel": 60,
+      "OptionGrade": 4,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 293,
+      "Name": "DamageReduction",
+      "ItemLevel": 65,
+      "OptionGrade": 1,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 294,
+      "Name": "DamageReduction",
+      "ItemLevel": 65,
+      "OptionGrade": 2,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 295,
+      "Name": "DamageReduction",
+      "ItemLevel": 65,
+      "OptionGrade": 3,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 6.0
+    },
+    {
+      "DataId": 296,
+      "Name": "DamageReduction",
+      "ItemLevel": 65,
+      "OptionGrade": 4,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 297,
+      "Name": "DamageReduction",
+      "ItemLevel": 70,
+      "OptionGrade": 1,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 298,
+      "Name": "DamageReduction",
+      "ItemLevel": 70,
+      "OptionGrade": 2,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 4.0
+    },
+    {
+      "DataId": 299,
+      "Name": "DamageReduction",
+      "ItemLevel": 70,
+      "OptionGrade": 3,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 6.0
+    },
+    {
+      "DataId": 300,
+      "Name": "DamageReduction",
+      "ItemLevel": 70,
+      "OptionGrade": 4,
+      "CalcStatType": 9,
+      "StatModType": 0,
+      "OptionValue": 8.0
+    },
+    {
+      "DataId": 301,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 1,
+      "OptionGrade": 1,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 302,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 1,
+      "OptionGrade": 2,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 303,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 1,
+      "OptionGrade": 3,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.03
+    },
+    {
+      "DataId": 304,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 1,
+      "OptionGrade": 4,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 305,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 5,
+      "OptionGrade": 1,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 306,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 5,
+      "OptionGrade": 2,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 307,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 5,
+      "OptionGrade": 3,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.03
+    },
+    {
+      "DataId": 308,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 5,
+      "OptionGrade": 4,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 309,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 10,
+      "OptionGrade": 1,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 310,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 10,
+      "OptionGrade": 2,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 311,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 10,
+      "OptionGrade": 3,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.03
+    },
+    {
+      "DataId": 312,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 10,
+      "OptionGrade": 4,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 313,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 15,
+      "OptionGrade": 1,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 314,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 15,
+      "OptionGrade": 2,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 315,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 15,
+      "OptionGrade": 3,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.03
+    },
+    {
+      "DataId": 316,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 15,
+      "OptionGrade": 4,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 317,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 20,
+      "OptionGrade": 1,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 318,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 20,
+      "OptionGrade": 2,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 319,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 20,
+      "OptionGrade": 3,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.03
+    },
+    {
+      "DataId": 320,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 20,
+      "OptionGrade": 4,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 321,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 25,
+      "OptionGrade": 1,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 322,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 25,
+      "OptionGrade": 2,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 323,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 25,
+      "OptionGrade": 3,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.03
+    },
+    {
+      "DataId": 324,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 25,
+      "OptionGrade": 4,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 325,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 30,
+      "OptionGrade": 1,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 326,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 30,
+      "OptionGrade": 2,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 327,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 30,
+      "OptionGrade": 3,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.03
+    },
+    {
+      "DataId": 328,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 30,
+      "OptionGrade": 4,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 329,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 35,
+      "OptionGrade": 1,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 330,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 35,
+      "OptionGrade": 2,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 331,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 35,
+      "OptionGrade": 3,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.03
+    },
+    {
+      "DataId": 332,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 35,
+      "OptionGrade": 4,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 333,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 40,
+      "OptionGrade": 1,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 334,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 40,
+      "OptionGrade": 2,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 335,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 40,
+      "OptionGrade": 3,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.03
+    },
+    {
+      "DataId": 336,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 40,
+      "OptionGrade": 4,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 337,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 45,
+      "OptionGrade": 1,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 338,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 45,
+      "OptionGrade": 2,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 339,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 45,
+      "OptionGrade": 3,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.03
+    },
+    {
+      "DataId": 340,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 45,
+      "OptionGrade": 4,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 341,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 50,
+      "OptionGrade": 1,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 342,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 50,
+      "OptionGrade": 2,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 343,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 50,
+      "OptionGrade": 3,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.03
+    },
+    {
+      "DataId": 344,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 50,
+      "OptionGrade": 4,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 345,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 55,
+      "OptionGrade": 1,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 346,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 55,
+      "OptionGrade": 2,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 347,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 55,
+      "OptionGrade": 3,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.03
+    },
+    {
+      "DataId": 348,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 55,
+      "OptionGrade": 4,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 349,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 60,
+      "OptionGrade": 1,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 350,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 60,
+      "OptionGrade": 2,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 351,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 60,
+      "OptionGrade": 3,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.03
+    },
+    {
+      "DataId": 352,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 60,
+      "OptionGrade": 4,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 353,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 65,
+      "OptionGrade": 1,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 354,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 65,
+      "OptionGrade": 2,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 355,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 65,
+      "OptionGrade": 3,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.03
+    },
+    {
+      "DataId": 356,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 65,
+      "OptionGrade": 4,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 357,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 70,
+      "OptionGrade": 1,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 358,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 70,
+      "OptionGrade": 2,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 359,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 70,
+      "OptionGrade": 3,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.03
+    },
+    {
+      "DataId": 360,
+      "Name": "DamageReductionRate",
+      "ItemLevel": 70,
+      "OptionGrade": 4,
+      "CalcStatType": 8,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 361,
+      "Name": "AttackSpeed",
+      "ItemLevel": 1,
+      "OptionGrade": 1,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 362,
+      "Name": "AttackSpeed",
+      "ItemLevel": 1,
+      "OptionGrade": 2,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 363,
+      "Name": "AttackSpeed",
+      "ItemLevel": 1,
+      "OptionGrade": 3,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 364,
+      "Name": "AttackSpeed",
+      "ItemLevel": 1,
+      "OptionGrade": 4,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 365,
+      "Name": "AttackSpeed",
+      "ItemLevel": 5,
+      "OptionGrade": 1,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 366,
+      "Name": "AttackSpeed",
+      "ItemLevel": 5,
+      "OptionGrade": 2,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 367,
+      "Name": "AttackSpeed",
+      "ItemLevel": 5,
+      "OptionGrade": 3,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 368,
+      "Name": "AttackSpeed",
+      "ItemLevel": 5,
+      "OptionGrade": 4,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 369,
+      "Name": "AttackSpeed",
+      "ItemLevel": 10,
+      "OptionGrade": 1,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 370,
+      "Name": "AttackSpeed",
+      "ItemLevel": 10,
+      "OptionGrade": 2,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 371,
+      "Name": "AttackSpeed",
+      "ItemLevel": 10,
+      "OptionGrade": 3,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 372,
+      "Name": "AttackSpeed",
+      "ItemLevel": 10,
+      "OptionGrade": 4,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 373,
+      "Name": "AttackSpeed",
+      "ItemLevel": 15,
+      "OptionGrade": 1,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 374,
+      "Name": "AttackSpeed",
+      "ItemLevel": 15,
+      "OptionGrade": 2,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 375,
+      "Name": "AttackSpeed",
+      "ItemLevel": 15,
+      "OptionGrade": 3,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 376,
+      "Name": "AttackSpeed",
+      "ItemLevel": 15,
+      "OptionGrade": 4,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 377,
+      "Name": "AttackSpeed",
+      "ItemLevel": 20,
+      "OptionGrade": 1,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 378,
+      "Name": "AttackSpeed",
+      "ItemLevel": 20,
+      "OptionGrade": 2,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 379,
+      "Name": "AttackSpeed",
+      "ItemLevel": 20,
+      "OptionGrade": 3,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 380,
+      "Name": "AttackSpeed",
+      "ItemLevel": 20,
+      "OptionGrade": 4,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 381,
+      "Name": "AttackSpeed",
+      "ItemLevel": 25,
+      "OptionGrade": 1,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 382,
+      "Name": "AttackSpeed",
+      "ItemLevel": 25,
+      "OptionGrade": 2,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 383,
+      "Name": "AttackSpeed",
+      "ItemLevel": 25,
+      "OptionGrade": 3,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 384,
+      "Name": "AttackSpeed",
+      "ItemLevel": 25,
+      "OptionGrade": 4,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 385,
+      "Name": "AttackSpeed",
+      "ItemLevel": 30,
+      "OptionGrade": 1,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 386,
+      "Name": "AttackSpeed",
+      "ItemLevel": 30,
+      "OptionGrade": 2,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 387,
+      "Name": "AttackSpeed",
+      "ItemLevel": 30,
+      "OptionGrade": 3,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 388,
+      "Name": "AttackSpeed",
+      "ItemLevel": 30,
+      "OptionGrade": 4,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 389,
+      "Name": "AttackSpeed",
+      "ItemLevel": 35,
+      "OptionGrade": 1,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 390,
+      "Name": "AttackSpeed",
+      "ItemLevel": 35,
+      "OptionGrade": 2,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 391,
+      "Name": "AttackSpeed",
+      "ItemLevel": 35,
+      "OptionGrade": 3,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 392,
+      "Name": "AttackSpeed",
+      "ItemLevel": 35,
+      "OptionGrade": 4,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 393,
+      "Name": "AttackSpeed",
+      "ItemLevel": 40,
+      "OptionGrade": 1,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 394,
+      "Name": "AttackSpeed",
+      "ItemLevel": 40,
+      "OptionGrade": 2,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 395,
+      "Name": "AttackSpeed",
+      "ItemLevel": 40,
+      "OptionGrade": 3,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 396,
+      "Name": "AttackSpeed",
+      "ItemLevel": 40,
+      "OptionGrade": 4,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 397,
+      "Name": "AttackSpeed",
+      "ItemLevel": 45,
+      "OptionGrade": 1,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 398,
+      "Name": "AttackSpeed",
+      "ItemLevel": 45,
+      "OptionGrade": 2,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 399,
+      "Name": "AttackSpeed",
+      "ItemLevel": 45,
+      "OptionGrade": 3,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 400,
+      "Name": "AttackSpeed",
+      "ItemLevel": 45,
+      "OptionGrade": 4,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 401,
+      "Name": "AttackSpeed",
+      "ItemLevel": 50,
+      "OptionGrade": 1,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 402,
+      "Name": "AttackSpeed",
+      "ItemLevel": 50,
+      "OptionGrade": 2,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 403,
+      "Name": "AttackSpeed",
+      "ItemLevel": 50,
+      "OptionGrade": 3,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 404,
+      "Name": "AttackSpeed",
+      "ItemLevel": 50,
+      "OptionGrade": 4,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 405,
+      "Name": "AttackSpeed",
+      "ItemLevel": 55,
+      "OptionGrade": 1,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 406,
+      "Name": "AttackSpeed",
+      "ItemLevel": 55,
+      "OptionGrade": 2,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 407,
+      "Name": "AttackSpeed",
+      "ItemLevel": 55,
+      "OptionGrade": 3,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 408,
+      "Name": "AttackSpeed",
+      "ItemLevel": 55,
+      "OptionGrade": 4,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 409,
+      "Name": "AttackSpeed",
+      "ItemLevel": 60,
+      "OptionGrade": 1,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 410,
+      "Name": "AttackSpeed",
+      "ItemLevel": 60,
+      "OptionGrade": 2,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 411,
+      "Name": "AttackSpeed",
+      "ItemLevel": 60,
+      "OptionGrade": 3,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 412,
+      "Name": "AttackSpeed",
+      "ItemLevel": 60,
+      "OptionGrade": 4,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 413,
+      "Name": "AttackSpeed",
+      "ItemLevel": 65,
+      "OptionGrade": 1,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 414,
+      "Name": "AttackSpeed",
+      "ItemLevel": 65,
+      "OptionGrade": 2,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 415,
+      "Name": "AttackSpeed",
+      "ItemLevel": 65,
+      "OptionGrade": 3,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 416,
+      "Name": "AttackSpeed",
+      "ItemLevel": 65,
+      "OptionGrade": 4,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 417,
+      "Name": "AttackSpeed",
+      "ItemLevel": 70,
+      "OptionGrade": 1,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 418,
+      "Name": "AttackSpeed",
+      "ItemLevel": 70,
+      "OptionGrade": 2,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 419,
+      "Name": "AttackSpeed",
+      "ItemLevel": 70,
+      "OptionGrade": 3,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 420,
+      "Name": "AttackSpeed",
+      "ItemLevel": 70,
+      "OptionGrade": 4,
+      "CalcStatType": 12,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 421,
+      "Name": "Critical",
+      "ItemLevel": 1,
+      "OptionGrade": 1,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 422,
+      "Name": "Critical",
+      "ItemLevel": 1,
+      "OptionGrade": 2,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 423,
+      "Name": "Critical",
+      "ItemLevel": 1,
+      "OptionGrade": 3,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 424,
+      "Name": "Critical",
+      "ItemLevel": 1,
+      "OptionGrade": 4,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 425,
+      "Name": "Critical",
+      "ItemLevel": 5,
+      "OptionGrade": 1,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 426,
+      "Name": "Critical",
+      "ItemLevel": 5,
+      "OptionGrade": 2,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 427,
+      "Name": "Critical",
+      "ItemLevel": 5,
+      "OptionGrade": 3,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 428,
+      "Name": "Critical",
+      "ItemLevel": 5,
+      "OptionGrade": 4,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 429,
+      "Name": "Critical",
+      "ItemLevel": 10,
+      "OptionGrade": 1,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 430,
+      "Name": "Critical",
+      "ItemLevel": 10,
+      "OptionGrade": 2,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 431,
+      "Name": "Critical",
+      "ItemLevel": 10,
+      "OptionGrade": 3,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 432,
+      "Name": "Critical",
+      "ItemLevel": 10,
+      "OptionGrade": 4,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 433,
+      "Name": "Critical",
+      "ItemLevel": 15,
+      "OptionGrade": 1,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 434,
+      "Name": "Critical",
+      "ItemLevel": 15,
+      "OptionGrade": 2,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 435,
+      "Name": "Critical",
+      "ItemLevel": 15,
+      "OptionGrade": 3,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 436,
+      "Name": "Critical",
+      "ItemLevel": 15,
+      "OptionGrade": 4,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 437,
+      "Name": "Critical",
+      "ItemLevel": 20,
+      "OptionGrade": 1,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 438,
+      "Name": "Critical",
+      "ItemLevel": 20,
+      "OptionGrade": 2,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 439,
+      "Name": "Critical",
+      "ItemLevel": 20,
+      "OptionGrade": 3,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 440,
+      "Name": "Critical",
+      "ItemLevel": 20,
+      "OptionGrade": 4,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 441,
+      "Name": "Critical",
+      "ItemLevel": 25,
+      "OptionGrade": 1,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 442,
+      "Name": "Critical",
+      "ItemLevel": 25,
+      "OptionGrade": 2,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 443,
+      "Name": "Critical",
+      "ItemLevel": 25,
+      "OptionGrade": 3,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 444,
+      "Name": "Critical",
+      "ItemLevel": 25,
+      "OptionGrade": 4,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 445,
+      "Name": "Critical",
+      "ItemLevel": 30,
+      "OptionGrade": 1,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 446,
+      "Name": "Critical",
+      "ItemLevel": 30,
+      "OptionGrade": 2,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 447,
+      "Name": "Critical",
+      "ItemLevel": 30,
+      "OptionGrade": 3,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 448,
+      "Name": "Critical",
+      "ItemLevel": 30,
+      "OptionGrade": 4,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 449,
+      "Name": "Critical",
+      "ItemLevel": 35,
+      "OptionGrade": 1,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 450,
+      "Name": "Critical",
+      "ItemLevel": 35,
+      "OptionGrade": 2,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 451,
+      "Name": "Critical",
+      "ItemLevel": 35,
+      "OptionGrade": 3,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 452,
+      "Name": "Critical",
+      "ItemLevel": 35,
+      "OptionGrade": 4,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 453,
+      "Name": "Critical",
+      "ItemLevel": 40,
+      "OptionGrade": 1,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 454,
+      "Name": "Critical",
+      "ItemLevel": 40,
+      "OptionGrade": 2,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 455,
+      "Name": "Critical",
+      "ItemLevel": 40,
+      "OptionGrade": 3,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 456,
+      "Name": "Critical",
+      "ItemLevel": 40,
+      "OptionGrade": 4,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 457,
+      "Name": "Critical",
+      "ItemLevel": 45,
+      "OptionGrade": 1,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 458,
+      "Name": "Critical",
+      "ItemLevel": 45,
+      "OptionGrade": 2,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 459,
+      "Name": "Critical",
+      "ItemLevel": 45,
+      "OptionGrade": 3,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 460,
+      "Name": "Critical",
+      "ItemLevel": 45,
+      "OptionGrade": 4,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 461,
+      "Name": "Critical",
+      "ItemLevel": 50,
+      "OptionGrade": 1,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 462,
+      "Name": "Critical",
+      "ItemLevel": 50,
+      "OptionGrade": 2,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 463,
+      "Name": "Critical",
+      "ItemLevel": 50,
+      "OptionGrade": 3,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 464,
+      "Name": "Critical",
+      "ItemLevel": 50,
+      "OptionGrade": 4,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 465,
+      "Name": "Critical",
+      "ItemLevel": 55,
+      "OptionGrade": 1,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 466,
+      "Name": "Critical",
+      "ItemLevel": 55,
+      "OptionGrade": 2,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 467,
+      "Name": "Critical",
+      "ItemLevel": 55,
+      "OptionGrade": 3,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 468,
+      "Name": "Critical",
+      "ItemLevel": 55,
+      "OptionGrade": 4,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 469,
+      "Name": "Critical",
+      "ItemLevel": 60,
+      "OptionGrade": 1,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 470,
+      "Name": "Critical",
+      "ItemLevel": 60,
+      "OptionGrade": 2,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 471,
+      "Name": "Critical",
+      "ItemLevel": 60,
+      "OptionGrade": 3,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 472,
+      "Name": "Critical",
+      "ItemLevel": 60,
+      "OptionGrade": 4,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 473,
+      "Name": "Critical",
+      "ItemLevel": 65,
+      "OptionGrade": 1,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 474,
+      "Name": "Critical",
+      "ItemLevel": 65,
+      "OptionGrade": 2,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 475,
+      "Name": "Critical",
+      "ItemLevel": 65,
+      "OptionGrade": 3,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 476,
+      "Name": "Critical",
+      "ItemLevel": 65,
+      "OptionGrade": 4,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 477,
+      "Name": "Critical",
+      "ItemLevel": 70,
+      "OptionGrade": 1,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 478,
+      "Name": "Critical",
+      "ItemLevel": 70,
+      "OptionGrade": 2,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 479,
+      "Name": "Critical",
+      "ItemLevel": 70,
+      "OptionGrade": 3,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 480,
+      "Name": "Critical",
+      "ItemLevel": 70,
+      "OptionGrade": 4,
+      "CalcStatType": 6,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 481,
+      "Name": "CriticalDamage",
+      "ItemLevel": 1,
+      "OptionGrade": 1,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 482,
+      "Name": "CriticalDamage",
+      "ItemLevel": 1,
+      "OptionGrade": 2,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 483,
+      "Name": "CriticalDamage",
+      "ItemLevel": 1,
+      "OptionGrade": 3,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 484,
+      "Name": "CriticalDamage",
+      "ItemLevel": 1,
+      "OptionGrade": 4,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 485,
+      "Name": "CriticalDamage",
+      "ItemLevel": 5,
+      "OptionGrade": 1,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 486,
+      "Name": "CriticalDamage",
+      "ItemLevel": 5,
+      "OptionGrade": 2,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 487,
+      "Name": "CriticalDamage",
+      "ItemLevel": 5,
+      "OptionGrade": 3,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 488,
+      "Name": "CriticalDamage",
+      "ItemLevel": 5,
+      "OptionGrade": 4,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 489,
+      "Name": "CriticalDamage",
+      "ItemLevel": 10,
+      "OptionGrade": 1,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 490,
+      "Name": "CriticalDamage",
+      "ItemLevel": 10,
+      "OptionGrade": 2,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 491,
+      "Name": "CriticalDamage",
+      "ItemLevel": 10,
+      "OptionGrade": 3,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 492,
+      "Name": "CriticalDamage",
+      "ItemLevel": 10,
+      "OptionGrade": 4,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 493,
+      "Name": "CriticalDamage",
+      "ItemLevel": 15,
+      "OptionGrade": 1,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 494,
+      "Name": "CriticalDamage",
+      "ItemLevel": 15,
+      "OptionGrade": 2,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 495,
+      "Name": "CriticalDamage",
+      "ItemLevel": 15,
+      "OptionGrade": 3,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 496,
+      "Name": "CriticalDamage",
+      "ItemLevel": 15,
+      "OptionGrade": 4,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 497,
+      "Name": "CriticalDamage",
+      "ItemLevel": 20,
+      "OptionGrade": 1,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 498,
+      "Name": "CriticalDamage",
+      "ItemLevel": 20,
+      "OptionGrade": 2,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 499,
+      "Name": "CriticalDamage",
+      "ItemLevel": 20,
+      "OptionGrade": 3,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 500,
+      "Name": "CriticalDamage",
+      "ItemLevel": 20,
+      "OptionGrade": 4,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 501,
+      "Name": "CriticalDamage",
+      "ItemLevel": 25,
+      "OptionGrade": 1,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 502,
+      "Name": "CriticalDamage",
+      "ItemLevel": 25,
+      "OptionGrade": 2,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 503,
+      "Name": "CriticalDamage",
+      "ItemLevel": 25,
+      "OptionGrade": 3,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 504,
+      "Name": "CriticalDamage",
+      "ItemLevel": 25,
+      "OptionGrade": 4,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 505,
+      "Name": "CriticalDamage",
+      "ItemLevel": 30,
+      "OptionGrade": 1,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 506,
+      "Name": "CriticalDamage",
+      "ItemLevel": 30,
+      "OptionGrade": 2,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 507,
+      "Name": "CriticalDamage",
+      "ItemLevel": 30,
+      "OptionGrade": 3,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 508,
+      "Name": "CriticalDamage",
+      "ItemLevel": 30,
+      "OptionGrade": 4,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 509,
+      "Name": "CriticalDamage",
+      "ItemLevel": 35,
+      "OptionGrade": 1,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 510,
+      "Name": "CriticalDamage",
+      "ItemLevel": 35,
+      "OptionGrade": 2,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 511,
+      "Name": "CriticalDamage",
+      "ItemLevel": 35,
+      "OptionGrade": 3,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 512,
+      "Name": "CriticalDamage",
+      "ItemLevel": 35,
+      "OptionGrade": 4,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 513,
+      "Name": "CriticalDamage",
+      "ItemLevel": 40,
+      "OptionGrade": 1,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 514,
+      "Name": "CriticalDamage",
+      "ItemLevel": 40,
+      "OptionGrade": 2,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 515,
+      "Name": "CriticalDamage",
+      "ItemLevel": 40,
+      "OptionGrade": 3,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 516,
+      "Name": "CriticalDamage",
+      "ItemLevel": 40,
+      "OptionGrade": 4,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 517,
+      "Name": "CriticalDamage",
+      "ItemLevel": 45,
+      "OptionGrade": 1,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 518,
+      "Name": "CriticalDamage",
+      "ItemLevel": 45,
+      "OptionGrade": 2,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 519,
+      "Name": "CriticalDamage",
+      "ItemLevel": 45,
+      "OptionGrade": 3,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 520,
+      "Name": "CriticalDamage",
+      "ItemLevel": 45,
+      "OptionGrade": 4,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 521,
+      "Name": "CriticalDamage",
+      "ItemLevel": 50,
+      "OptionGrade": 1,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 522,
+      "Name": "CriticalDamage",
+      "ItemLevel": 50,
+      "OptionGrade": 2,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 523,
+      "Name": "CriticalDamage",
+      "ItemLevel": 50,
+      "OptionGrade": 3,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 524,
+      "Name": "CriticalDamage",
+      "ItemLevel": 50,
+      "OptionGrade": 4,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 525,
+      "Name": "CriticalDamage",
+      "ItemLevel": 55,
+      "OptionGrade": 1,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 526,
+      "Name": "CriticalDamage",
+      "ItemLevel": 55,
+      "OptionGrade": 2,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 527,
+      "Name": "CriticalDamage",
+      "ItemLevel": 55,
+      "OptionGrade": 3,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 528,
+      "Name": "CriticalDamage",
+      "ItemLevel": 55,
+      "OptionGrade": 4,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 529,
+      "Name": "CriticalDamage",
+      "ItemLevel": 60,
+      "OptionGrade": 1,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 530,
+      "Name": "CriticalDamage",
+      "ItemLevel": 60,
+      "OptionGrade": 2,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 531,
+      "Name": "CriticalDamage",
+      "ItemLevel": 60,
+      "OptionGrade": 3,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 532,
+      "Name": "CriticalDamage",
+      "ItemLevel": 60,
+      "OptionGrade": 4,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 533,
+      "Name": "CriticalDamage",
+      "ItemLevel": 65,
+      "OptionGrade": 1,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 534,
+      "Name": "CriticalDamage",
+      "ItemLevel": 65,
+      "OptionGrade": 2,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 535,
+      "Name": "CriticalDamage",
+      "ItemLevel": 65,
+      "OptionGrade": 3,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 536,
+      "Name": "CriticalDamage",
+      "ItemLevel": 65,
+      "OptionGrade": 4,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 537,
+      "Name": "CriticalDamage",
+      "ItemLevel": 70,
+      "OptionGrade": 1,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 538,
+      "Name": "CriticalDamage",
+      "ItemLevel": 70,
+      "OptionGrade": 2,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 539,
+      "Name": "CriticalDamage",
+      "ItemLevel": 70,
+      "OptionGrade": 3,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 540,
+      "Name": "CriticalDamage",
+      "ItemLevel": 70,
+      "OptionGrade": 4,
+      "CalcStatType": 7,
+      "StatModType": 0,
+      "OptionValue": 0.08
+    },
+    {
+      "DataId": 541,
+      "Name": "MissChance",
+      "ItemLevel": 1,
+      "OptionGrade": 1,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 542,
+      "Name": "MissChance",
+      "ItemLevel": 1,
+      "OptionGrade": 2,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 543,
+      "Name": "MissChance",
+      "ItemLevel": 1,
+      "OptionGrade": 3,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 544,
+      "Name": "MissChance",
+      "ItemLevel": 1,
+      "OptionGrade": 4,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 545,
+      "Name": "MissChance",
+      "ItemLevel": 5,
+      "OptionGrade": 1,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 546,
+      "Name": "MissChance",
+      "ItemLevel": 5,
+      "OptionGrade": 2,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 547,
+      "Name": "MissChance",
+      "ItemLevel": 5,
+      "OptionGrade": 3,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 548,
+      "Name": "MissChance",
+      "ItemLevel": 5,
+      "OptionGrade": 4,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 549,
+      "Name": "MissChance",
+      "ItemLevel": 10,
+      "OptionGrade": 1,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 550,
+      "Name": "MissChance",
+      "ItemLevel": 10,
+      "OptionGrade": 2,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 551,
+      "Name": "MissChance",
+      "ItemLevel": 10,
+      "OptionGrade": 3,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 552,
+      "Name": "MissChance",
+      "ItemLevel": 10,
+      "OptionGrade": 4,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 553,
+      "Name": "MissChance",
+      "ItemLevel": 15,
+      "OptionGrade": 1,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 554,
+      "Name": "MissChance",
+      "ItemLevel": 15,
+      "OptionGrade": 2,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 555,
+      "Name": "MissChance",
+      "ItemLevel": 15,
+      "OptionGrade": 3,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 556,
+      "Name": "MissChance",
+      "ItemLevel": 15,
+      "OptionGrade": 4,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 557,
+      "Name": "MissChance",
+      "ItemLevel": 20,
+      "OptionGrade": 1,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 558,
+      "Name": "MissChance",
+      "ItemLevel": 20,
+      "OptionGrade": 2,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 559,
+      "Name": "MissChance",
+      "ItemLevel": 20,
+      "OptionGrade": 3,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 560,
+      "Name": "MissChance",
+      "ItemLevel": 20,
+      "OptionGrade": 4,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 561,
+      "Name": "MissChance",
+      "ItemLevel": 25,
+      "OptionGrade": 1,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 562,
+      "Name": "MissChance",
+      "ItemLevel": 25,
+      "OptionGrade": 2,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 563,
+      "Name": "MissChance",
+      "ItemLevel": 25,
+      "OptionGrade": 3,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 564,
+      "Name": "MissChance",
+      "ItemLevel": 25,
+      "OptionGrade": 4,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 565,
+      "Name": "MissChance",
+      "ItemLevel": 30,
+      "OptionGrade": 1,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 566,
+      "Name": "MissChance",
+      "ItemLevel": 30,
+      "OptionGrade": 2,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 567,
+      "Name": "MissChance",
+      "ItemLevel": 30,
+      "OptionGrade": 3,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 568,
+      "Name": "MissChance",
+      "ItemLevel": 30,
+      "OptionGrade": 4,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 569,
+      "Name": "MissChance",
+      "ItemLevel": 35,
+      "OptionGrade": 1,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 570,
+      "Name": "MissChance",
+      "ItemLevel": 35,
+      "OptionGrade": 2,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 571,
+      "Name": "MissChance",
+      "ItemLevel": 35,
+      "OptionGrade": 3,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 572,
+      "Name": "MissChance",
+      "ItemLevel": 35,
+      "OptionGrade": 4,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 573,
+      "Name": "MissChance",
+      "ItemLevel": 40,
+      "OptionGrade": 1,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 574,
+      "Name": "MissChance",
+      "ItemLevel": 40,
+      "OptionGrade": 2,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 575,
+      "Name": "MissChance",
+      "ItemLevel": 40,
+      "OptionGrade": 3,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 576,
+      "Name": "MissChance",
+      "ItemLevel": 40,
+      "OptionGrade": 4,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 577,
+      "Name": "MissChance",
+      "ItemLevel": 45,
+      "OptionGrade": 1,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 578,
+      "Name": "MissChance",
+      "ItemLevel": 45,
+      "OptionGrade": 2,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 579,
+      "Name": "MissChance",
+      "ItemLevel": 45,
+      "OptionGrade": 3,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 580,
+      "Name": "MissChance",
+      "ItemLevel": 45,
+      "OptionGrade": 4,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 581,
+      "Name": "MissChance",
+      "ItemLevel": 50,
+      "OptionGrade": 1,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 582,
+      "Name": "MissChance",
+      "ItemLevel": 50,
+      "OptionGrade": 2,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 583,
+      "Name": "MissChance",
+      "ItemLevel": 50,
+      "OptionGrade": 3,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 584,
+      "Name": "MissChance",
+      "ItemLevel": 50,
+      "OptionGrade": 4,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 585,
+      "Name": "MissChance",
+      "ItemLevel": 55,
+      "OptionGrade": 1,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 586,
+      "Name": "MissChance",
+      "ItemLevel": 55,
+      "OptionGrade": 2,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 587,
+      "Name": "MissChance",
+      "ItemLevel": 55,
+      "OptionGrade": 3,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 588,
+      "Name": "MissChance",
+      "ItemLevel": 55,
+      "OptionGrade": 4,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 589,
+      "Name": "MissChance",
+      "ItemLevel": 60,
+      "OptionGrade": 1,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 590,
+      "Name": "MissChance",
+      "ItemLevel": 60,
+      "OptionGrade": 2,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 591,
+      "Name": "MissChance",
+      "ItemLevel": 60,
+      "OptionGrade": 3,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 592,
+      "Name": "MissChance",
+      "ItemLevel": 60,
+      "OptionGrade": 4,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 593,
+      "Name": "MissChance",
+      "ItemLevel": 65,
+      "OptionGrade": 1,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 594,
+      "Name": "MissChance",
+      "ItemLevel": 65,
+      "OptionGrade": 2,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 595,
+      "Name": "MissChance",
+      "ItemLevel": 65,
+      "OptionGrade": 3,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 596,
+      "Name": "MissChance",
+      "ItemLevel": 65,
+      "OptionGrade": 4,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 597,
+      "Name": "MissChance",
+      "ItemLevel": 70,
+      "OptionGrade": 1,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 598,
+      "Name": "MissChance",
+      "ItemLevel": 70,
+      "OptionGrade": 2,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 599,
+      "Name": "MissChance",
+      "ItemLevel": 70,
+      "OptionGrade": 3,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 600,
+      "Name": "MissChance",
+      "ItemLevel": 70,
+      "OptionGrade": 4,
+      "CalcStatType": 13,
+      "StatModType": 1,
+      "OptionValue": 0.04
+    },
+    {
+      "DataId": 601,
+      "Name": "MoveSpeed",
+      "ItemLevel": 1,
+      "OptionGrade": 1,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 602,
+      "Name": "MoveSpeed",
+      "ItemLevel": 1,
+      "OptionGrade": 2,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 603,
+      "Name": "MoveSpeed",
+      "ItemLevel": 1,
+      "OptionGrade": 3,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 604,
+      "Name": "MoveSpeed",
+      "ItemLevel": 1,
+      "OptionGrade": 4,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 605,
+      "Name": "MoveSpeed",
+      "ItemLevel": 5,
+      "OptionGrade": 1,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 606,
+      "Name": "MoveSpeed",
+      "ItemLevel": 5,
+      "OptionGrade": 2,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 607,
+      "Name": "MoveSpeed",
+      "ItemLevel": 5,
+      "OptionGrade": 3,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 608,
+      "Name": "MoveSpeed",
+      "ItemLevel": 5,
+      "OptionGrade": 4,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 609,
+      "Name": "MoveSpeed",
+      "ItemLevel": 10,
+      "OptionGrade": 1,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 610,
+      "Name": "MoveSpeed",
+      "ItemLevel": 10,
+      "OptionGrade": 2,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 611,
+      "Name": "MoveSpeed",
+      "ItemLevel": 10,
+      "OptionGrade": 3,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 612,
+      "Name": "MoveSpeed",
+      "ItemLevel": 10,
+      "OptionGrade": 4,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 613,
+      "Name": "MoveSpeed",
+      "ItemLevel": 15,
+      "OptionGrade": 1,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 614,
+      "Name": "MoveSpeed",
+      "ItemLevel": 15,
+      "OptionGrade": 2,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 615,
+      "Name": "MoveSpeed",
+      "ItemLevel": 15,
+      "OptionGrade": 3,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 616,
+      "Name": "MoveSpeed",
+      "ItemLevel": 15,
+      "OptionGrade": 4,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 617,
+      "Name": "MoveSpeed",
+      "ItemLevel": 20,
+      "OptionGrade": 1,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 618,
+      "Name": "MoveSpeed",
+      "ItemLevel": 20,
+      "OptionGrade": 2,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 619,
+      "Name": "MoveSpeed",
+      "ItemLevel": 20,
+      "OptionGrade": 3,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 620,
+      "Name": "MoveSpeed",
+      "ItemLevel": 20,
+      "OptionGrade": 4,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 621,
+      "Name": "MoveSpeed",
+      "ItemLevel": 25,
+      "OptionGrade": 1,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 622,
+      "Name": "MoveSpeed",
+      "ItemLevel": 25,
+      "OptionGrade": 2,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 623,
+      "Name": "MoveSpeed",
+      "ItemLevel": 25,
+      "OptionGrade": 3,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 624,
+      "Name": "MoveSpeed",
+      "ItemLevel": 25,
+      "OptionGrade": 4,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 625,
+      "Name": "MoveSpeed",
+      "ItemLevel": 30,
+      "OptionGrade": 1,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 626,
+      "Name": "MoveSpeed",
+      "ItemLevel": 30,
+      "OptionGrade": 2,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 627,
+      "Name": "MoveSpeed",
+      "ItemLevel": 30,
+      "OptionGrade": 3,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 628,
+      "Name": "MoveSpeed",
+      "ItemLevel": 30,
+      "OptionGrade": 4,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 629,
+      "Name": "MoveSpeed",
+      "ItemLevel": 35,
+      "OptionGrade": 1,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 630,
+      "Name": "MoveSpeed",
+      "ItemLevel": 35,
+      "OptionGrade": 2,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 631,
+      "Name": "MoveSpeed",
+      "ItemLevel": 35,
+      "OptionGrade": 3,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 632,
+      "Name": "MoveSpeed",
+      "ItemLevel": 35,
+      "OptionGrade": 4,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 633,
+      "Name": "MoveSpeed",
+      "ItemLevel": 40,
+      "OptionGrade": 1,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 634,
+      "Name": "MoveSpeed",
+      "ItemLevel": 40,
+      "OptionGrade": 2,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 635,
+      "Name": "MoveSpeed",
+      "ItemLevel": 40,
+      "OptionGrade": 3,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 636,
+      "Name": "MoveSpeed",
+      "ItemLevel": 40,
+      "OptionGrade": 4,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 637,
+      "Name": "MoveSpeed",
+      "ItemLevel": 45,
+      "OptionGrade": 1,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 638,
+      "Name": "MoveSpeed",
+      "ItemLevel": 45,
+      "OptionGrade": 2,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 639,
+      "Name": "MoveSpeed",
+      "ItemLevel": 45,
+      "OptionGrade": 3,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 640,
+      "Name": "MoveSpeed",
+      "ItemLevel": 45,
+      "OptionGrade": 4,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 641,
+      "Name": "MoveSpeed",
+      "ItemLevel": 50,
+      "OptionGrade": 1,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 642,
+      "Name": "MoveSpeed",
+      "ItemLevel": 50,
+      "OptionGrade": 2,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 643,
+      "Name": "MoveSpeed",
+      "ItemLevel": 50,
+      "OptionGrade": 3,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 644,
+      "Name": "MoveSpeed",
+      "ItemLevel": 50,
+      "OptionGrade": 4,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 645,
+      "Name": "MoveSpeed",
+      "ItemLevel": 55,
+      "OptionGrade": 1,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 646,
+      "Name": "MoveSpeed",
+      "ItemLevel": 55,
+      "OptionGrade": 2,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 647,
+      "Name": "MoveSpeed",
+      "ItemLevel": 55,
+      "OptionGrade": 3,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 648,
+      "Name": "MoveSpeed",
+      "ItemLevel": 55,
+      "OptionGrade": 4,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 649,
+      "Name": "MoveSpeed",
+      "ItemLevel": 60,
+      "OptionGrade": 1,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 650,
+      "Name": "MoveSpeed",
+      "ItemLevel": 60,
+      "OptionGrade": 2,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 651,
+      "Name": "MoveSpeed",
+      "ItemLevel": 60,
+      "OptionGrade": 3,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 652,
+      "Name": "MoveSpeed",
+      "ItemLevel": 60,
+      "OptionGrade": 4,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 653,
+      "Name": "MoveSpeed",
+      "ItemLevel": 65,
+      "OptionGrade": 1,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 654,
+      "Name": "MoveSpeed",
+      "ItemLevel": 65,
+      "OptionGrade": 2,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 655,
+      "Name": "MoveSpeed",
+      "ItemLevel": 65,
+      "OptionGrade": 3,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 656,
+      "Name": "MoveSpeed",
+      "ItemLevel": 65,
+      "OptionGrade": 4,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 657,
+      "Name": "MoveSpeed",
+      "ItemLevel": 70,
+      "OptionGrade": 1,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 658,
+      "Name": "MoveSpeed",
+      "ItemLevel": 70,
+      "OptionGrade": 2,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 659,
+      "Name": "MoveSpeed",
+      "ItemLevel": 70,
+      "OptionGrade": 3,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 660,
+      "Name": "MoveSpeed",
+      "ItemLevel": 70,
+      "OptionGrade": 4,
+      "CalcStatType": 15,
+      "StatModType": 1,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 661,
+      "Name": "CooldownReduction",
+      "ItemLevel": 1,
+      "OptionGrade": 1,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 0.5
+    },
+    {
+      "DataId": 662,
+      "Name": "CooldownReduction",
+      "ItemLevel": 1,
+      "OptionGrade": 2,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.0
+    },
+    {
+      "DataId": 663,
+      "Name": "CooldownReduction",
+      "ItemLevel": 1,
+      "OptionGrade": 3,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.5
+    },
+    {
+      "DataId": 664,
+      "Name": "CooldownReduction",
+      "ItemLevel": 1,
+      "OptionGrade": 4,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 665,
+      "Name": "CooldownReduction",
+      "ItemLevel": 5,
+      "OptionGrade": 1,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 0.5
+    },
+    {
+      "DataId": 666,
+      "Name": "CooldownReduction",
+      "ItemLevel": 5,
+      "OptionGrade": 2,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.0
+    },
+    {
+      "DataId": 667,
+      "Name": "CooldownReduction",
+      "ItemLevel": 5,
+      "OptionGrade": 3,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.5
+    },
+    {
+      "DataId": 668,
+      "Name": "CooldownReduction",
+      "ItemLevel": 5,
+      "OptionGrade": 4,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 669,
+      "Name": "CooldownReduction",
+      "ItemLevel": 10,
+      "OptionGrade": 1,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 0.5
+    },
+    {
+      "DataId": 670,
+      "Name": "CooldownReduction",
+      "ItemLevel": 10,
+      "OptionGrade": 2,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.0
+    },
+    {
+      "DataId": 671,
+      "Name": "CooldownReduction",
+      "ItemLevel": 10,
+      "OptionGrade": 3,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.5
+    },
+    {
+      "DataId": 672,
+      "Name": "CooldownReduction",
+      "ItemLevel": 10,
+      "OptionGrade": 4,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 673,
+      "Name": "CooldownReduction",
+      "ItemLevel": 15,
+      "OptionGrade": 1,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 0.5
+    },
+    {
+      "DataId": 674,
+      "Name": "CooldownReduction",
+      "ItemLevel": 15,
+      "OptionGrade": 2,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.0
+    },
+    {
+      "DataId": 675,
+      "Name": "CooldownReduction",
+      "ItemLevel": 15,
+      "OptionGrade": 3,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.5
+    },
+    {
+      "DataId": 676,
+      "Name": "CooldownReduction",
+      "ItemLevel": 15,
+      "OptionGrade": 4,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 677,
+      "Name": "CooldownReduction",
+      "ItemLevel": 20,
+      "OptionGrade": 1,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 0.5
+    },
+    {
+      "DataId": 678,
+      "Name": "CooldownReduction",
+      "ItemLevel": 20,
+      "OptionGrade": 2,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.0
+    },
+    {
+      "DataId": 679,
+      "Name": "CooldownReduction",
+      "ItemLevel": 20,
+      "OptionGrade": 3,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.5
+    },
+    {
+      "DataId": 680,
+      "Name": "CooldownReduction",
+      "ItemLevel": 20,
+      "OptionGrade": 4,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 681,
+      "Name": "CooldownReduction",
+      "ItemLevel": 25,
+      "OptionGrade": 1,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 0.5
+    },
+    {
+      "DataId": 682,
+      "Name": "CooldownReduction",
+      "ItemLevel": 25,
+      "OptionGrade": 2,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.0
+    },
+    {
+      "DataId": 683,
+      "Name": "CooldownReduction",
+      "ItemLevel": 25,
+      "OptionGrade": 3,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.5
+    },
+    {
+      "DataId": 684,
+      "Name": "CooldownReduction",
+      "ItemLevel": 25,
+      "OptionGrade": 4,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 685,
+      "Name": "CooldownReduction",
+      "ItemLevel": 30,
+      "OptionGrade": 1,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 0.5
+    },
+    {
+      "DataId": 686,
+      "Name": "CooldownReduction",
+      "ItemLevel": 30,
+      "OptionGrade": 2,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.0
+    },
+    {
+      "DataId": 687,
+      "Name": "CooldownReduction",
+      "ItemLevel": 30,
+      "OptionGrade": 3,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.5
+    },
+    {
+      "DataId": 688,
+      "Name": "CooldownReduction",
+      "ItemLevel": 30,
+      "OptionGrade": 4,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 689,
+      "Name": "CooldownReduction",
+      "ItemLevel": 35,
+      "OptionGrade": 1,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 0.5
+    },
+    {
+      "DataId": 690,
+      "Name": "CooldownReduction",
+      "ItemLevel": 35,
+      "OptionGrade": 2,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.0
+    },
+    {
+      "DataId": 691,
+      "Name": "CooldownReduction",
+      "ItemLevel": 35,
+      "OptionGrade": 3,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.5
+    },
+    {
+      "DataId": 692,
+      "Name": "CooldownReduction",
+      "ItemLevel": 35,
+      "OptionGrade": 4,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 693,
+      "Name": "CooldownReduction",
+      "ItemLevel": 40,
+      "OptionGrade": 1,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 0.5
+    },
+    {
+      "DataId": 694,
+      "Name": "CooldownReduction",
+      "ItemLevel": 40,
+      "OptionGrade": 2,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.0
+    },
+    {
+      "DataId": 695,
+      "Name": "CooldownReduction",
+      "ItemLevel": 40,
+      "OptionGrade": 3,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.5
+    },
+    {
+      "DataId": 696,
+      "Name": "CooldownReduction",
+      "ItemLevel": 40,
+      "OptionGrade": 4,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 697,
+      "Name": "CooldownReduction",
+      "ItemLevel": 45,
+      "OptionGrade": 1,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 0.5
+    },
+    {
+      "DataId": 698,
+      "Name": "CooldownReduction",
+      "ItemLevel": 45,
+      "OptionGrade": 2,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.0
+    },
+    {
+      "DataId": 699,
+      "Name": "CooldownReduction",
+      "ItemLevel": 45,
+      "OptionGrade": 3,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.5
+    },
+    {
+      "DataId": 700,
+      "Name": "CooldownReduction",
+      "ItemLevel": 45,
+      "OptionGrade": 4,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 701,
+      "Name": "CooldownReduction",
+      "ItemLevel": 50,
+      "OptionGrade": 1,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 0.5
+    },
+    {
+      "DataId": 702,
+      "Name": "CooldownReduction",
+      "ItemLevel": 50,
+      "OptionGrade": 2,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.0
+    },
+    {
+      "DataId": 703,
+      "Name": "CooldownReduction",
+      "ItemLevel": 50,
+      "OptionGrade": 3,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.5
+    },
+    {
+      "DataId": 704,
+      "Name": "CooldownReduction",
+      "ItemLevel": 50,
+      "OptionGrade": 4,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 705,
+      "Name": "CooldownReduction",
+      "ItemLevel": 55,
+      "OptionGrade": 1,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 0.5
+    },
+    {
+      "DataId": 706,
+      "Name": "CooldownReduction",
+      "ItemLevel": 55,
+      "OptionGrade": 2,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.0
+    },
+    {
+      "DataId": 707,
+      "Name": "CooldownReduction",
+      "ItemLevel": 55,
+      "OptionGrade": 3,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.5
+    },
+    {
+      "DataId": 708,
+      "Name": "CooldownReduction",
+      "ItemLevel": 55,
+      "OptionGrade": 4,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 709,
+      "Name": "CooldownReduction",
+      "ItemLevel": 60,
+      "OptionGrade": 1,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 0.5
+    },
+    {
+      "DataId": 710,
+      "Name": "CooldownReduction",
+      "ItemLevel": 60,
+      "OptionGrade": 2,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.0
+    },
+    {
+      "DataId": 711,
+      "Name": "CooldownReduction",
+      "ItemLevel": 60,
+      "OptionGrade": 3,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.5
+    },
+    {
+      "DataId": 712,
+      "Name": "CooldownReduction",
+      "ItemLevel": 60,
+      "OptionGrade": 4,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 713,
+      "Name": "CooldownReduction",
+      "ItemLevel": 65,
+      "OptionGrade": 1,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 0.5
+    },
+    {
+      "DataId": 714,
+      "Name": "CooldownReduction",
+      "ItemLevel": 65,
+      "OptionGrade": 2,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.0
+    },
+    {
+      "DataId": 715,
+      "Name": "CooldownReduction",
+      "ItemLevel": 65,
+      "OptionGrade": 3,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.5
+    },
+    {
+      "DataId": 716,
+      "Name": "CooldownReduction",
+      "ItemLevel": 65,
+      "OptionGrade": 4,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 717,
+      "Name": "CooldownReduction",
+      "ItemLevel": 70,
+      "OptionGrade": 1,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 0.5
+    },
+    {
+      "DataId": 718,
+      "Name": "CooldownReduction",
+      "ItemLevel": 70,
+      "OptionGrade": 2,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.0
+    },
+    {
+      "DataId": 719,
+      "Name": "CooldownReduction",
+      "ItemLevel": 70,
+      "OptionGrade": 3,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 1.5
+    },
+    {
+      "DataId": 720,
+      "Name": "CooldownReduction",
+      "ItemLevel": 70,
+      "OptionGrade": 4,
+      "CalcStatType": 16,
+      "StatModType": 0,
+      "OptionValue": 2.0
+    },
+    {
+      "DataId": 721,
+      "Name": "LifeSteal",
+      "ItemLevel": 1,
+      "OptionGrade": 1,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.005
+    },
+    {
+      "DataId": 722,
+      "Name": "LifeSteal",
+      "ItemLevel": 1,
+      "OptionGrade": 2,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 723,
+      "Name": "LifeSteal",
+      "ItemLevel": 1,
+      "OptionGrade": 3,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.015
+    },
+    {
+      "DataId": 724,
+      "Name": "LifeSteal",
+      "ItemLevel": 1,
+      "OptionGrade": 4,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 725,
+      "Name": "LifeSteal",
+      "ItemLevel": 5,
+      "OptionGrade": 1,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.005
+    },
+    {
+      "DataId": 726,
+      "Name": "LifeSteal",
+      "ItemLevel": 5,
+      "OptionGrade": 2,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 727,
+      "Name": "LifeSteal",
+      "ItemLevel": 5,
+      "OptionGrade": 3,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.015
+    },
+    {
+      "DataId": 728,
+      "Name": "LifeSteal",
+      "ItemLevel": 5,
+      "OptionGrade": 4,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 729,
+      "Name": "LifeSteal",
+      "ItemLevel": 10,
+      "OptionGrade": 1,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.005
+    },
+    {
+      "DataId": 730,
+      "Name": "LifeSteal",
+      "ItemLevel": 10,
+      "OptionGrade": 2,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 731,
+      "Name": "LifeSteal",
+      "ItemLevel": 10,
+      "OptionGrade": 3,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.015
+    },
+    {
+      "DataId": 732,
+      "Name": "LifeSteal",
+      "ItemLevel": 10,
+      "OptionGrade": 4,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 733,
+      "Name": "LifeSteal",
+      "ItemLevel": 15,
+      "OptionGrade": 1,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.005
+    },
+    {
+      "DataId": 734,
+      "Name": "LifeSteal",
+      "ItemLevel": 15,
+      "OptionGrade": 2,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 735,
+      "Name": "LifeSteal",
+      "ItemLevel": 15,
+      "OptionGrade": 3,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.015
+    },
+    {
+      "DataId": 736,
+      "Name": "LifeSteal",
+      "ItemLevel": 15,
+      "OptionGrade": 4,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 737,
+      "Name": "LifeSteal",
+      "ItemLevel": 20,
+      "OptionGrade": 1,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.005
+    },
+    {
+      "DataId": 738,
+      "Name": "LifeSteal",
+      "ItemLevel": 20,
+      "OptionGrade": 2,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 739,
+      "Name": "LifeSteal",
+      "ItemLevel": 20,
+      "OptionGrade": 3,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.015
+    },
+    {
+      "DataId": 740,
+      "Name": "LifeSteal",
+      "ItemLevel": 20,
+      "OptionGrade": 4,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 741,
+      "Name": "LifeSteal",
+      "ItemLevel": 25,
+      "OptionGrade": 1,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.005
+    },
+    {
+      "DataId": 742,
+      "Name": "LifeSteal",
+      "ItemLevel": 25,
+      "OptionGrade": 2,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 743,
+      "Name": "LifeSteal",
+      "ItemLevel": 25,
+      "OptionGrade": 3,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.015
+    },
+    {
+      "DataId": 744,
+      "Name": "LifeSteal",
+      "ItemLevel": 25,
+      "OptionGrade": 4,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 745,
+      "Name": "LifeSteal",
+      "ItemLevel": 30,
+      "OptionGrade": 1,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.005
+    },
+    {
+      "DataId": 746,
+      "Name": "LifeSteal",
+      "ItemLevel": 30,
+      "OptionGrade": 2,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 747,
+      "Name": "LifeSteal",
+      "ItemLevel": 30,
+      "OptionGrade": 3,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.015
+    },
+    {
+      "DataId": 748,
+      "Name": "LifeSteal",
+      "ItemLevel": 30,
+      "OptionGrade": 4,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 749,
+      "Name": "LifeSteal",
+      "ItemLevel": 35,
+      "OptionGrade": 1,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.005
+    },
+    {
+      "DataId": 750,
+      "Name": "LifeSteal",
+      "ItemLevel": 35,
+      "OptionGrade": 2,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 751,
+      "Name": "LifeSteal",
+      "ItemLevel": 35,
+      "OptionGrade": 3,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.015
+    },
+    {
+      "DataId": 752,
+      "Name": "LifeSteal",
+      "ItemLevel": 35,
+      "OptionGrade": 4,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 753,
+      "Name": "LifeSteal",
+      "ItemLevel": 40,
+      "OptionGrade": 1,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.005
+    },
+    {
+      "DataId": 754,
+      "Name": "LifeSteal",
+      "ItemLevel": 40,
+      "OptionGrade": 2,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 755,
+      "Name": "LifeSteal",
+      "ItemLevel": 40,
+      "OptionGrade": 3,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.015
+    },
+    {
+      "DataId": 756,
+      "Name": "LifeSteal",
+      "ItemLevel": 40,
+      "OptionGrade": 4,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 757,
+      "Name": "LifeSteal",
+      "ItemLevel": 45,
+      "OptionGrade": 1,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.005
+    },
+    {
+      "DataId": 758,
+      "Name": "LifeSteal",
+      "ItemLevel": 45,
+      "OptionGrade": 2,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 759,
+      "Name": "LifeSteal",
+      "ItemLevel": 45,
+      "OptionGrade": 3,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.015
+    },
+    {
+      "DataId": 760,
+      "Name": "LifeSteal",
+      "ItemLevel": 45,
+      "OptionGrade": 4,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 761,
+      "Name": "LifeSteal",
+      "ItemLevel": 50,
+      "OptionGrade": 1,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.005
+    },
+    {
+      "DataId": 762,
+      "Name": "LifeSteal",
+      "ItemLevel": 50,
+      "OptionGrade": 2,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 763,
+      "Name": "LifeSteal",
+      "ItemLevel": 50,
+      "OptionGrade": 3,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.015
+    },
+    {
+      "DataId": 764,
+      "Name": "LifeSteal",
+      "ItemLevel": 50,
+      "OptionGrade": 4,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 765,
+      "Name": "LifeSteal",
+      "ItemLevel": 55,
+      "OptionGrade": 1,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.005
+    },
+    {
+      "DataId": 766,
+      "Name": "LifeSteal",
+      "ItemLevel": 55,
+      "OptionGrade": 2,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 767,
+      "Name": "LifeSteal",
+      "ItemLevel": 55,
+      "OptionGrade": 3,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.015
+    },
+    {
+      "DataId": 768,
+      "Name": "LifeSteal",
+      "ItemLevel": 55,
+      "OptionGrade": 4,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 769,
+      "Name": "LifeSteal",
+      "ItemLevel": 60,
+      "OptionGrade": 1,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.005
+    },
+    {
+      "DataId": 770,
+      "Name": "LifeSteal",
+      "ItemLevel": 60,
+      "OptionGrade": 2,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 771,
+      "Name": "LifeSteal",
+      "ItemLevel": 60,
+      "OptionGrade": 3,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.015
+    },
+    {
+      "DataId": 772,
+      "Name": "LifeSteal",
+      "ItemLevel": 60,
+      "OptionGrade": 4,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 773,
+      "Name": "LifeSteal",
+      "ItemLevel": 65,
+      "OptionGrade": 1,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.005
+    },
+    {
+      "DataId": 774,
+      "Name": "LifeSteal",
+      "ItemLevel": 65,
+      "OptionGrade": 2,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 775,
+      "Name": "LifeSteal",
+      "ItemLevel": 65,
+      "OptionGrade": 3,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.015
+    },
+    {
+      "DataId": 776,
+      "Name": "LifeSteal",
+      "ItemLevel": 65,
+      "OptionGrade": 4,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.02
+    },
+    {
+      "DataId": 777,
+      "Name": "LifeSteal",
+      "ItemLevel": 70,
+      "OptionGrade": 1,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.005
+    },
+    {
+      "DataId": 778,
+      "Name": "LifeSteal",
+      "ItemLevel": 70,
+      "OptionGrade": 2,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.01
+    },
+    {
+      "DataId": 779,
+      "Name": "LifeSteal",
+      "ItemLevel": 70,
+      "OptionGrade": 3,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.015
+    },
+    {
+      "DataId": 780,
+      "Name": "LifeSteal",
+      "ItemLevel": 70,
+      "OptionGrade": 4,
+      "CalcStatType": 10,
+      "StatModType": 0,
+      "OptionValue": 0.02
+    }
+  ]
+}

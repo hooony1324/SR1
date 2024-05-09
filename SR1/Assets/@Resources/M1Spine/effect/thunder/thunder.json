@@ -1,0 +1,154 @@
+{
+  "skeleton": {
+	"hash": "uCTGW1YxKCA",
+	"spine": "4.1.24",
+	"x": -425.19,
+	"y": -227.02,
+	"width": 836,
+	"height": 1022,
+	"images": "./texture/",
+	"audio": "C:/RookissArt/Art/ani/effect/hero_skill/thunder"
+  },
+  "bones": [
+	{
+	  "name": "root"
+	},
+	{
+	  "name": "thunder_01",
+	  "parent": "root"
+	}
+  ],
+  "slots": [
+	{
+	  "name": "thunder_01",
+	  "bone": "thunder_01",
+	  "attachment": "thunder_01"
+	}
+  ],
+  "skins": [
+	{
+	  "name": "default",
+	  "attachments": {
+		"thunder_01": {
+		  "thunder_01": {
+			"x": -7.19,
+			"y": 283.98,
+			"width": 836,
+			"height": 1022
+		  },
+		  "thunder_02": {
+			"x": -7.19,
+			"y": 283.98,
+			"width": 836,
+			"height": 1022
+		  },
+		  "thunder_03": {
+			"x": -7.19,
+			"y": 283.98,
+			"width": 836,
+			"height": 1022
+		  },
+		  "thunder_04": {
+			"x": -7.19,
+			"y": 283.98,
+			"width": 836,
+			"height": 1022
+		  }
+		}
+	  }
+	}
+  ],
+  "events": {
+	"event_attack": {}
+  },
+  "animations": {
+	"skill_b_small": {
+	  "slots": {
+		"thunder_01": {
+		  "rgba": [
+			{
+			  "time": 0.4667,
+			  "color": "ffffff86",
+			  "curve": [
+				0.5,
+				1,
+				0.533,
+				1,
+				0.5,
+				1,
+				0.533,
+				1,
+				0.5,
+				1,
+				0.533,
+				1,
+				0.5,
+				0.53,
+				0.533,
+				0
+			  ]
+			},
+			{
+			  "time": 0.5667,
+			  "color": "ffffff00"
+			}
+		  ],
+		  "attachment": [
+			{
+			  "time": 0.1333,
+			  "name": "thunder_02"
+			},
+			{
+			  "time": 0.2333,
+			  "name": "thunder_03"
+			},
+			{
+			  "time": 0.3667,
+			  "name": "thunder_04"
+			}
+		  ]
+		}
+	  },
+	  "bones": {
+		"thunder_01": {
+		  "translate": [
+			{
+			  "curve": [
+				0.044,
+				0,
+				0.089,
+				0,
+				0.044,
+				0,
+				0.027,
+				-1.14
+			  ]
+			},
+			{
+			  "time": 0.1333,
+			  "curve": [
+				0.167,
+				0,
+				0.2,
+				0,
+				0.255,
+				1.3,
+				0.2,
+				0
+			  ]
+			},
+			{
+			  "time": 0.2333
+			}
+		  ]
+		}
+	  },
+	  "events": [
+		{
+		  "time": 0.05,
+		  "name": "event_attack"
+		}
+	  ]
+	}
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "quests": [
+    {
+      "TemplateId": 1,
+      "Name": "몬스터죽이기",
+      "QuestPeriodType": 1,
+      "QuestTasks": [
+        {
+          "TemplateId": 0,
+          "DescriptionTextId": "KilledMonsterDescription",
+          "ObjectiveType": 0,
+          "ObjectiveIcon": null,
+          "ObjectiveDataId": 0,
+          "ObjectiveCount": 3,
+          "RewardType": 6,
+          "RewardDataId": 0,
+          "RewardCount": 10,
+          "RewardIcon": "ui_099"
+        }
+      ]
+    },
+    {
+      "TemplateId": 2,
+      "Name": "몬스터죽이기",
+      "QuestPeriodType": 2,
+      "QuestTasks": [
+        {
+          "TemplateId": 0,
+          "DescriptionTextId": "KilledMonsterDescription",
+          "ObjectiveType": 0,
+          "ObjectiveIcon": null,
+          "ObjectiveDataId": 0,
+          "ObjectiveCount": 10,
+          "RewardType": 7,
+          "RewardDataId": 0,
+          "RewardCount": 10,
+          "RewardIcon": "ui_099"
+        }
+      ]
+    },
+    {
+      "TemplateId": 3,
+      "Name": "골드모으기",
+      "QuestPeriodType": 1,
+      "QuestTasks": [
+        {
+          "TemplateId": 0,
+          "DescriptionTextId": "EarnedGoldObjectiveDescription",
+          "ObjectiveType": 1,
+          "ObjectiveIcon": "Meat",
+          "ObjectiveDataId": 0,
+          "ObjectiveCount": 10,
+          "RewardType": 6,
+          "RewardDataId": 0,
+          "RewardCount": 10,
+          "RewardIcon": "ui_099"
+        }
+      ]
+    },
+    {
+      "TemplateId": 4,
+      "Name": "골드모으기",
+      "QuestPeriodType": 1,
+      "QuestTasks": [
+        {
+          "TemplateId": 0,
+          "DescriptionTextId": "EarnedGoldObjectiveDescription",
+          "ObjectiveType": 1,
+          "ObjectiveIcon": "Meat",
+          "ObjectiveDataId": 0,
+          "ObjectiveCount": 100,
+          "RewardType": 6,
+          "RewardDataId": 0,
+          "RewardCount": 10,
+          "RewardIcon": "ui_099"
+        }
+      ]
+    },
+    {
+      "TemplateId": 5,
+      "Name": "식량모으기",
+      "QuestPeriodType": 1,
+      "QuestTasks": [
+        {
+          "TemplateId": 0,
+          "DescriptionTextId": "EarnedMeatObjectiveDescription",
+          "ObjectiveType": 1,
+          "ObjectiveIcon": "Meat",
+          "ObjectiveDataId": 0,
+          "ObjectiveCount": 10,
+          "RewardType": 6,
+          "RewardDataId": 0,
+          "RewardCount": 20,
+          "RewardIcon": "ui_099"
+        }
+      ]
+    },
+    {
+      "TemplateId": 6,
+      "Name": "식량모으기",
+      "QuestPeriodType": 1,
+      "QuestTasks": [
+        {
+          "TemplateId": 0,
+          "DescriptionTextId": "EarnedMeatObjectiveDescription",
+          "ObjectiveType": 1,
+          "ObjectiveIcon": "Meat",
+          "ObjectiveDataId": 0,
+          "ObjectiveCount": 20,
+          "RewardType": 6,
+          "RewardDataId": 0,
+          "RewardCount": 10,
+          "RewardIcon": "ui_099"
+        }
+      ]
+    },
+    {
+      "TemplateId": 7,
+      "Name": "던전클리어",
+      "QuestPeriodType": 0,
+      "QuestTasks": [
+        {
+          "TemplateId": 0,
+          "DescriptionTextId": "dungeon",
+          "ObjectiveType": 11,
+          "ObjectiveIcon": null,
+          "ObjectiveDataId": 0,
+          "ObjectiveCount": 1,
+          "RewardType": 1,
+          "RewardDataId": 0,
+          "RewardCount": 100,
+          "RewardIcon": "Gold"
+        }
+      ]
+    },
+    {
+      "TemplateId": 8,
+      "Name": "메인퀘스트",
+      "QuestPeriodType": 0,
+      "QuestTasks": [
+        {
+          "TemplateId": 1,
+          "DescriptionTextId": "거미 5마리 죽이기",
+          "ObjectiveType": 0,
+          "ObjectiveIcon": "spider_common.sprite",
+          "ObjectiveDataId": 202009,
+          "ObjectiveCount": 5,
+          "RewardType": 1,
+          "RewardDataId": 0,
+          "RewardCount": 30,
+          "RewardIcon": "Gold"
+        },
+        {
+          "TemplateId": 2,
+          "DescriptionTextId": "클로이 누르기",
+          "ObjectiveType": 12,
+          "ObjectiveIcon": "007.Chloe",
+          "ObjectiveDataId": 0,
+          "ObjectiveCount": 1,
+          "RewardType": 0,
+          "RewardDataId": 201007,
+          "RewardCount": 1,
+          "RewardIcon": "007.Chloe"
+        },
+        {
+          "TemplateId": 3,
+          "DescriptionTextId": "나무 3개 획득",
+          "ObjectiveType": 3,
+          "ObjectiveIcon": "Object_Firewood",
+          "ObjectiveDataId": 0,
+          "ObjectiveCount": 3,
+          "RewardType": 2,
+          "RewardDataId": 0,
+          "RewardCount": 10,
+          "RewardIcon": "Mineral"
+        },
+        {
+          "TemplateId": 4,
+          "DescriptionTextId": "샘 누르기",
+          "ObjectiveType": 12,
+          "ObjectiveIcon": "001.Sam",
+          "ObjectiveDataId": 0,
+          "ObjectiveCount": 1,
+          "RewardType": 0,
+          "RewardDataId": 201001,
+          "RewardCount": 1,
+          "RewardIcon": "001.Sam"
+        },
+        {
+          "TemplateId": 5,
+          "DescriptionTextId": "루크 누르기",
+          "ObjectiveType": 12,
+          "ObjectiveIcon": "002.Luke.sprite",
+          "ObjectiveDataId": 0,
+          "ObjectiveCount": 1,
+          "RewardType": 0,
+          "RewardDataId": 201002,
+          "RewardCount": 1,
+          "RewardIcon": "002.Luke.sprite"
+        }
+      ]
+    }
+  ]
+}

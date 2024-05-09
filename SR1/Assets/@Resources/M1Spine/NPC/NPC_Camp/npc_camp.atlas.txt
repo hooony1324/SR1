@@ -1,0 +1,13 @@
+npc_camp.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+camp_1
+bounds:2,184,540,647
+offsets:3,3,546,653
+camp_lamp_1
+bounds:544,688,74,143
+offsets:3,3,80,149
+camp_light
+bounds:2,2,181,180
+offsets:18,21,220,221

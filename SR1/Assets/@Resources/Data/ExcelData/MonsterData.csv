@@ -1,7 +1,58 @@
-﻿DataId,DescriptionTextID,Label,ColliderOffSetX,ColliderOffsetY,ColliderRadius,MaxHp,UpMaxHp,Atk,AtkRange,AtkBonus,MovSpeed,CriRate,Cridamage,IconImage,SkeletonDataID,DefaultSkill,EnvSkill,SkillA,SkillB,DropItemId
-202001,슬라임,MonsterPrefab,0,0,0.27,300,5,2,1.8,2,4,0,1.5,003.sprite,slime_SkeletonData,10001,0,0,0,400000
-202002,일반거미,MonsterPrefab,0,0.2,0.5,400,5,2,1.8,2,4,0,1.5,003.sprite,spider_common_SkeletonData,10001,0,0,0,400000
-202003,희귀거미,MonsterPrefab,0,0.51,0.5,700,5,2,2.3,2,4,0,1.5,003.sprite,spider_rare_SkeletonData,10001,0,0,0,400000
-202004,나무맨,MonsterPrefab,0,0.19,0.5,500,4,2,1.8,2,4,0,1.5,003.sprite,wood_common_SkeletonData,10001,0,0,0,400000
-202005,활 든 고블린,MonsterPrefab,0,0.5,0.5,400,4,2,4,2,4,0,1.5,003.sprite,goblin_SkeletonData,10003,0,0,0,400000
-202006,곰,MonsterPrefab,0,0.28,0.28,10000,4,2,1.8,2,6,0,1.5,003.sprite,bear_SkeletonData,10001,0,10004,0,400000
+﻿DataId,DescriptionTextID,ColliderOffSetX,ColliderOffsetY,ColliderRadius,MaxHp,UpMaxHp,Atk,MissChance,AtkBonus,MovSpeed,CriRate,Cridamage,IconImage,SkeletonDataID,DefaultSkill,EnvSkill,SkillA,SkillB,DropItemId,MonsterSize
+202001,슬라임,0,0,0.27,300,5,3,0,2,3,0,1.5,slime.sprite,slime_SkeletonData,10001,0,0,0,80000,0
+202002,일반거미,0,0.2,0.5,400,5,2,0,2,3,0,1.5,spider_rare.sprite,spider_common_SkeletonData,10001,0,0,0,80000,0
+202003,희귀거미,0,0.51,0.5,700,5,2,0,2,3,0,1.5,spider_common.sprite,spider_rare_SkeletonData,10001,0,0,0,80000,0
+202004,나무맨,0,0.19,0.5,500,4,2,0,2,3,0,1.5,woodman.sprite,wood_common_SkeletonData,10001,0,0,0,80000,0
+202005,활 든 고블린,0,0.5,0.5,400,4,2,0,2,3,0,1.5,goblin.sprite,goblin_SkeletonData,10003,0,0,0,80000,0
+202006,곰,0,0.28,0.28,10000,4,2,0,2,3,0,1.5,bear.sprite,bear_SkeletonData,10001,0,10004,0,80003,1
+202007,보스멧돼지,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,wild_boar_boss_SkeletonData,10001,0,11001,11002,80003,1
+202008,일반개구리,0,0.28,1.7,300,4,2,0,2,3,0,1.5,bear.sprite,frog_common_SkeletonData,10001,0,0,0,80000,0
+202009,거미,0,0.2,0.27,60,5,3,0,2,3,0,1.5,spider_common.sprite,spider_common_SkeletonData,10001,0,0,0,80000,0
+202010,희귀거미,0,0.2,0.5,105,5,4,0,2,3,0,1.5,spider_rare.sprite,spider_rare_SkeletonData,10001,0,0,0,80000,0
+202011,벌,0,0.2,0.5,168,5,3,0,2,3,0,1.5,bee_common.sprite,bee_common_SkeletonData,10039,0,0,0,80000,0
+202012,말벌,0,0.2,0.5,204,4,4,0,2,3,0,1.5,bee_rare.sprite,bee_rare_SkeletonData,10001,0,0,0,80000,0
+202013,개구리,0,0.2,0.5,244,4,4,0,2,3,0,1.5,frog_common.sprite,frog_common_SkeletonData,10001,0,0,0,80000,0
+202014,나무,0,0.2,0.5,288,4,5,0,2,3,0,1.5,wood_common.sprite,wood_common_SkeletonData,10001,0,0,0,80001,0
+202015,희귀나무,0,0.2,0.5,332,4,6,0,2,3,0,1.5,wood_rare.sprite,wood_rare_SkeletonData,10001,0,0,0,80001,0
+202016,개구리대장,0,0.2,0.5,5000,4,10,0,2,3,0,1.5,frog_boss.sprite,frog_boss_SkeletonData,10001,0,0,0,80000,1
+202017,꽃여왕,0,0.2,0.5,10000,4,12,0,2,3,0,1.5,flower_boss.sprite,flower_boss_SkeletonData,10001,0,0,0,80000,1
+202018,슬라임_2,0,0,0.27,157,5,26,0,2,3,0,1.5,slime.sprite,slime_SkeletonData,10001,0,0,0,80000,0
+202019,일반거미_2,0,0.2,0.5,179,5,31,0,2,3,0,1.5,spider_common.sprite,spider_common_SkeletonData,10001,0,0,0,80000,0
+202020,희귀거미_2,0,0.51,0.5,228,5,41,0,2,3,0,1.5,spider_rare.sprite,spider_rare_SkeletonData,10001,0,0,0,80000,0
+202021,나무맨_2,0,0.19,0.5,284,4,53,0,2,3,0,1.5,woodman.sprite,wood_common_SkeletonData,10001,0,0,0,80000,0
+202022,활 든 고블린_2,0,0.5,0.5,347,4,66,0,2,3,0,1.5,goblin.sprite,goblin_SkeletonData,10003,0,0,0,80000,0
+202023,일반개구리_2,0,0.28,1.7,416,4,81,0,2,3,0,1.5,bear.sprite,frog_common_SkeletonData,10001,0,0,0,80003,0
+202024,슬라임_3,0,0,0.27,453,5,89,0,2,3,0,1.5,slime.sprite,slime_SkeletonData,10001,0,0,0,80000,0
+202025,일반거미_3,0,0.2,0.5,492,5,98,0,2,3,0,1.5,spider_rare.sprite,spider_common_SkeletonData,10001,0,0,0,80000,0
+202026,희귀거미_3,0,0.51,0.5,576,5,116,0,2,3,0,1.5,spider_common.sprite,spider_rare_SkeletonData,10001,0,0,0,80000,0
+202027,나무맨_3,0,0.19,0.5,665,4,136,0,2,3,0,1.5,woodman.sprite,wood_common_SkeletonData,10001,0,0,0,80000,0
+202028,활 든 고블린_3,0,0.5,0.5,762,4,157,4,2,3,0,1.5,goblin.sprite,goblin_SkeletonData,10003,0,0,0,80000,0
+202029,일반개구리_3,0,0.28,1.7,866,4,180,0,2,3,0,1.5,bear.sprite,frog_common_SkeletonData,10001,0,0,0,80003,0
+202030,슬라임_4,0,0,0.27,920,5,192,0,2,3,0,1.5,slime.sprite,slime_SkeletonData,10001,0,0,0,80000,0
+202031,일반거미_4,0,0.2,0.5,976,5,205,0,2,3,0,1.5,spider_rare.sprite,spider_common_SkeletonData,10001,0,0,0,80000,0
+202032,희귀거미_4,0,0.51,0.5,1093,5,231,0,2,3,0,1.5,spider_common.sprite,spider_rare_SkeletonData,10001,0,0,0,80000,0
+202033,나무맨_4,0,0.19,0.5,1217,4,259,0,2,3,0,1.5,woodman.sprite,wood_common_SkeletonData,10001,0,0,0,80000,0
+202034,활 든 고블린_4,0,0.5,0.5,1348,4,288,0,2,3,0,1.5,goblin.sprite,goblin_SkeletonData,10003,0,0,0,80000,0
+202035,일반개구리_4,0,0.28,1.7,1485,4,319,0,2,3,0,1.5,bear.sprite,frog_common_SkeletonData,10001,0,0,0,80000,0
+202036,보스멧돼지,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,frog_boss_SkeletonData,10001,0,0,0,80003,1
+202037,일반_벌,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,bee_common_SkeletonData,10001,0,0,0,80000,1
+202038,일반_벌,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,bee_rare_SkeletonData,10001,0,0,0,80000,1
+202039,보스_플랜트,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,flower_boss_SkeletonData,10001,0,0,0,80003,1
+202040,나무맨_희귀,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,wood_rare_SkeletonData,10001,0,0,0,80000,1
+202041,허수아비,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,scarecrow_SkeletonData,10001,0,0,0,80000,1
+202042,벌레_일반,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,warm_common_SkeletonData,10001,0,0,0,80000,1
+202043,진흙맷돼지,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,wild_boar_SkeletonData,10001,0,0,0,80000,1
+202044,닭,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,chicken_SkeletonData,10001,0,0,0,80000,1
+202045,농작요정_원거리,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,form_jinn_common_SkeletonData,10001,0,0,0,80000,1
+202046,농작요정_근거리,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,form_jinn_rare_SkeletonData,10001,0,0,0,80000,1
+202047,귀신들린_농기구_근거리,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,farm_ghost_common_SkeletonData,10001,0,0,0,80000,1
+202048,귀신들린_농기구_원거리,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,farm_ghost_rare_SkeletonData,10001,0,0,0,80000,1
+202049,해골병사_근거리,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,skeleton_common_SkeletonData,10001,0,0,0,80000,1
+202050,해골병사_원거리,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,skeleton_rare_SkeletonData,10001,0,0,0,80000,1
+202051,해골마법사,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,skeleton_unique_SkeletonData,10001,0,0,0,80000,1
+202052,귀신들린검,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,ghost_sword_SkeletonData,10001,0,0,0,80000,1
+202053,귀신들린대포,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,ghost_canon_SkeletonData,10001,0,0,0,80000,1
+202054,라빙아머_근거리,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,living_armor_common_SkeletonData,10001,0,0,0,80000,1
+202055,라빙아머_원거리,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,living_armor_rare_SkeletonData,10001,0,0,0,80000,1
+202056,좀비,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,zombie_common_SkeletonData,10001,0,0,0,80000,1
+202057,걸어다니는무덤,0,0.28,1.7,500,4,2,0,2,3,0,1.5,bear.sprite,grave_keeper_common_SkeletonData,10001,0,0,0,80000,1

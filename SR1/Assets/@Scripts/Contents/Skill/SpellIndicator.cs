@@ -1,77 +1,106 @@
-using Data;
 using System.Collections;
-using System.Collections.Generic;
+using Data;
 using UnityEngine;
 using static Define;
 
-public class SpellIndicator : BaseObject
+namespace Scripts.Components.Skill
 {
-    private Creature _owner;
-    private SkillData _skillData;
-    private EIndicatorType _indicatorType = EIndicatorType.Cone;
-
-    private SpriteRenderer _coneSprite;
-
-    public override bool Init()
+    public class SpellIndicator : BaseObject
     {
-        if (base.Init() == false)
-            return false;
-
-        _coneSprite = Util.FindChild<SpriteRenderer>(gameObject, "Cone", true);
-        _coneSprite.sortingOrder = SortingLayers.SPELL_INDICATOR;
-
-        return true;
-    }
-
-    protected override void OnDisable()
-    {
-        base.OnDisable();
-
-        Cancel();
-    }
-
-    public void SetInfo(Creature owner, SkillData skillData, EIndicatorType type)
-    {
-        _skillData = skillData;
-        _indicatorType = type;
-        _owner = owner;
-
-        _coneSprite.gameObject.SetActive(false);
-
-        _coneSprite.material.SetFloat("_Angle", 0);
-        _coneSprite.material.SetFloat("_Duration", 0);
-    }
-
-    public void ShowCone(Vector3 startPos, Vector3 dir, float angleRange)
-    {
-        _coneSprite.gameObject.SetActive(true);
-        transform.position = startPos;
-        _coneSprite.material.SetFloat("_Angle", angleRange);
-        _coneSprite.transform.localScale = Vector3.one * _skillData.SkillRange;
-        transform.eulerAngles = GetLookAtRotation(dir);
-        StartCoroutine(SetConeFill());
-    }
-
-    private IEnumerator SetConeFill()
-    {
-        // AnimImpactDuration 속도에 맞춰서 Fill
-        float elapsedTime = 0f;
-        float value = 0;
-
-        while (elapsedTime < _skillData.AnimImpactDuration)
+        private Creature _owner;
+        private SkillData _skillData;
+        private EIndicatorType _indicatorType = EIndicatorType.Cone;
+        private SpriteRenderer _coneSprite;
+        private SpriteRenderer _rectangleRenderer;
+        private Coroutine _coneFillCoroutine;
+        private float _duration;
+        
+        private void Awake()
         {
-            value = Mathf.Lerp(0f, 1f, elapsedTime / _skillData.AnimImpactDuration);
-            _coneSprite.material.SetFloat("_Duration", value);
-            elapsedTime += Time.deltaTime;
-            yield return null;
+            _coneSprite = Util.FindChild<SpriteRenderer>(gameObject, "Cone", true);
+            _rectangleRenderer = Util.FindChild<SpriteRenderer>(gameObject, "Rectangle", true);
+            _coneSprite.sortingOrder = SortingLayers.SPELL_INDICATOR;
+            _rectangleRenderer.sortingOrder = SortingLayers.SPELL_INDICATOR;
         }
 
-        _coneSprite.gameObject.SetActive(false);
-    }
+        protected override void OnDisable()
+        {
+            base.OnDisable();
+            Cancel();
+        }
 
-    public void Cancel()
-    {
-        StopAllCoroutines();
-        _coneSprite.gameObject.SetActive(false);
+        public void SetInfo(Creature owner, SkillData skillData, EIndicatorType type)
+        {
+            _skillData = skillData;
+            _indicatorType = type;
+            _owner = owner;
+            
+            _coneSprite.gameObject.SetActive(false);
+            _rectangleRenderer.gameObject.SetActive(false);
+            _coneSprite.material.SetFloat("_Angle" , 0);
+            _coneSprite.material.SetFloat("_Duration" , 0);
+        }
+
+        public void ShowCone(Vector3 startPos, Vector3 dir, float angleRange, float duration)
+        {
+            _coneSprite.gameObject.SetActive(true);
+            transform.position = startPos;
+            _duration = duration;
+            _coneSprite.material.SetFloat("_Angle" , angleRange);
+            _coneSprite.transform.localScale = Vector3.one * Util.GetEffectRadius(_skillData.EffectSize);
+            transform.eulerAngles = GetLookAtRotation(dir);
+            StartCoroutine(SetConeFill());
+        }
+
+        public void ShowRectangle(Vector3 startPos, Vector3 dir, float duration, float scale)
+        {
+            _rectangleRenderer.gameObject.SetActive(true);
+            transform.position = startPos;
+            _duration = duration;
+            
+            _rectangleRenderer.transform.localScale = new Vector3(_owner.CurrentCollider.radius * 2f, scale, 0);
+            transform.eulerAngles = GetLookAtRotation(dir);
+            StartCoroutine(SetRectFill());
+        }
+
+        private IEnumerator SetConeFill()
+        {
+            //AnimImpactDuration 속도에 맞춰서 Fill
+            float elapsedTime = 0f;
+            float value = 0;
+            while (elapsedTime < _duration)
+            {
+                value = Mathf.Lerp(0f, 1f, elapsedTime / _duration);
+                _coneSprite.material.SetFloat("_Duration" , value);
+                elapsedTime += Time.deltaTime;
+                yield return null;
+            }
+            
+            _coneSprite.gameObject.SetActive(false);
+        }
+        
+        private IEnumerator SetRectFill()
+        {
+            //AnimImpactDuration 속도에 맞춰서 Fill
+            float elapsedTime = 0f;
+            float value = 0;
+            while (elapsedTime < _duration)
+            {
+                value = Mathf.Lerp(0f, 1f, elapsedTime / _duration);
+                _rectangleRenderer.material.SetFloat("_Cutoff" , value);
+                elapsedTime += Time.deltaTime;
+                yield return null;
+            }
+            
+            _rectangleRenderer.gameObject.SetActive(false);
+        }
+
+        public void Cancel()
+        {
+            StopAllCoroutines();
+            _coneSprite.gameObject.SetActive(false);
+            _rectangleRenderer.gameObject.SetActive(false);
+
+        }
     }
 }

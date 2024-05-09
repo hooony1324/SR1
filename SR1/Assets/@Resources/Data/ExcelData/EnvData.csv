@@ -1,3 +1,5 @@
-﻿DataId,DescriptionTextID,PrefabLabel,MaxHp,ResourceAmount,RegenTime,SpineNames,DropItemId
-300001,나무1,GatherablePrefab,10,1,60,wood_1_SkeletonData&wood_2_SkeletonData,400100
-301000,미네랄1,GatherablePrefab,10,1,60,wood_1_SkeletonData&wood_2_SkeletonData,400200
+﻿DataId,DescriptionTextID,PrefabLabel,MaxHp,RegenTime,SpineNames,DropItemId,SpriteName,EnvType
+300001,forest_wood1_desc,GatherablePrefab,4,60,wood_1_SkeletonData,80001,gr_forest_tree_1.sprite,Wood
+301000,forest_mine1_desc,GatherablePrefab,5,60,forest_mine_1_SkeletonData,80002,forest_mine_1.sprite,Mineral
+301001,forest_mine2_desc,GatherablePrefab,5,60,forest_mine_2_SkeletonData,80002,forest_mine_2.sprite,Mineral
+301002,forest_mine3_desc,GatherablePrefab,5,60,forest_mine_3_SkeletonData,80002,forest_mine_3.sprite,Mineral

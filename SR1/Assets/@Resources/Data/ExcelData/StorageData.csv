@@ -1,0 +1,34 @@
+﻿DataId,Name,SpriteName,DescriptionTextID, Level,EResourceType,ProductionQuantity,ProductionSpeed,MaxCapacity,NextLevelExp,NextLevelDataID,MaxResource
+0,저금통레벨0,coin_storage_temp.sprite,,0,Gold,0,0,0,0,1,0
+1,저금통,coin_storage_temp.sprite,,1,Gold,1,10,5,100,2,200
+2,저금통,coin_storage_temp.sprite,,2,Gold,2,11,10,100,3,400
+3,저금통,coin_storage_temp.sprite,,3,Gold,3,12,15,100,4,600
+4,저금통,coin_storage_temp.sprite,,4,Gold,4,13,20,100,5,800
+5,저금통,coin_storage_temp.sprite,,5,Gold,5,14,25,100,6,1000
+6,저금통,coin_storage_temp.sprite,,6,Gold,6,15,30,100,7,1500
+7,저금통,coin_storage_temp.sprite,,7,Gold,7,16,25,100,8,2000
+8,저금통,coin_storage_temp.sprite,,8,Gold,8,17,40,100,9,2500
+9,저금통,coin_storage_temp.sprite,,9,Gold,9,18,45,100,10,3000
+10,저금통,coin_storage_temp.sprite,,10,Gold,10,19,50,,,4000
+11,광산캠프0,mine_temp.sprite,,0,Mineral,0,0,0,0,12,0
+12,광산캠프,mine_temp.sprite,,1,Mineral,1,10,5,100,13,200
+13,광산캠프,mine_temp.sprite,,2,Mineral,2,11,10,100,14,400
+14,광산캠프,mine_temp.sprite,,3,Mineral,3,12,15,100,15,600
+15,광산캠프,mine_temp.sprite,,4,Mineral,4,13,20,100,16,800
+16,광산캠프,mine_temp.sprite,,5,Mineral,5,14,25,100,17,1000
+17,광산캠프,mine_temp.sprite,,6,Mineral,6,15,30,100,18,1500
+18,광산캠프,mine_temp.sprite,,7,Mineral,7,16,25,100,19,2000
+19,광산캠프,mine_temp.sprite,,8,Mineral,8,17,40,100,20,2500
+20,광산캠프,mine_temp.sprite,,9,Mineral,9,18,45,100,21,3000
+21,광산캠프,mine_temp.sprite,,10,Mineral,10,19,50,,,4000
+22,목재 0,wood_storage_temp.sprite,,0,Wood,0,0,0,0,23,0
+23,목재캠프,wood_storage_temp.sprite,,1,Wood,1,10,5,100,24,200
+24,목재캠프,wood_storage_temp.sprite,,2,Wood,2,11,10,100,25,400
+25,목재캠프,wood_storage_temp.sprite,,3,Wood,3,12,15,100,26,600
+26,목재캠프,wood_storage_temp.sprite,,4,Wood,4,13,20,100,27,800
+27,목재캠프,wood_storage_temp.sprite,,5,Wood,5,14,25,100,28,1000
+28,목재캠프,wood_storage_temp.sprite,,6,Wood,6,15,30,100,29,1500
+29,목재캠프,wood_storage_temp.sprite,,7,Wood,7,16,25,100,30,2000
+30,목재캠프,wood_storage_temp.sprite,,8,Wood,8,17,40,100,31,2500
+31,목재캠프,wood_storage_temp.sprite,,9,Wood,9,18,45,100,32,3000
+32,목재캠프,wood_storage_temp.sprite,,10,Wood,10,19,50,,,4000

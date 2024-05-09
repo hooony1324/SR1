@@ -1,51 +1,46 @@
+using System;
 using Spine;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using Event = Spine.Event;
 
 public class NormalAttack : SkillBase
 {
-    public override bool Init()
+    protected override bool Init()
     {
-        if (base.Init() == false)
-            return false;
-
+        base.Init();
+        
         return true;
     }
 
-    public override void SetInfo(Creature owner, int skillTemplateID)
+    public override void DoSkill(Action callback = null)
     {
-        base.SetInfo(owner, skillTemplateID);
-    }
-
-    public override void DoSkill()
-    {
-        base.DoSkill();
-
-        Owner.CreatureState = Define.ECreatureState.Skill;
-        Owner.PlayAnimation(0, SkillData.AnimName, false);
-
-        Owner.LookAtTarget(Owner.Target);
-    }
-
-    void PickupTargetAndProcessHit()
-    {
-    }
-
-    protected override void OnAttackEvent()
-    {
-        if (Owner.Target.IsValid() == false)
+        base.DoSkill(callback);
+        if (Owner.CreatureState != Define.ECreatureState.Skill)
             return;
+    }
 
+    protected override void OnAttackEvent(TrackEntry arg1, Event arg2)
+    {
+        base.OnAttackEvent(arg1, arg2);
+        
+        if (!SkillTarget.IsValid()) 
+            return;
+        
         if (SkillData.ProjectileId == 0)
         {
-            // Melee
-            Owner.Target.OnDamaged(Owner, this);
+            ApplyEffects(SkillTarget);
         }
         else
         {
-            // Ranged
-            GenerateProjectile(Owner, Owner.CenterPosition);
+            //RangedAttack
+            if (SkillTarget.ObjectType != Define.EObjectType.Env)
+            {
+                GenerateProjectile(Owner.FireSocketPos);
+            }
+            else
+            {
+                ApplyEffects(SkillTarget);
+            }
         }
     }
+
 }

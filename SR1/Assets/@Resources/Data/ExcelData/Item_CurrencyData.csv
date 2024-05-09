@@ -1,0 +1,9 @@
+﻿DataId,DescriptionTextID,SpriteName,Name,GroupType,Type,SubType,Grade,MaxStack,ResourceType
+400000,생고기,gr_icon_meats.sprite,생고기,Currency,None,None,Normal,0,Meat
+400100,장작,gr_icon_wood.sprite,장작,Currency,None,None,Normal,0,Wood
+400200,미네랄,gr_icon_cristal.sprite,미네랄,Currency,None,None,Normal,0,Mineral
+400300,골드,Gold_Temp.sprite,골드,Currency,None,None,Normal,0,Gold
+400400,루비,red_currency.sprite,루비,Currency,None,None,Normal,0,Ruby
+400500,룬 잔해,ui_459.sprite,룬잔해,Currency,None,None,Normal,0,Fragments
+400600,초원의구슬,ui_181.sprite,초원의구슬,Currency,None,None,Normal,0,ForestMarble
+400700,다이아,ui_460,다이아,Currency,None,None,Normal,0,Dia

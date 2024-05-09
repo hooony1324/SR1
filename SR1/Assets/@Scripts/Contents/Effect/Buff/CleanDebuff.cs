@@ -1,10 +1,9 @@
-using System;
-using Data;
-using UnityEngine;
+using static Define;
 
-public class CleanDebuff : BuffBase
+//TODO  Skill 로 빼기
+public class CleanDebuff : EffectBase
 {
-	public override bool Init()
+    protected override bool Init()
     {
         if (base.Init() == false)
             return false;
@@ -13,9 +12,9 @@ public class CleanDebuff : BuffBase
     
     public override void ApplyEffect()
     {
-        //Base 호출X
-        Owner.Effects.ClearDebuffsBySkill();
-        ClearEffect(Define.EEffectClearType.TimeOut);
+        base.ApplyEffect();
+        Owner.Effects.ClearEffectsByCondition(effect => effect.EffectType == EEffectType.Debuff);
+        ClearEffect(EEffectClearType.TimeOut);
     }
 
 }

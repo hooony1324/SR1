@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "Value": 3.5,
+      "CoolTime": 2,
+      "Name": "TestPotionID",
+      "ItemGroupType": 2,
+      "Type": 2,
+      "SubType": 7,
+      "Grade": 1,
+      "MaxStack": 10,
+      "DataId": 43001,
+      "DescriptionTextID": "MaterialsTextID",
+      "SpriteName": "wizard_shot.sprite"
+    }
+  ]
+}

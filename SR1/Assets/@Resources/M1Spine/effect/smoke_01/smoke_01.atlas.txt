@@ -1,0 +1,17 @@
+smoke_01.png
+size:1024,256
+filter:Linear,Linear
+pma:true
+smoke_01
+bounds:560,110,91,73
+offsets:338,324,756,756
+smoke_02
+bounds:381,19,177,164
+offsets:288,287,756,756
+smoke_03
+bounds:197,11,172,182
+offsets:299,286,756,756
+rotate:90
+smoke_04
+bounds:2,2,193,181
+offsets:285,282,756,756

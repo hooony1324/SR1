@@ -1,80 +1,122 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
+using Data;
 using UnityEngine;
+using Spine.Unity;
 
 public class Projectile : BaseObject
 {
-    public Creature Owner { get; private set; }
-    public SkillBase Skill { get; private set; }
-    public Data.ProjectileData ProjectileData { get; private set; }
-    public ProjectileMotionBase ProjectileMotion { get; private set; }
+    protected Creature _owner;
+    protected SkillBase _skill;
+    protected ProjectileData _projectileData;
+    protected SpriteRenderer _projectileSprite;
+    protected GameObject _spineObject;
+    protected GameObject _spriteObject;
+    protected Vector3 endPos;
+    protected event Action<Vector3, Vector3, int> _eventMotionFinished;
+    
+    protected override void OnDisable()
+    {
+        StopAllCoroutines();
+    }
 
-    private SpriteRenderer _spriteRenderer;
-
-    public override bool Init()
+    protected override bool Init()
     {
         if (base.Init() == false)
             return false;
 
+        //_projectileSprite.sortingOrder = SortingLayers.PROJECTILE;
         ObjectType = Define.EObjectType.Projectile;
-        _spriteRenderer = GetComponent<SpriteRenderer>();
-        _spriteRenderer.sortingOrder = SortingLayers.PROJECTILE;
 
+        _spineObject = Util.FindChild<SkeletonAnimation>(gameObject, "Spine").gameObject;
+        _spriteObject = Util.FindChild<SpriteRenderer>(gameObject).gameObject;
         return true;
     }
 
-    public void SetInfo(int dataTemplateID)
+    public virtual void SetInfo(Creature owner, SkillBase skill,  Action<Vector3, Vector3, int> onMotionFinished)
     {
-        ProjectileData = Managers.Data.ProjectileDic[dataTemplateID];
-        _spriteRenderer.sprite = Managers.Resource.Load<Sprite>(ProjectileData.ProjectileSpriteName);
+        _spineObject.SetActive(true);
+        _spriteObject.SetActive(true);
 
-        if (_spriteRenderer.sprite == null)
+        int projDataId = skill.SkillData.ProjectileId;
+        _projectileData = Managers.Data.ProjectileDic[projDataId];
+        if (string.IsNullOrEmpty(_projectileData.SpineName))
         {
-            Debug.LogWarning($"Projectile Sprite Missing {ProjectileData.ProjectileSpriteName}");
-            return;
+            _projectileSprite = Util.FindChild<SpriteRenderer>(gameObject);
+            _projectileSprite.sortingOrder = SortingLayers.PROJECTILE;
+            _projectileSprite.sprite = Managers.Resource.Load<Sprite>(_projectileData.SpriteName);
+            _spineObject.SetActive(false);
         }
+        else
+        {
+            _spriteObject.SetActive(false);
+            SetSpineAnimation(_projectileData.SpineName, SortingLayers.PROJECTILE, "Spine");
+            Flip(true);
+            PlayAnimation(0, AnimName.IDLE, true);
+        }
+        _owner = owner;
+        _skill = skill;
+        _eventMotionFinished = onMotionFinished;
+        
+        ProjectileMotion motion;
+        switch (_projectileData.ProjectileMotion)
+        {
+            case Define.EProjetionMotion.Straight:
+                motion = gameObject.GetOrAddComponent<StraightMotion>();
+                break;
+            case Define.EProjetionMotion.Parabola:
+                motion = gameObject.GetOrAddComponent<ParabolaMotion>();
+                break;
+            default:
+                motion = gameObject.GetOrAddComponent<StraightMotion>();
+                break;
+        }
+
+        if (motion != null)
+        {
+            endPos = _skill.SkillTarget.CenterPosition;
+            motion.SetInfo(Position, endPos,  _skill.SkillTarget, _projectileData, endCallback: OnMotionFinished);
+        }
+
+        if (gameObject.IsValid())
+            StartCoroutine(CoReserveDestroy());
     }
 
-    public void SetSpawnInfo(Creature owner, SkillBase skill, LayerMask layer)
+    protected virtual void OnMotionFinished()
     {
-        Owner = owner;
-        Skill = skill;
-
-        // Rule
-        Collider.excludeLayers = layer;
-
-        if (ProjectileMotion != null)
-            Destroy(ProjectileMotion);
-
-        string componentName = ProjectileData.ComponentName;
-        ProjectileMotion = gameObject.AddComponent(Type.GetType(componentName)) as ProjectileMotionBase;
-
-        StraightMotion straightMotion = ProjectileMotion as StraightMotion;
-        if (straightMotion != null)
-            straightMotion.SetInfo(ProjectileData.DataId, owner.CenterPosition, owner.Target.CenterPosition, () => { Managers.Object.Despawn(this); });
-
-        ParabolaMotion parabolaMotion = ProjectileMotion as ParabolaMotion;
-        if (parabolaMotion != null)
-            parabolaMotion.SetInfo(ProjectileData.DataId, owner.CenterPosition, owner.Target.CenterPosition, () => { Managers.Object.Despawn(this); });
-
-        StartCoroutine(CoReserveDestroy(5.0f));
+        switch(_projectileData.ProjectileMotion)
+        {
+            case Define.EProjetionMotion.Straight:
+                if (_skill.SkillTarget.IsValid())
+                {
+                    _skill.SkillTarget.Effects.GenerateEffects(_skill.SkillData.EffectIds, Define.EEffectSpawnType.Skill, _owner);
+                }
+                break;
+            case Define.EProjetionMotion.Parabola:
+                var targets = Managers.Object.FindCircleRangeTargets(gameObject.transform.position, 1f, _owner.ObjectType);
+                foreach (var target in targets)
+                {
+                    if (target.IsValid())
+                    {
+                        target.Effects.GenerateEffects(_skill.SkillData.EffectIds, Define.EEffectSpawnType.Skill, _owner);
+                    }
+                }
+                break;
+        }
+        
+        _eventMotionFinished?.Invoke(transform.position, endPos, _skill.SkillData.TempleteId);
+        DestroyProjectile();
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private IEnumerator CoReserveDestroy()
     {
-        BaseObject target = other.GetComponent<BaseObject>();
-        if (target.IsValid() == false)
-            return;
-
-        // TODO
-        target.OnDamaged(Owner, Skill);
-        Managers.Object.Despawn(this);
+        yield return new WaitForSeconds(5f);
+        DestroyProjectile();
     }
 
-    private IEnumerator CoReserveDestroy(float lifeTime)
+    private void DestroyProjectile()
     {
-        yield return new WaitForSeconds(lifeTime);
-        Managers.Object.Despawn(this);
+        Managers.Object.DespawnProjectile(this);
     }
+
 }

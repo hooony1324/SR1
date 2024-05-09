@@ -1,9 +1,20 @@
-﻿DataId,Name,ClassName,ComponentName,ProjectileSkeletonId,PrefabLabel,Duration,HitSound,ProjRange,ProjSpeed
-70001,위자드 총알,Projectile,StraightMotion,wizard_shot.sprite,ProjectilePrefab,,,,10
-70002,고블린 화살,Projectile,ParabolaMotion,goblin_shot.sprite,ProjectilePrefab,,,,5
-70003,맹독확산1,PoisonSpreadProj,ParabolaMotion,wizard_shot.sprite,ProjectilePrefab,,,,5
-70004,맹독확산2,PoisonSpreadProj,ParabolaMotion,wizard_shot.sprite,ProjectilePrefab,,,,5
-70005,맹독확산3,PoisonSpreadProj,ParabolaMotion,wizard_shot.sprite,ProjectilePrefab,,,,5
-70006,냉기 확산1,ColdSpreadProj,ParabolaMotion,wizard_shot.sprite,projectilePrefab,,,,5
-70007,냉기 확산2,ColdSpreadProj,ParabolaMotion,wizard_shot.sprite,projectilePrefab,,,,5
-70008,냉기 확산3,ColdSpreadProj,ParabolaMotion,wizard_shot.sprite,projectilePrefab,,,,5
+﻿DataId,Name,ComponentName,SpriteName,SpineName,Duration,HitSound,ProjRange,ProjSpeed,PenetrateCount
+70001,위자드 총알,Straight,,shot_test_SkeletonData,,,8,20,1
+70002,고블린 화살,Parabola,goblin_shot.sprite,,,,8,10,1
+70003,맹독확산1,Parabola,wizard_shot.sprite,,,,8,10,1
+70004,맹독확산2,Parabola,wizard_shot.sprite,,,,8,10,1
+70005,맹독확산3,Parabola,wizard_shot.sprite,,,,8,10,1
+70006,냉기 확산1,Parabola,wizard_shot.sprite,,,,8,10,1
+70007,냉기 확산2,Parabola,wizard_shot.sprite,,,,8,10,1
+70008,냉기 확산3,Parabola,wizard_shot.sprite,,,,8,10,1
+70009,루크 총알,Straight,goblin_shot.sprite,,,,8,20,1
+70010,톰 단검,Straight,goblin_shot.sprite,,,,8,15,1
+70011,클로이 파이어볼,Straight,,fireball_SkeletonData,,,8,20,1
+70012,벌침,Parabola,bee_shot.sprite,,,,8,15,1
+70013,마리 마법탄,Straight,,shot_test_SkeletonData,,,8,20,1
+70014,비비,Straight,,shot_test_SkeletonData,,,8,20,100
+70015,엘리화살,Straight,,shot_test_SkeletonData,,,8,20,100
+70016,엘리 맹독화살,Straight,,shot_test_SkeletonData,,,8,20,100
+70017,엘리 멀티샷,Straight,,shot_test_SkeletonData,,,8,20,100
+70018,스톰 바람가르기,Straight,,shot_test_SkeletonData,,,8,20,100
+70019,마리 마력탄,Straight,,shot_test_SkeletonData,,,8,20,1

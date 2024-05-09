@@ -1,268 +1,457 @@
 {
   "aoes": [
     {
-      "DataId": 80001,
+      "TemplateId": 80001,
       "Name": "맹독확산1 AOE",
-      "ClassName": "PoisonSpreadAoE",
+      "Type": 3,
       "SkeletonDataID": "loren_skill_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 5.0,
-      "AllyEffects": null,
+      "AllyEffects": [],
       "EnemyEffects": [
         60006
       ],
-      "AnimName": "idle"
+      "AnimName": "idle",
+      "FindRangeType": 1
     },
     {
-      "DataId": 80002,
+      "TemplateId": 80002,
       "Name": "맹독확산2 AOE",
-      "ClassName": "PoisonSpreadAoE",
+      "Type": 3,
       "SkeletonDataID": "loren_skill_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 5.0,
-      "AllyEffects": null,
+      "AllyEffects": [],
       "EnemyEffects": [
         60007
       ],
-      "AnimName": "idle"
+      "AnimName": "idle",
+      "FindRangeType": 1
     },
     {
-      "DataId": 80003,
+      "TemplateId": 80003,
       "Name": "맹독확산3 AOE",
-      "ClassName": "PoisonSpreadAoE",
+      "Type": 3,
       "SkeletonDataID": "loren_skill_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 5.0,
-      "AllyEffects": null,
+      "AllyEffects": [],
       "EnemyEffects": [
         60008
       ],
-      "AnimName": "idle"
+      "AnimName": "idle",
+      "FindRangeType": 1
     },
     {
-      "DataId": 80004,
+      "TemplateId": 80004,
       "Name": "냉기확산1 AOE",
-      "ClassName": "ColdSpreadAoE",
-      "SkeletonDataID": "loren_skill_2_SkeletonData",
+      "Type": 1,
+      "SkeletonDataID": "loren_skill_b_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 0.5,
-      "AllyEffects": null,
+      "AllyEffects": [],
       "EnemyEffects": [
         60009
       ],
-      "AnimName": "idle"
+      "AnimName": "idle",
+      "FindRangeType": 1
     },
     {
-      "DataId": 80005,
+      "TemplateId": 80005,
       "Name": "냉기확산2 AOE",
-      "ClassName": "ColdSpreadAoE",
-      "SkeletonDataID": "loren_skill_2_SkeletonData",
+      "Type": 1,
+      "SkeletonDataID": "loren_skill_b_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 0.5,
-      "AllyEffects": null,
+      "AllyEffects": [],
       "EnemyEffects": [
         60010
       ],
-      "AnimName": "idle"
+      "AnimName": "idle",
+      "FindRangeType": 1
     },
     {
-      "DataId": 80006,
+      "TemplateId": 80006,
       "Name": "냉기확산3 AOE",
-      "ClassName": "ColdSpreadAoE",
-      "SkeletonDataID": "loren_skill_2_SkeletonData",
+      "Type": 1,
+      "SkeletonDataID": "loren_skill_b_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 0.5,
-      "AllyEffects": null,
+      "AllyEffects": [],
       "EnemyEffects": [
         60011
       ],
-      "AnimName": "idle"
+      "AnimName": "idle",
+      "FindRangeType": 1
     },
     {
-      "DataId": 80007,
+      "TemplateId": 80007,
       "Name": "화염검 AOE",
-      "ClassName": "ConeShapeAoE",
+      "Type": 0,
       "SkeletonDataID": "owen_skill_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 1.0,
-      "AllyEffects": null,
+      "AllyEffects": [],
       "EnemyEffects": [
         60012
       ],
-      "AnimName": "skill_a_small"
+      "AnimName": "skill_a_small",
+      "FindRangeType": 2
     },
     {
-      "DataId": 80008,
+      "TemplateId": 80008,
       "Name": "화염검 AOE",
-      "ClassName": "ConeShapeAoE",
+      "Type": 0,
       "SkeletonDataID": "owen_skill_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 1.0,
-      "AllyEffects": null,
+      "AllyEffects": [],
       "EnemyEffects": [
         60013
       ],
-      "AnimName": "skill_a_normal"
+      "AnimName": "skill_a_normal",
+      "FindRangeType": 2
     },
     {
-      "DataId": 80009,
+      "TemplateId": 80009,
       "Name": "화염검 AOE",
-      "ClassName": "ConeShapeAoE",
+      "Type": 0,
       "SkeletonDataID": "owen_skill_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 1.0,
-      "AllyEffects": null,
+      "AllyEffects": [],
       "EnemyEffects": [
         60014
       ],
-      "AnimName": "skill_a_big"
+      "AnimName": "skill_a_big",
+      "FindRangeType": 2
     },
     {
-      "DataId": 80010,
+      "TemplateId": 80010,
       "Name": "다중화염검 AOE",
-      "ClassName": "CircleShapeAoE",
+      "Type": 1,
       "SkeletonDataID": "owen_skill_2_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 1.0,
-      "AllyEffects": null,
-      "EnemyEffects": null,
-      "AnimName": "skill_b_small"
+      "AllyEffects": [],
+      "EnemyEffects": [
+        60015
+      ],
+      "AnimName": "skill_b_small",
+      "FindRangeType": 1
     },
     {
-      "DataId": 80011,
+      "TemplateId": 80011,
       "Name": "다중화염검 AOE",
-      "ClassName": "CircleShapeAoE",
+      "Type": 1,
       "SkeletonDataID": "owen_skill_2_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 1.0,
-      "AllyEffects": null,
-      "EnemyEffects": null,
-      "AnimName": "skill_b_normal"
+      "AllyEffects": [],
+      "EnemyEffects": [
+        60015
+      ],
+      "AnimName": "skill_b_normal",
+      "FindRangeType": 1
     },
     {
-      "DataId": 80012,
+      "TemplateId": 80012,
       "Name": "다중화염검 AOE",
-      "ClassName": "CircleShapeAoE",
+      "Type": 1,
       "SkeletonDataID": "owen_skill_2_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 1.0,
-      "AllyEffects": null,
-      "EnemyEffects": null,
-      "AnimName": "skill_b_big"
+      "AllyEffects": [],
+      "EnemyEffects": [
+        60015
+      ],
+      "AnimName": "skill_b_big",
+      "FindRangeType": 1
     },
     {
-      "DataId": 80013,
+      "TemplateId": 80013,
       "Name": "인형의 난타 1",
-      "ClassName": "CircleShapeAoE",
+      "Type": 1,
       "SkeletonDataID": "veti_skill_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 0.0,
-      "AllyEffects": null,
-      "EnemyEffects": null,
-      "AnimName": "skill_a_small"
+      "AllyEffects": [],
+      "EnemyEffects": [
+        60015
+      ],
+      "AnimName": "skill_a_small",
+      "FindRangeType": 1
     },
     {
-      "DataId": 80014,
+      "TemplateId": 80014,
       "Name": "인형의 난타 2",
-      "ClassName": "CircleShapeAoE",
+      "Type": 1,
       "SkeletonDataID": "veti_skill_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 0.0,
-      "AllyEffects": null,
-      "EnemyEffects": null,
-      "AnimName": "skill_a_normal"
+      "AllyEffects": [],
+      "EnemyEffects": [
+        60015
+      ],
+      "AnimName": "skill_a_normal",
+      "FindRangeType": 1
     },
     {
-      "DataId": 80015,
+      "TemplateId": 80015,
       "Name": "인형의 난타 3",
-      "ClassName": "CircleShapeAoE",
+      "Type": 1,
       "SkeletonDataID": "veti_skill_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 0.0,
-      "AllyEffects": null,
-      "EnemyEffects": null,
-      "AnimName": "skill_a_big"
+      "AllyEffects": [],
+      "EnemyEffects": [
+        60015
+      ],
+      "AnimName": "skill_a_big",
+      "FindRangeType": 1
     },
     {
-      "DataId": 80016,
+      "TemplateId": 80016,
       "Name": "인형의 브레스 1",
-      "ClassName": "ConeShapeAoE",
+      "Type": 0,
       "SkeletonDataID": "owen_skill_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 0.0,
-      "AllyEffects": null,
+      "AllyEffects": [],
       "EnemyEffects": [
         60012
       ],
-      "AnimName": "skill_a_small"
+      "AnimName": "skill_a_small",
+      "FindRangeType": 2
     },
     {
-      "DataId": 80017,
+      "TemplateId": 80017,
       "Name": "인형의 브레스 2",
-      "ClassName": "ConeShapeAoE",
+      "Type": 0,
       "SkeletonDataID": "owen_skill_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 0.0,
-      "AllyEffects": null,
+      "AllyEffects": [],
       "EnemyEffects": [
         60013
       ],
-      "AnimName": "skill_a_normal"
+      "AnimName": "skill_a_normal",
+      "FindRangeType": 2
     },
     {
-      "DataId": 80018,
+      "TemplateId": 80018,
       "Name": "인형의 브레스 3",
-      "ClassName": "ConeShapeAoE",
+      "Type": 0,
       "SkeletonDataID": "owen_skill_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 0.0,
-      "AllyEffects": null,
+      "AllyEffects": [],
       "EnemyEffects": [
         60014
       ],
-      "AnimName": "skill_a_big"
+      "AnimName": "skill_a_big",
+      "FindRangeType": 2
     },
     {
-      "DataId": 80019,
+      "TemplateId": 80019,
       "Name": "권법연타 AoE",
-      "ClassName": "CircleShapeAoE",
+      "Type": 1,
       "SkeletonDataID": "veti_skill_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 0.0,
       "AllyEffects": [
         61001,
         61005
       ],
-      "EnemyEffects": null,
-      "AnimName": "skill_a_small"
+      "EnemyEffects": [],
+      "AnimName": "skill_a_small",
+      "FindRangeType": 1
     },
     {
-      "DataId": 80020,
+      "TemplateId": 80020,
       "Name": "권법연타 AoE",
-      "ClassName": "CircleShapeAoE",
+      "Type": 1,
       "SkeletonDataID": "veti_skill_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 0.0,
       "AllyEffects": [
         61001,
         61005
       ],
-      "EnemyEffects": null,
-      "AnimName": "skill_a_normal"
+      "EnemyEffects": [],
+      "AnimName": "skill_a_normal",
+      "FindRangeType": 1
     },
     {
-      "DataId": 80021,
+      "TemplateId": 80021,
       "Name": "권법연타 AoE",
-      "ClassName": "CircleShapeAoE",
+      "Type": 1,
       "SkeletonDataID": "veti_skill_1_SkeletonData",
+      "PrefabName": null,
       "SoundLabel": null,
       "Duration": 0.0,
       "AllyEffects": [
         61001,
         61005
       ],
-      "EnemyEffects": null,
-      "AnimName": "skill_a_big"
+      "EnemyEffects": [],
+      "AnimName": "skill_a_big",
+      "FindRangeType": 1
+    },
+    {
+      "TemplateId": 80022,
+      "Name": "파이어볼 AOE",
+      "Type": 1,
+      "SkeletonDataID": "smoke_01_SkeletonData",
+      "PrefabName": null,
+      "SoundLabel": null,
+      "Duration": 1.0,
+      "AllyEffects": [],
+      "EnemyEffects": [
+        60015
+      ],
+      "AnimName": "skill_a_small",
+      "FindRangeType": 1
+    },
+    {
+      "TemplateId": 80023,
+      "Name": "파이어볼 AOE",
+      "Type": 1,
+      "SkeletonDataID": "smoke_01_SkeletonData",
+      "PrefabName": null,
+      "SoundLabel": null,
+      "Duration": 1.0,
+      "AllyEffects": [],
+      "EnemyEffects": [
+        60015
+      ],
+      "AnimName": "skill_a_normal",
+      "FindRangeType": 1
+    },
+    {
+      "TemplateId": 80024,
+      "Name": "파이어볼 AOE",
+      "Type": 1,
+      "SkeletonDataID": "smoke_01_SkeletonData",
+      "PrefabName": null,
+      "SoundLabel": null,
+      "Duration": 1.0,
+      "AllyEffects": [],
+      "EnemyEffects": [
+        60015
+      ],
+      "AnimName": "skill_a_big",
+      "FindRangeType": 1
+    },
+    {
+      "TemplateId": 80025,
+      "Name": "라이트닝(삭제예정)",
+      "Type": 1,
+      "SkeletonDataID": "thunder_SkeletonData",
+      "PrefabName": null,
+      "SoundLabel": null,
+      "Duration": 1.0,
+      "AllyEffects": [],
+      "EnemyEffects": [
+        60015
+      ],
+      "AnimName": "skill_b_small",
+      "FindRangeType": 4
+    },
+    {
+      "TemplateId": 80026,
+      "Name": "라이트닝2",
+      "Type": 1,
+      "SkeletonDataID": "thunder_SkeletonData",
+      "PrefabName": null,
+      "SoundLabel": null,
+      "Duration": 1.0,
+      "AllyEffects": [],
+      "EnemyEffects": [
+        60015
+      ],
+      "AnimName": "skill_b_small",
+      "FindRangeType": 4
+    },
+    {
+      "TemplateId": 80027,
+      "Name": "라이트닝3",
+      "Type": 1,
+      "SkeletonDataID": "thunder_SkeletonData",
+      "PrefabName": null,
+      "SoundLabel": null,
+      "Duration": 1.0,
+      "AllyEffects": [],
+      "EnemyEffects": [
+        60015
+      ],
+      "AnimName": "skill_b_small",
+      "FindRangeType": 4
+    },
+    {
+      "TemplateId": 80028,
+      "Name": "라라 생명의 기운1",
+      "Type": 1,
+      "SkeletonDataID": null,
+      "PrefabName": "lala_skill_b",
+      "SoundLabel": null,
+      "Duration": 1.0,
+      "AllyEffects": [
+        60033
+      ],
+      "EnemyEffects": [],
+      "AnimName": null,
+      "FindRangeType": 1
+    },
+    {
+      "TemplateId": 80029,
+      "Name": "라라 생명의기운2",
+      "Type": 1,
+      "SkeletonDataID": null,
+      "PrefabName": "lala_skill_b",
+      "SoundLabel": null,
+      "Duration": 1.0,
+      "AllyEffects": [
+        60034
+      ],
+      "EnemyEffects": [],
+      "AnimName": null,
+      "FindRangeType": 1
+    },
+    {
+      "TemplateId": 80030,
+      "Name": "라라 생명의 기운3",
+      "Type": 1,
+      "SkeletonDataID": null,
+      "PrefabName": "lala_skill_b",
+      "SoundLabel": null,
+      "Duration": 1.0,
+      "AllyEffects": [
+        60035
+      ],
+      "EnemyEffects": [],
+      "AnimName": null,
+      "FindRangeType": 1
     }
   ]
 }

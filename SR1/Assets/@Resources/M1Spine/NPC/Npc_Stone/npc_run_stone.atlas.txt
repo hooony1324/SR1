@@ -1,0 +1,7 @@
+npc_run_stone.png
+size:512,512
+filter:Linear,Linear
+pma:true
+npc_rune_stone
+bounds:2,2,419,448
+offsets:1,1,421,450

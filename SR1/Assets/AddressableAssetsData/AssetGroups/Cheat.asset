@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Cheat
+  m_EditorClassIdentifier: 
+  m_GroupName: Cheat
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5056dfbd4bb6c5445bab96e82ed3a9f8
+  m_SerializeEntries:
+  - m_GUID: 170181a96ae2d8543b2d052516a53036
+    m_Address: UI_AddHeroesPopup_Cheat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e09cd2127f13eb4e9d5edf3c1ed2345
+    m_Address: UI_AddHeroes_HeroItem_Cheat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f5667651777b8d44a62da49b1ad6211
+    m_Address: UI_AddMonsterPopup_Cheat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d990d8e0c2f37343afd5c77a8ce5c72
+    m_Address: UI_AddMonster_MonsterItem_Cheat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af14e0c749d658e41bf498d4a3a08619
+    m_Address: UI_CheatListPopup_Cheat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5667cf3586095d74b9add0b7bbbe3cea
+    m_Address: UI_ScalePopup_Cheat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 160b55112b3d9c14e8f3614f46ca6258, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: db3e7cc36aa8580419ca42a6253bf50f, type: 2}
+    - {fileID: 11400000, guid: 788956bfebda2ca4f833ab26e0d6afde, type: 2}

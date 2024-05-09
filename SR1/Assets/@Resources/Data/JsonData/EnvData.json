@@ -1,30 +1,48 @@
 {
-  "envs": [
+  "creatures": [
     {
       "DataId": 300001,
-      "DescriptionTextID": "나무1",
+      "DescriptionTextID": "forest_wood1_desc",
       "PrefabLabel": "GatherablePrefab",
-      "MaxHp": 10.0,
-      "ResourceAmount": 1,
+      "MaxHp": 4.0,
       "RegenTime": 60.0,
-      "SkeletonDataIDs": [
-        "wood_1_SkeletonData",
-        "wood_2_SkeletonData"
-      ],
-      "DropItemId": 400100
+      "SkeletonDataID": "wood_1_SkeletonData",
+      "DropItemId": 80001,
+      "SpriteName": "gr_forest_tree_1.sprite",
+      "EnvType": 0
     },
     {
       "DataId": 301000,
-      "DescriptionTextID": "미네랄1",
+      "DescriptionTextID": "forest_mine1_desc",
       "PrefabLabel": "GatherablePrefab",
-      "MaxHp": 10.0,
-      "ResourceAmount": 1,
+      "MaxHp": 5.0,
       "RegenTime": 60.0,
-      "SkeletonDataIDs": [
-        "wood_1_SkeletonData",
-        "wood_2_SkeletonData"
-      ],
-      "DropItemId": 400200
+      "SkeletonDataID": "forest_mine_1_SkeletonData",
+      "DropItemId": 80002,
+      "SpriteName": "forest_mine_1.sprite",
+      "EnvType": 1
+    },
+    {
+      "DataId": 301001,
+      "DescriptionTextID": "forest_mine2_desc",
+      "PrefabLabel": "GatherablePrefab",
+      "MaxHp": 5.0,
+      "RegenTime": 60.0,
+      "SkeletonDataID": "forest_mine_2_SkeletonData",
+      "DropItemId": 80002,
+      "SpriteName": "forest_mine_2.sprite",
+      "EnvType": 1
+    },
+    {
+      "DataId": 301002,
+      "DescriptionTextID": "forest_mine3_desc",
+      "PrefabLabel": "GatherablePrefab",
+      "MaxHp": 5.0,
+      "RegenTime": 60.0,
+      "SkeletonDataID": "forest_mine_3_SkeletonData",
+      "DropItemId": 80002,
+      "SpriteName": "forest_mine_3.sprite",
+      "EnvType": 1
     }
   ]
 }

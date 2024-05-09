@@ -1,36 +1,36 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class TitleScene : BaseScene
 {
-    public override bool Init()
+    protected override bool Init()
     {
         if (base.Init() == false)
             return false;
+        
+        Debug.Log("hi");
 
-        SceneType = Define.EScene.TitleScene;
 
-        //StartLoadAssets();
+
+        //TitleUI
+
 
         return true;
     }
 
-    void StartLoadAssets()
+    private void Awake()
     {
-        Managers.Resource.LoadAllAsync<Object>("PreLoad", (key, count, totalCount) =>
-        {
-            Debug.Log($"{key} {count}/{totalCount}");
-
-            if (count == totalCount)
-            {
-                //Managers.Data.Init();
-            }
-        });
+        SceneType = Define.EScene.TitleScene;
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
+        Application.targetFrameRate = 60;
+        QualitySettings.vSyncCount = 0;  
+        GraphicsSettings.transparencySortMode = TransparencySortMode.CustomAxis;
+        GraphicsSettings.transparencySortAxis = new Vector3(0.0f, 1.0f, 0.0f);
     }
 
     public override void Clear()
     {
 
     }
+
 }

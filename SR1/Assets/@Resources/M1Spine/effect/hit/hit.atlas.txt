@@ -1,0 +1,17 @@
+hit.png
+size:552,188
+filter:Linear,Linear
+pma:true
+hit_1
+bounds:422,3,48,40
+offsets:3,3,54,46
+hit_2
+bounds:422,46,138,125
+offsets:3,3,144,131
+rotate:90
+hit_3
+bounds:235,5,184,179
+offsets:4,3,192,186
+hit_4
+bounds:3,22,229,162
+offsets:4,3,236,169

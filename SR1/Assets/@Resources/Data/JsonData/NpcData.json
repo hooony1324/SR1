@@ -1,0 +1,169 @@
+{
+  "creatures": [
+    {
+      "DataId": 500001,
+      "Name": "챕터1캠프",
+      "DescriptionTextID": null,
+      "NpcType": 2,
+      "PrefabLabel": "NpcPrefab",
+      "IconSpriteName": "npc_camp_base.sprite",
+      "SkeletonDataID": "npc_camp_SkeletonData",
+      "QuestDataId": 0,
+      "QuestTaskDataId": 0
+    },
+    {
+      "DataId": 500002,
+      "Name": "챕터1포탈",
+      "DescriptionTextID": null,
+      "NpcType": 3,
+      "PrefabLabel": "NpcPrefab",
+      "IconSpriteName": "portal_a_effect_1.sprite",
+      "SkeletonDataID": "npc_portal_2_SkeletonData",
+      "QuestDataId": 0,
+      "QuestTaskDataId": 0
+    },
+    {
+      "DataId": 500003,
+      "Name": "챕터1웨이포인트",
+      "DescriptionTextID": null,
+      "NpcType": 4,
+      "PrefabLabel": "NpcPrefab",
+      "IconSpriteName": "potal_body.sprite",
+      "SkeletonDataID": "npc_portal_1_SkeletonData",
+      "QuestDataId": 0,
+      "QuestTaskDataId": 0
+    },
+    {
+      "DataId": 500004,
+      "Name": "챕터1대장간",
+      "DescriptionTextID": null,
+      "NpcType": 5,
+      "PrefabLabel": "NpcPrefab",
+      "IconSpriteName": "smith_body.sprite",
+      "SkeletonDataID": "npc_smith_SkeletonData",
+      "QuestDataId": 80004,
+      "QuestTaskDataId": 0
+    },
+    {
+      "DataId": 500005,
+      "Name": "챕터1훈련소",
+      "DescriptionTextID": null,
+      "NpcType": 6,
+      "PrefabLabel": "NpcPrefab",
+      "IconSpriteName": "npc_training_head.sprite",
+      "SkeletonDataID": "npc_training_SkeletonData",
+      "QuestDataId": 0,
+      "QuestTaskDataId": 0
+    },
+    {
+      "DataId": 500006,
+      "Name": "보물상자",
+      "DescriptionTextID": null,
+      "NpcType": 7,
+      "PrefabLabel": "NpcPrefab",
+      "IconSpriteName": "treasure_temp.sprite",
+      "SkeletonDataID": "npc_training_SkeletonData",
+      "QuestDataId": 0,
+      "QuestTaskDataId": 0
+    },
+    {
+      "DataId": 500007,
+      "Name": "던전",
+      "DescriptionTextID": null,
+      "NpcType": 8,
+      "PrefabLabel": "NpcPrefab",
+      "IconSpriteName": "dungeon_temp.sprite",
+      "SkeletonDataID": "npc_dungeon_gate_SkeletonData",
+      "QuestDataId": 7,
+      "QuestTaskDataId": 0
+    },
+    {
+      "DataId": 500008,
+      "Name": "Chloe",
+      "DescriptionTextID": null,
+      "NpcType": 8,
+      "PrefabLabel": "NpcPrefab",
+      "IconSpriteName": "npc_chloe.sprite",
+      "SkeletonDataID": "npc_chloe_SkeletonData",
+      "QuestDataId": 8,
+      "QuestTaskDataId": 2
+    },
+    {
+      "DataId": 500009,
+      "Name": "저금통",
+      "DescriptionTextID": null,
+      "NpcType": 9,
+      "PrefabLabel": "NpcPrefab",
+      "IconSpriteName": "coin_storage_temp.sprite",
+      "SkeletonDataID": "npc_storages_coin_SkeletonData",
+      "QuestDataId": 0,
+      "QuestTaskDataId": 0
+    },
+    {
+      "DataId": 500010,
+      "Name": "벌목소",
+      "DescriptionTextID": null,
+      "NpcType": 10,
+      "PrefabLabel": "NpcPrefab",
+      "IconSpriteName": "wood_storage_temp.sprite",
+      "SkeletonDataID": "npc_storages_wood_SkeletonData",
+      "QuestDataId": 0,
+      "QuestTaskDataId": 0
+    },
+    {
+      "DataId": 500011,
+      "Name": "광산",
+      "DescriptionTextID": null,
+      "NpcType": 11,
+      "PrefabLabel": "NpcPrefab",
+      "IconSpriteName": "mine_temp.sprite",
+      "SkeletonDataID": "npc_storages_mine_SkeletonData",
+      "QuestDataId": 0,
+      "QuestTaskDataId": 0
+    },
+    {
+      "DataId": 500012,
+      "Name": "교환소",
+      "DescriptionTextID": null,
+      "NpcType": 12,
+      "PrefabLabel": "NpcPrefab",
+      "IconSpriteName": "exchange_temp.sprite",
+      "SkeletonDataID": "npc_merchant_SkeletonData",
+      "QuestDataId": 80005,
+      "QuestTaskDataId": 0
+    },
+    {
+      "DataId": 500013,
+      "Name": "룬스톤",
+      "DescriptionTextID": null,
+      "NpcType": 13,
+      "PrefabLabel": "NpcPrefab",
+      "IconSpriteName": "npc_rune_stone.sprite",
+      "SkeletonDataID": "npc_run_stone_SkeletonData",
+      "QuestDataId": 0,
+      "QuestTaskDataId": 0
+    },
+    {
+      "DataId": 500014,
+      "Name": "Sam",
+      "DescriptionTextID": null,
+      "NpcType": 8,
+      "PrefabLabel": "NpcPrefab",
+      "IconSpriteName": "001.Sam.sprite",
+      "SkeletonDataID": "npc_sam_SkeletonData",
+      "QuestDataId": 8,
+      "QuestTaskDataId": 4
+    },
+    {
+      "DataId": 500015,
+      "Name": "Luke",
+      "DescriptionTextID": null,
+      "NpcType": 8,
+      "PrefabLabel": "NpcPrefab",
+      "IconSpriteName": "002.Luke.sprite",
+      "SkeletonDataID": "npc_luke_SkeletonData",
+      "QuestDataId": 8,
+      "QuestTaskDataId": 5
+    }
+  ]
+}

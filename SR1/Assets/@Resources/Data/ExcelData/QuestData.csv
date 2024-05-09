@@ -1,0 +1,13 @@
+﻿DataId,Name,QuestPeriodType,QuestTask.TemplateId,DescriptionTextId,QuestTask.ObjectiveType,QuestTask.ObjectiveIcon,QuestTask.ObjectiveDataId,QuestTask.Count,Reward.RewardType,Reward.RewardDataId,Reward.Count,Reward.Icon
+1,몬스터죽이기,Daily,0,KilledMonsterDescription,KillMonster,,0,3,DailyScore,0,10,ui_099
+2,몬스터죽이기,Weekly,0,KilledMonsterDescription,KillMonster,,0,10,WeeklyScore,0,10,ui_099
+3,골드모으기,Daily,0,EarnedGoldObjectiveDescription,EarnMeat,Meat,0,10,DailyScore,0,10,ui_099
+4,골드모으기,Daily,0,EarnedGoldObjectiveDescription,EarnMeat,Meat,0,100,DailyScore,0,10,ui_099
+5,식량모으기,Daily,0,EarnedMeatObjectiveDescription,EarnMeat,Meat,0,10,DailyScore,0,20,ui_099
+6,식량모으기,Daily,0,EarnedMeatObjectiveDescription,EarnMeat,Meat,0,20,DailyScore,0,10,ui_099
+7,던전클리어,Once,0,dungeon,ClearDungeon,,0,1,Gold,0,100,Gold
+8,메인퀘스트,Once,1,거미 5마리 죽이기,KillMonster,spider_common.sprite,202009,5,Gold,0,30,Gold
+,,,2,클로이 누르기,Click,007.Chloe,0,1,Hero,201007,1,007.Chloe
+,,,3,나무 3개 획득,EarnWood,Object_Firewood,0,3,Mineral,0,10,Mineral
+,,,4,샘 누르기,Click,001.Sam,0,1,Hero,201001,1,001.Sam
+,,,5,루크 누르기,Click,002.Luke.sprite,0,1,Hero,201002,1,002.Luke.sprite

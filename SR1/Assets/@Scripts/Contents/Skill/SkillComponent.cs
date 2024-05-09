@@ -1,88 +1,143 @@
-using Data;
 using System;
-using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using static Define;
-using Random = UnityEngine.Random;
 
-public class SkillComponent : InitBase
+public class SkillComponent : MonoBehaviour
 {
-    public List<SkillBase> SkillList { get; } = new List<SkillBase>();
-    public List<SkillBase> ActiveSkills { get; set; } = new List<SkillBase>();
+    [SerializeField] private List<SkillBase> _skillList = new List<SkillBase>();
 
-    public SkillBase DefaultSkill { get; private set; }
-    public SkillBase EnvSkill { get; private set; }
-    public SkillBase ASkill { get; private set; }
-    public SkillBase BSkill { get; private set; }
+    public List<SkillBase> SkillList
+    {
+        get { return _skillList; }
+    }
 
-    public SkillBase CurrentSkill
+    [SerializeField] public List<SkillBase> ReadySkills = new List<SkillBase>();
+
+    public SkillBase _defaultSkill;
+    public SkillBase DefaultSkill 
     {
         get
         {
-            if (ActiveSkills.Count == 0)
-                return DefaultSkill;
+            //평타로 스킬이 나가는경우
+            if (ASkill != null && _defaultSkill.SkillData.TempleteId == ASkill.SkillData.TempleteId)
+            {
+                return ASkill;
+            }
 
-            int randomIndex = Random.Range(0, ActiveSkills.Count);
-            return ActiveSkills[randomIndex];
+            return _defaultSkill;
         }
+        private set => _defaultSkill = value;
+    }
+    public SkillBase EnvSkill { get; private set; } //Gathering
+    public SkillBase ASkill { get; private set; }
+    public SkillBase BSkill { get; private set; }
+    public SkillBase CurrentSkill;
+    public Creature _owner;
+
+    public void Awake()
+    {
+        _owner = GetComponent<Creature>();
     }
 
-    Creature _owner;
-
-    public override bool Init()
+    public void AddSkill(int skillId, ESkillSlot skillSlot)
     {
-        if (base.Init() == false)
-            return false;
-
-        return true;
-    }
-
-    public void SetInfo(Creature owner, CreatureData creatureData)
-    {
-        _owner = owner;
-
-        AddSkill(creatureData.DefaultSkillId, ESkillSlot.Default);
-        AddSkill(creatureData.EnvSkillId, ESkillSlot.Env);
-        AddSkill(creatureData.SkillAId, ESkillSlot.A);
-        AddSkill(creatureData.SkillBId, ESkillSlot.B);
-    }
-
-    public void AddSkill(int skillTemplateID, Define.ESkillSlot skillSlot)
-    {
-        if (skillTemplateID == 0)
+        if (skillId == 0)
             return;
 
-        if (Managers.Data.SkillDic.TryGetValue(skillTemplateID, out var data) == false)
-        {
-            Debug.LogWarning($"AddSkill Failed {skillTemplateID}");
-            return;
-        }
+        string className = Managers.Data.SkillDic[skillId].ClassName;
+        SkillBase skill = gameObject.AddComponent(Type.GetType(className)) as SkillBase;
 
-        SkillBase skill = gameObject.AddComponent(Type.GetType(data.ClassName)) as SkillBase;
-        if (skill == null)
+        if (!skill)
             return;
 
-        skill.SetInfo(_owner, skillTemplateID);
-
+        skill.SetInfo(skillId);
         SkillList.Add(skill);
 
         switch (skillSlot)
         {
-            case Define.ESkillSlot.Default:
+            case ESkillSlot.Default:
                 DefaultSkill = skill;
                 break;
-            case Define.ESkillSlot.Env:
+            case ESkillSlot.Env:
                 EnvSkill = skill;
                 break;
-            case Define.ESkillSlot.A:
+            case ESkillSlot.A:
                 ASkill = skill;
-                ActiveSkills.Add(skill);
+                AddReadySkill(skill);
                 break;
-            case Define.ESkillSlot.B:
+            case ESkillSlot.B:
                 BSkill = skill;
-                ActiveSkills.Add(skill);
+                AddReadySkill(skill);
                 break;
         }
+    }
+
+    public void UpdateSkill(int skillId, ESkillSlot skillSlot)
+    {
+        if (skillId == 0)
+            return;
+        switch (skillSlot)
+        {
+            case ESkillSlot.Default:
+                SkillList.Remove(DefaultSkill);
+                ReadySkills.Remove(DefaultSkill);
+                break;
+            case ESkillSlot.Env:
+                SkillList.Remove(EnvSkill);
+                ReadySkills.Remove(EnvSkill);
+                break;
+            case ESkillSlot.A:
+                SkillList.Remove(ASkill);
+                ReadySkills.Remove(ASkill);
+                break;
+            case ESkillSlot.B:
+                SkillList.Remove(BSkill);
+                ReadySkills.Remove(BSkill);
+                break;
+        }
+
+        string className = Managers.Data.SkillDic[skillId].ClassName;
+        SkillBase skill = gameObject.GetComponent(Type.GetType(className)) as SkillBase;
+        Destroy(skill);
+
+        AddSkill(skillId, skillSlot);
+    }
+
+    private void AddReadySkill(SkillBase skill)
+    {
+        if (skill.SkillType != ESkillType.PassiveSkill)
+        {
+            ReadySkills.Add(skill);
+        }
+    }
+
+    public SkillBase GetReadySkill()
+    {
+        if (_owner.Target.IsValid())
+        {
+            if (_owner.Target.ObjectType == EObjectType.Env)
+                return EnvSkill;
+        }
+
+        if (ReadySkills.Count == 0)
+        {
+            return DefaultSkill;
+        }
+        SkillBase skill = ReadySkills.FirstOrDefault();
+        if (skill != null)
+         return ReadySkills.FirstOrDefault();
+
+        return DefaultSkill;
+    }
+
+    public void Clear()
+    {
+        ReadySkills.Clear();
+        if (ASkill != null)
+            ASkill.Clear();
+        if (BSkill != null)
+            BSkill.Clear();
     }
 }

@@ -1,0 +1,304 @@
+{
+  "heroInfo": [
+    {
+      "templateId": 201001,
+      "NameTextId": "SamName",
+      "DescriptionTextId": "SamDescription",
+      "Rarity": "SR",
+      "GachaSpawnWeight": 3.0,
+      "GachaWeight": 3.0,
+      "GachaExpCount": 10,
+      "IconImage": "001.Sam"
+    },
+    {
+      "templateId": 201002,
+      "NameTextId": "LukeName",
+      "DescriptionTextId": "LukeDescription",
+      "Rarity": "SR",
+      "GachaSpawnWeight": 3.0,
+      "GachaWeight": 3.0,
+      "GachaExpCount": 10,
+      "IconImage": "002.Luke"
+    },
+    {
+      "templateId": 201003,
+      "NameTextId": "DukName",
+      "DescriptionTextId": "DukDescription",
+      "Rarity": "R",
+      "GachaSpawnWeight": 9.0,
+      "GachaWeight": 9.0,
+      "GachaExpCount": 10,
+      "IconImage": "003.Duk"
+    },
+    {
+      "templateId": 201004,
+      "NameTextId": "TomName",
+      "DescriptionTextId": "TomDescription",
+      "Rarity": "R",
+      "GachaSpawnWeight": 9.0,
+      "GachaWeight": 9.0,
+      "GachaExpCount": 10,
+      "IconImage": "004.Tom"
+    },
+    {
+      "templateId": 201005,
+      "NameTextId": "MarieName",
+      "DescriptionTextId": "MarieDescription",
+      "Rarity": "R",
+      "GachaSpawnWeight": 9.0,
+      "GachaWeight": 9.0,
+      "GachaExpCount": 10,
+      "IconImage": "005.Marie"
+    },
+    {
+      "templateId": 201006,
+      "NameTextId": "RookieName",
+      "DescriptionTextId": "RookieDescription",
+      "Rarity": "R",
+      "GachaSpawnWeight": 9.0,
+      "GachaWeight": 9.0,
+      "GachaExpCount": 10,
+      "IconImage": "006.Rookie"
+    },
+    {
+      "templateId": 201007,
+      "NameTextId": "ChloeName",
+      "DescriptionTextId": "ChloeDescription",
+      "Rarity": "R",
+      "GachaSpawnWeight": 9.0,
+      "GachaWeight": 9.0,
+      "GachaExpCount": 10,
+      "IconImage": "007.Chloe"
+    },
+    {
+      "templateId": 201008,
+      "NameTextId": "AndreName",
+      "DescriptionTextId": "AndreDescription",
+      "Rarity": "SR",
+      "GachaSpawnWeight": 3.0,
+      "GachaWeight": 3.0,
+      "GachaExpCount": 10,
+      "IconImage": "008.Andre"
+    },
+    {
+      "templateId": 201009,
+      "NameTextId": "LaraName",
+      "DescriptionTextId": "LaraDescription",
+      "Rarity": "SR",
+      "GachaSpawnWeight": 3.0,
+      "GachaWeight": 3.0,
+      "GachaExpCount": 10,
+      "IconImage": "009.Lara"
+    },
+    {
+      "templateId": 201010,
+      "NameTextId": "MichelleName",
+      "DescriptionTextId": "MichelleDescription",
+      "Rarity": "SR",
+      "GachaSpawnWeight": 3.0,
+      "GachaWeight": 3.0,
+      "GachaExpCount": 10,
+      "IconImage": "010.Michelle"
+    },
+    {
+      "templateId": 201011,
+      "NameTextId": "YulieName",
+      "DescriptionTextId": "YulieDescription",
+      "Rarity": "SR",
+      "GachaSpawnWeight": 3.0,
+      "GachaWeight": 3.0,
+      "GachaExpCount": 10,
+      "IconImage": "011.Yulie"
+    },
+    {
+      "templateId": 201012,
+      "NameTextId": "StormName",
+      "DescriptionTextId": "StormDescription",
+      "Rarity": "SR",
+      "GachaSpawnWeight": 3.0,
+      "GachaWeight": 3.0,
+      "GachaExpCount": 10,
+      "IconImage": "012.Storm"
+    },
+    {
+      "templateId": 201013,
+      "NameTextId": "EllieName",
+      "DescriptionTextId": "EllieDescription",
+      "Rarity": "SR",
+      "GachaSpawnWeight": 3.0,
+      "GachaWeight": 3.0,
+      "GachaExpCount": 10,
+      "IconImage": "013.Ellie"
+    },
+    {
+      "templateId": 201014,
+      "NameTextId": "LeonName",
+      "DescriptionTextId": "LeonDescription",
+      "Rarity": "SR",
+      "GachaSpawnWeight": 3.0,
+      "GachaWeight": 3.0,
+      "GachaExpCount": 10,
+      "IconImage": "014.Leon"
+    },
+    {
+      "templateId": 201015,
+      "NameTextId": "WaltName",
+      "DescriptionTextId": "WaltDescription",
+      "Rarity": "SR",
+      "GachaSpawnWeight": 3.0,
+      "GachaWeight": 3.0,
+      "GachaExpCount": 10,
+      "IconImage": "015.Walt"
+    },
+    {
+      "templateId": 201016,
+      "NameTextId": "XionName",
+      "DescriptionTextId": "XionDescription",
+      "Rarity": "SSR",
+      "GachaSpawnWeight": 1.0,
+      "GachaWeight": 1.0,
+      "GachaExpCount": 10,
+      "IconImage": "016.Xion"
+    },
+    {
+      "templateId": 201017,
+      "NameTextId": "AlexName",
+      "DescriptionTextId": "AlexDescription",
+      "Rarity": "SSR",
+      "GachaSpawnWeight": 1.0,
+      "GachaWeight": 1.0,
+      "GachaExpCount": 10,
+      "IconImage": "017.Alex"
+    },
+    {
+      "templateId": 201018,
+      "NameTextId": "LaurenName",
+      "DescriptionTextId": "LaurenDescription",
+      "Rarity": "SSR",
+      "GachaSpawnWeight": 1.0,
+      "GachaWeight": 1.0,
+      "GachaExpCount": 10,
+      "IconImage": "018.Lauren"
+    },
+    {
+      "templateId": 201019,
+      "NameTextId": "OwenName",
+      "DescriptionTextId": "OwenDescription",
+      "Rarity": "SSR",
+      "GachaSpawnWeight": 1.0,
+      "GachaWeight": 1.0,
+      "GachaExpCount": 10,
+      "IconImage": "019.Owen"
+    },
+    {
+      "templateId": 201020,
+      "NameTextId": "BellaName",
+      "DescriptionTextId": "BellaDescription",
+      "Rarity": "SSR",
+      "GachaSpawnWeight": 1.0,
+      "GachaWeight": 1.0,
+      "GachaExpCount": 10,
+      "IconImage": "020.Bella"
+    },
+    {
+      "templateId": 201021,
+      "NameTextId": "BettyName",
+      "DescriptionTextId": "BettyDescription",
+      "Rarity": "SSR",
+      "GachaSpawnWeight": 1.0,
+      "GachaWeight": 1.0,
+      "GachaExpCount": 10,
+      "IconImage": "021.Betty"
+    },
+    {
+      "templateId": 201022,
+      "NameTextId": "ValakName",
+      "DescriptionTextId": "ValakDescription",
+      "Rarity": "SSR",
+      "GachaSpawnWeight": 1.0,
+      "GachaWeight": 1.0,
+      "GachaExpCount": 10,
+      "IconImage": "022.Valak"
+    },
+    {
+      "templateId": 201023,
+      "NameTextId": "VanessaName",
+      "DescriptionTextId": "VanessaDescription",
+      "Rarity": "SSR",
+      "GachaSpawnWeight": 1.0,
+      "GachaWeight": 1.0,
+      "GachaExpCount": 10,
+      "IconImage": "023.Vanessa"
+    },
+    {
+      "templateId": 201024,
+      "NameTextId": "AranName",
+      "DescriptionTextId": "AranDescription",
+      "Rarity": "SSR",
+      "GachaSpawnWeight": 1.0,
+      "GachaWeight": 1.0,
+      "GachaExpCount": 10,
+      "IconImage": "024.Aran"
+    },
+    {
+      "templateId": 201025,
+      "NameTextId": "SylviaName",
+      "DescriptionTextId": "SylviaDescription",
+      "Rarity": "SSR",
+      "GachaSpawnWeight": 1.0,
+      "GachaWeight": 1.0,
+      "GachaExpCount": 10,
+      "IconImage": "025.Sylvia"
+    },
+    {
+      "templateId": 201026,
+      "NameTextId": "HardyName",
+      "DescriptionTextId": "HardyDescription",
+      "Rarity": "SSR",
+      "GachaSpawnWeight": 1.0,
+      "GachaWeight": 1.0,
+      "GachaExpCount": 10,
+      "IconImage": "026.Hardy"
+    },
+    {
+      "templateId": 201027,
+      "NameTextId": "LouisName",
+      "DescriptionTextId": "LouisDescription",
+      "Rarity": "SSR",
+      "GachaSpawnWeight": 1.0,
+      "GachaWeight": 1.0,
+      "GachaExpCount": 10,
+      "IconImage": "027.Louis"
+    },
+    {
+      "templateId": 201028,
+      "NameTextId": "LucyName",
+      "DescriptionTextId": "LucyDescription",
+      "Rarity": "SSR",
+      "GachaSpawnWeight": 1.0,
+      "GachaWeight": 1.0,
+      "GachaExpCount": 10,
+      "IconImage": "028.Lucy"
+    },
+    {
+      "templateId": 201029,
+      "NameTextId": "KyleName",
+      "DescriptionTextId": "KyleDescription",
+      "Rarity": "SSR",
+      "GachaSpawnWeight": 1.0,
+      "GachaWeight": 1.0,
+      "GachaExpCount": 10,
+      "IconImage": "029.Kyle"
+    },
+    {
+      "templateId": 201030,
+      "NameTextId": "KunName",
+      "DescriptionTextId": "KunDescription",
+      "Rarity": "SSR",
+      "GachaSpawnWeight": 1.0,
+      "GachaWeight": 1.0,
+      "GachaExpCount": 10,
+      "IconImage": "002.sprite"
+    }
+  ]
+}

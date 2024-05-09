@@ -1,0 +1,697 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Sprite
+  m_EditorClassIdentifier: 
+  m_GroupName: Sprite
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6f4b6b38193da74488176a86b0d77b2e
+  m_SerializeEntries:
+  - m_GUID: 98746b0d00a325c4ca55d94a17e00adc
+    m_Address: wizard_shot.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f46d7c5c8e8d5f4bb2ef92e9d0c9d6f
+    m_Address: slime.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87be567af8c46254fab00cafb7eb3a37
+    m_Address: 020.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 653afb33924179340a3e2d914097552a
+    m_Address: npc_camp_base.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b091d80009718f24897584f5136a20da
+    m_Address: npc_training_head.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c90b8a7f4b779445a2e18c390cce1b4
+    m_Address: portal_a_effect_1.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75f02685dfae4494b96cce29ffb2f7a0
+    m_Address: potal_body.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9c923444bc264e47b6ecb55566121dd
+    m_Address: smith_body.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84ef727b2b4a0274484b46d1350e6250
+    m_Address: npc_chloe.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67f9f554aceb7e2449cf33fc7a090cb3
+    m_Address: dungeon_temp.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62e115938791dfc4393071c9f9189abf
+    m_Address: Gold.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5201c0f85a1da44eaf197ef471f86b5
+    m_Address: Mineral.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0a4ef7a491becd4d9e837f55bf9dd8b
+    m_Address: Meat.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18dab06980d010544adbf509e68ca392
+    m_Address: 001.Sam.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b04a63938dab67f4990780aaa28f6ae4
+    m_Address: 002.Luke.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 986de2859772bfe43875ea0eb730401b
+    m_Address: 003.Duk.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 978e02dc83b88db4eb0b34f5ef24a24b
+    m_Address: 004.Tom.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 515c012de08d74744ab13ea6ad49b8ba
+    m_Address: 005.Marie.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 929a4b231ee077947996e1f31275e10d
+    m_Address: 006.Rookie.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e9e34ccc322fb640a5c063cf0fedfbb
+    m_Address: 007.Chloe.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f75077c3b0b53dc459a9d0d3b15f52e6
+    m_Address: 008.Andre.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca3960db96ace4f43a9d905924e0e850
+    m_Address: 009.Lara.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00f583cb2b3907a4aaaa016b2212d619
+    m_Address: 010.Michelle.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08f63a1c7e632d04592c67e3ce537a97
+    m_Address: 011.Yulie.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70b1a30d783f05c4fba4264875cad72c
+    m_Address: 012.Storm.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c73ee274f6ec604da20a654d6e6f000
+    m_Address: 013.Ellie.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70d217b41122804439ff7fc03502af48
+    m_Address: 014.Leon.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c748951e2ef257498bdc2002de7b1a8
+    m_Address: 015.Walt.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5944d11432e29134e89c92497c5c77f2
+    m_Address: 016.Xion.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 060a038738f478144895b7567e762f9f
+    m_Address: 017.Alex.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8da5ee50ddc32d46ac96c9eaefb0f1c
+    m_Address: 018.Lauren.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac421decba7330e47b1535a9fd6d66cb
+    m_Address: 019.Owen.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0690c89856c85cc45a0dbf276643813e
+    m_Address: 020.Bella.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da1da82df871b1145919ecfb9522a47f
+    m_Address: 021.Betty.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c1e762b87789c04ab72eefbfd19eac9
+    m_Address: 022.Valak.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1be6086eb941484a9ccb1c7874fec42
+    m_Address: 023.Vanessa.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7051dbfaa464df40b270b8092c92a77
+    m_Address: 024.Aran.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0a6c82cb9f2b97479cc01b8bf7cb521
+    m_Address: 025.Sylvia.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d10a9781a18a4aa47ae7403c2f07b285
+    m_Address: 026.Hardy.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0de6a48f37c4d854590ff12ec0daf173
+    m_Address: 027.Louis.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78949e9bed6238d4e8ad8130d1bbc45b
+    m_Address: 028.Lucy.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6f26885b3585a546a99cb49ebf31efa
+    m_Address: 029.Kyle.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aeabb6ee13d6308439ca3ef69928f689
+    m_Address: 030.Kun.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 102b5d2bc017d0b4db093773d9446502
+    m_Address: wood_storage_temp.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 867e83b6ccb27464a9eac58b024619c7
+    m_Address: mine_temp.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66127d87689e11c48a9e999639923cc5
+    m_Address: coin_storage_temp.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fe79731b5669c44eb5475d80cda9df2
+    m_Address: treasure_temp.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e25cb32d34cd964ca15cf6c6a47ac81
+    m_Address: npc_rune_stone.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2556139b5a352e34ea57f35d349ba985
+    m_Address: rune_pink_2.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28a8c7515d6319c4da57de67a717a067
+    m_Address: rune_red_2.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c70ff9a7cd8bdac4f9de8bd83e6c8587
+    m_Address: rune_yellow_4.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f437d797a154c44fb99454db4239065
+    m_Address: rune_pink_3.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95db98dfc3605314abc2d5c399370d07
+    m_Address: rune_mint_3.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98a66f71ebf708d4788125d5f8d61372
+    m_Address: rune_yellow_3.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b679e7dfc6102d44d8be9b33a7e3ef8e
+    m_Address: rune_red_3.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98e6a315cd2170f4f9937a028c31b3e6
+    m_Address: rune_red_1.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f672419fb63d6c14099ccea8706762a9
+    m_Address: rune_mint_4.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 675ff91bc6509cd4880076315c8ff488
+    m_Address: rune_red_4.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fce2e616cb71b984cb99987f667e6827
+    m_Address: rune_yellow_1.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6288786d065c38d48969d32ced9df374
+    m_Address: rune_mint_2.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e01a1de3f51c754c9b5df08d65fe729
+    m_Address: rune_pink_4.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be9ddf634bb6db4488ddf873e162d886
+    m_Address: rune_mint_1.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac98c777cf620254bb81750670a3b76e
+    m_Address: rune_yellow_2.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 955e6e10fbb28264987b3127645d644e
+    m_Address: rune_pink_1.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: caed27a388029ff45a94f1623d55658d
+    m_Address: red_currency.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bec4f19f87f673543b442c3eea0f9002
+    m_Address: ui_181.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f7245cb42d67c14f863b55e7961d64a
+    m_Address: ui_280.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35762f4fb22c86447a91e032430a08fa
+    m_Address: ui_302.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b765c393b527bba4098e9776fafa1eef
+    m_Address: ui_350.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0b3a986bf6a3c34b9b1fbccf184b939
+    m_Address: ui_352.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c86cdf1339ba664994961ecdd4589da
+    m_Address: ui_353.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb3c02984c814f4439f2632b99b4cd21
+    m_Address: ui_459.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f2e86e0071f0704bb084d5daa99b7df
+    m_Address: ui_460.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc3146a347818bc45a9d293c32669bc8
+    m_Address: goblin_shot.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cae1ace8ca13b62499e94d07d6827f40
+    m_Address: ui_099.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96b5199d73d27d44b989e90ba727574f
+    m_Address: bee_shot.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b84e434f50b47294eaebd8c2be0797ee
+    m_Address: bear.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f0858d0faacd134ca21d15b4917f864
+    m_Address: wood_rare.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccf27970b254d26448b34bd4a882311d
+    m_Address: wood_common.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab32e88fa391b4044ab76edc4d97b8dd
+    m_Address: frog_boss.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08fc7c426f6442946aac82b20a4fdb1d
+    m_Address: bee_rare.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edde45f76d73e504eac1b0cb704b8c87
+    m_Address: bee_common.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 721038155c7f7194daaa8e797bbe3fe9
+    m_Address: frog_common.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b21ad71a3c677994fa4f41c7e4dcf6c5
+    m_Address: spider_rare.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c37588462a5ea2c4d856d434bdf1ef28
+    m_Address: spider_common.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bd0ae4e5272e834284e4e0e1d826395
+    m_Address: goblin.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80a62f52ea64bba4e9f59cff975b5056
+    m_Address: woodman.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 694a69c9c660333439ee8f5e3cd48442
+    m_Address: flower_boss.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f61685b216de2744bbacf13f390f08ff
+    m_Address: chicken.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 801f0ba28c68d8947bcb823b0e6b0dc7
+    m_Address: farm_ghost_common.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 390d00c2aa3701043a221086a171ffc1
+    m_Address: farm_ghost_rare.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 136018e580685c64b85338a7aa2f7192
+    m_Address: farm_jinn_boss.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fca6982a9b594164ea3b0e38de8a277f
+    m_Address: form_jinn.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c7c017ea9849224b8b829a7a08dab8e
+    m_Address: form_jinn_rare.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c368bd3c8b1e4ee4baba65faca075042
+    m_Address: scarecrow.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0ad2ace22061754b98154ae25e51254
+    m_Address: scarecrow_boss.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9af8a23bc29e734db92a25ad851e01e
+    m_Address: warm_common.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b347b924e09dca4b8d3cfaf0bd54835
+    m_Address: whildboar.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14d9191661451dc42b612a1df66fcb40
+    m_Address: wild boar_boss.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3cd4725e7ba5824eb11c03e2fe1e538
+    m_Address: wild_boar.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2118a8bad3e089b4dbf3b3665c539041
+    m_Address: gr_icon_cristal.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35e3c36d518e74342bdc3018c506dc5f
+    m_Address: gr_icon_meats.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e088f7a0bc20094a98b5ccc94432fb0
+    m_Address: gr_icon_wood.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3817340141d0075459bf7a5a6ded540e
+    m_Address: Common_Icon_Coin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0150c16fe1488494bbc89fbbca3292b7
+    m_Address: RareItemFrame.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32778379a2b93634db832ba3e0380bee
+    m_Address: RareItemSlot.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f112cdf1250ade9428ccb798cec3066a
+    m_Address: EpicItemSlot.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 138b4a62eb508d34cbe4b554505e6459
+    m_Address: EpicItemFrame.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af561df00afa3e44c9f1d3736d783bd9
+    m_Address: LegendaryItemSlot.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85e5fd0a91696564a8f93dfc7c683a60
+    m_Address: LegendaryItemFrame.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15dbdd041fd93ee4a9bf669bcfb0f461
+    m_Address: NormalItemSlot.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5d0929ff89c92c419f4e4f60f7d027c
+    m_Address: NormalItemFrame.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 44a2531e51a56944598bc231451ecb34, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 49d8bb66a53757c4584b701123ce85ac, type: 2}
+    - {fileID: 11400000, guid: df7f20d7650b04948a08ff262164611a, type: 2}

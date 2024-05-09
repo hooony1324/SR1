@@ -1,26 +1,29 @@
-using System;
-using Data;
-using UnityEngine;
 using static Define;
 
 public class BuffBase : EffectBase
 {
-	public override bool Init()
+    public override void ApplyEffect()
     {
-        if (base.Init() == false)
-            return false;
-
-        EffectType = EEffectType.Buff;
-        return true;
+        base.ApplyEffect();
+        if (EffectType == EEffectType.Instant)
+        {
+            ClearEffect(EEffectClearType.Disable);
+        }
+        else if (EffectType == EEffectType.Infinite)
+        {
+            Remains = float.MaxValue;
+        }
+        else
+        {
+            StartCoroutine(StartTimer());
+        }
+        Owner.CalculateStat();
     }
 
-    public override void SetInfo(int templateID, Creature owner, EEffectSpawnType spawnType, SkillBase skill)
+    public override bool ClearEffect(EEffectClearType clearType)
     {
-        base.SetInfo(templateID, owner, spawnType, skill);
-
-        if (EffectData.Amount < 0 || EffectData.PercentAdd < 0)
-        {
-            EffectType = EEffectType.Debuff;
-        }
+        base.ClearEffect(clearType);
+        Owner.CalculateStat();
+        return true;
     }
 }

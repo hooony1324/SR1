@@ -1,0 +1,2 @@
+﻿DataId,DescriptionTextID,SpriteName,Name,GroupType,Type,SubType,Grade,MaxStack,Value,Cooltime
+43001,MaterialsTextID,wizard_shot.sprite,TestPotionID,Consumable,Potion,HealthPotion,Normal,10,3.5,2

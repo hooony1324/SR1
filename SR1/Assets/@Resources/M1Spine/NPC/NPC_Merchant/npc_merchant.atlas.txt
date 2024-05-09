@@ -1,0 +1,10 @@
+npc_merchant.png
+size:512,512
+filter:Linear,Linear
+pma:true
+merchant
+bounds:2,41,264,313
+offsets:3,3,270,319
+shadow
+bounds:2,2,111,37
+offsets:2,2,115,41

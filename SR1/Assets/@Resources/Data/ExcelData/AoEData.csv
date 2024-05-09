@@ -1,22 +1,34 @@
-﻿DataId,Name,ClassName,SkeletonDataId,SoundLabel,Duration,alleyEffects,EnemyEffects,AnimName
-80001,맹독확산1 AOE,PoisonSpreadAoE,loren_skill_1_SkeletonData,,5,,60006,idle
-80002,맹독확산2 AOE,PoisonSpreadAoE,loren_skill_1_SkeletonData,,5,,60007,idle
-80003,맹독확산3 AOE,PoisonSpreadAoE,loren_skill_1_SkeletonData,,5,,60008,idle
-80004,냉기확산1 AOE,ColdSpreadAoE,loren_skill_2_SkeletonData,,0.5,,60009,idle
-80005,냉기확산2 AOE,ColdSpreadAoE,loren_skill_2_SkeletonData,,0.5,,60010,idle
-80006,냉기확산3 AOE,ColdSpreadAoE,loren_skill_2_SkeletonData,,0.5,,60011,idle
-80007,화염검 AOE,ConeShapeAoE,owen_skill_1_SkeletonData,,1,,60012,skill_a_small
-80008,화염검 AOE,ConeShapeAoE,owen_skill_1_SkeletonData,,1,,60013,skill_a_normal
-80009,화염검 AOE,ConeShapeAoE,owen_skill_1_SkeletonData,,1,,60014,skill_a_big
-80010,다중화염검 AOE,CircleShapeAoE,owen_skill_2_SkeletonData,,1,,,skill_b_small
-80011,다중화염검 AOE,CircleShapeAoE,owen_skill_2_SkeletonData,,1,,,skill_b_normal
-80012,다중화염검 AOE,CircleShapeAoE,owen_skill_2_SkeletonData,,1,,,skill_b_big
-80013,인형의 난타 1,CircleShapeAoE,veti_skill_1_SkeletonData,,,,,skill_a_small
-80014,인형의 난타 2,CircleShapeAoE,veti_skill_1_SkeletonData,,,,,skill_a_normal
-80015,인형의 난타 3,CircleShapeAoE,veti_skill_1_SkeletonData,,,,,skill_a_big
-80016,인형의 브레스 1,ConeShapeAoE,owen_skill_1_SkeletonData,,,,60012,skill_a_small
-80017,인형의 브레스 2,ConeShapeAoE,owen_skill_1_SkeletonData,,,,60013,skill_a_normal
-80018,인형의 브레스 3,ConeShapeAoE,owen_skill_1_SkeletonData,,,,60014,skill_a_big
-80019,권법연타 AoE,CircleShapeAoE,veti_skill_1_SkeletonData,,,61001&61005,,skill_a_small
-80020,권법연타 AoE,CircleShapeAoE,veti_skill_1_SkeletonData,,,61001&61005,,skill_a_normal
-80021,권법연타 AoE,CircleShapeAoE,veti_skill_1_SkeletonData,,,61001&61005,,skill_a_big
+﻿DataId,Name,AoEType,SkeletonDataId,PrefabName,SoundLabel,Duration,alleyEffects,EnemyEffects,AnimName,FindRangeType
+80001,맹독확산1 AOE,CircleTrigger,loren_skill_1_SkeletonData,,,5,,60006,idle,Circle
+80002,맹독확산2 AOE,CircleTrigger,loren_skill_1_SkeletonData,,,5,,60007,idle,Circle
+80003,맹독확산3 AOE,CircleTrigger,loren_skill_1_SkeletonData,,,5,,60008,idle,Circle
+80004,냉기확산1 AOE,CircleShape,loren_skill_b_1_SkeletonData,,,0.5,,60009,idle,Circle
+80005,냉기확산2 AOE,CircleShape,loren_skill_b_1_SkeletonData,,,0.5,,60010,idle,Circle
+80006,냉기확산3 AOE,CircleShape,loren_skill_b_1_SkeletonData,,,0.5,,60011,idle,Circle
+80007,화염검 AOE,ConeShape,owen_skill_1_SkeletonData,,,1,,60012,skill_a_small,Cone
+80008,화염검 AOE,ConeShape,owen_skill_1_SkeletonData,,,1,,60013,skill_a_normal,Cone
+80009,화염검 AOE,ConeShape,owen_skill_1_SkeletonData,,,1,,60014,skill_a_big,Cone
+80010,다중화염검 AOE,CircleShape,owen_skill_2_SkeletonData,,,1,,60015,skill_b_small,Circle
+80011,다중화염검 AOE,CircleShape,owen_skill_2_SkeletonData,,,1,,60015,skill_b_normal,Circle
+80012,다중화염검 AOE,CircleShape,owen_skill_2_SkeletonData,,,1,,60015,skill_b_big,Circle
+80013,인형의 난타 1,CircleShape,veti_skill_1_SkeletonData,,,,,60015,skill_a_small,Circle
+80014,인형의 난타 2,CircleShape,veti_skill_1_SkeletonData,,,,,60015,skill_a_normal,Circle
+80015,인형의 난타 3,CircleShape,veti_skill_1_SkeletonData,,,,,60015,skill_a_big,Circle
+80016,인형의 브레스 1,ConeShape,owen_skill_1_SkeletonData,,,,,60012,skill_a_small,Cone
+80017,인형의 브레스 2,ConeShape,owen_skill_1_SkeletonData,,,,,60013,skill_a_normal,Cone
+80018,인형의 브레스 3,ConeShape,owen_skill_1_SkeletonData,,,,,60014,skill_a_big,Cone
+80019,권법연타 AoE,CircleShape,veti_skill_1_SkeletonData,,,,61001,,skill_a_small,Circle
+,,,,,,,61005,,,Circle
+80020,권법연타 AoE,CircleShape,veti_skill_1_SkeletonData,,,,61001,,skill_a_normal,Circle
+,,,,,,,61005,,,Circle
+80021,권법연타 AoE,CircleShape,veti_skill_1_SkeletonData,,,,61001,,skill_a_big,Circle
+,,,,,,,61005,,,Circle
+80022,파이어볼 AOE,CircleShape,smoke_01_SkeletonData,,,1,,60015,skill_a_small,Circle
+80023,파이어볼 AOE,CircleShape,smoke_01_SkeletonData,,,1,,60015,skill_a_normal,Circle
+80024,파이어볼 AOE,CircleShape,smoke_01_SkeletonData,,,1,,60015,skill_a_big,Circle
+80025,라이트닝(삭제예정),CircleShape,thunder_SkeletonData,,,1,,60015,skill_b_small,Single
+80026,라이트닝2,CircleShape,thunder_SkeletonData,,,1,,60015,skill_b_small,Single
+80027,라이트닝3,CircleShape,thunder_SkeletonData,,,1,,60015,skill_b_small,Single
+80028,라라 생명의 기운1,CircleShape,,lala_skill_b,,1,60033,,,Circle
+80029,라라 생명의기운2,CircleShape,,lala_skill_b,,1,60034,,,Circle
+80030,라라 생명의 기운3,CircleShape,,lala_skill_b,,1,60035,,,Circle

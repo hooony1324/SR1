@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Maps
+  m_EditorClassIdentifier: 
+  m_GroupName: Maps
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0c517b0f8bb51b24daf513c6dae54e71
+  m_SerializeEntries:
+  - m_GUID: 07b73353d523bf4438e1d5d952fd4e45
+    m_Address: 02_farm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    - Maps
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c08a6825a4ce19d4c847f71064310633
+    m_Address: 03_cemetery
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    - Maps
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b04c79c176664e4c846ab1be6a3daec
+    m_Address: 04_castle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    - Maps
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f3388876cbd2744c87537df7cc014cd
+    m_Address: 05_snow_mountain
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    - Maps
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59eab7a94d508de47bf55ef65550a9ec
+    m_Address: 06_volcano
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    - Maps
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74fb24409e6f06547b961b5e28d8cda9
+    m_Address: 01_forest
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    - Maps
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dca60970f84ebf4faf645048ad86e3d
+    m_Address: 00_dungeon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    - Maps
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2146205fe08c1c40a24c7150b416bdf
+    m_Address: 00_camp
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    - Maps
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 198194f47481b16408919b7a264e23a8
+    m_Address: DevMap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    - Maps
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7efcdbc9a9217fe4182a348d4c4c9471
+    m_Address: 07_desert
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    - Maps
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 396773e516048554884253ae5b2f33cc
+    m_Address: 08_jungle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    - Maps
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a40e413d750cdb44b0fe888fbf55284
+    m_Address: BaseMap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    - Maps
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 44a2531e51a56944598bc231451ecb34, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4ff2ec67154b3264792f8decbb66de93, type: 2}
+    - {fileID: 11400000, guid: a75d2b921a55a4843b5e31b697148fe5, type: 2}

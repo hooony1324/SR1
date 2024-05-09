@@ -1,0 +1,13 @@
+forest_mine_3.png
+size:512,512
+filter:Linear,Linear
+pma:true
+dead
+bounds:279,330,106,49
+offsets:48,33,202,165
+gr_forest_mine_3
+bounds:2,114,275,265
+offsets:18,20,306,297
+shadow
+bounds:2,2,260,110
+offsets:25,5,306,159

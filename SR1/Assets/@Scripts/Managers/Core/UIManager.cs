@@ -1,175 +1,242 @@
+﻿using DG.Tweening;
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static Define;
 
 public class UIManager
 {
-	private int _order = 10;
+    private int _pupupOrder = 100;
+    private int _toastOrder = 500;
 
-	private Stack<UI_Popup> _popupStack = new Stack<UI_Popup>();
+    private Stack<UI_Popup> _popupStack = new Stack<UI_Popup>();
+    private UI_Scene _sceneUI = null;
 
-	private UI_Scene _sceneUI = null;
-	public UI_Scene SceneUI
-	{
-		set { _sceneUI = value; }
-		get { return _sceneUI; }
-	}
+    //Toast
+    public bool isToastLoaded = false;
+    private static ToastUI _toastUI;
+    //
 
-	public GameObject Root
-	{
-		get
-		{
-			GameObject root = GameObject.Find("@UI_Root");
-			if (root == null)
-				root = new GameObject { name = "@UI_Root" };
-			return root;
-		}
-	}
+    public UI_Scene SceneUI
+    {
+        set => _sceneUI = value;
+        get => _sceneUI;
+    }
 
-	public void SetCanvas(GameObject go, bool sort = true, int sortOrder = 0)
-	{
-		Canvas canvas = Util.GetOrAddComponent<Canvas>(go);
-		if (canvas == null)
-		{
-			canvas.renderMode = RenderMode.ScreenSpaceOverlay;
-			canvas.overrideSorting = true;
-		}
+    private Dictionary<string, UI_Popup> _popups = new Dictionary<string, UI_Popup>();
 
-		CanvasScaler cs = go.GetOrAddComponent<CanvasScaler>();
-		if (cs != null)
-		{
-			cs.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-			cs.referenceResolution = new Vector2(1080, 1920);
-		}
+    public GameObject Root
+    {
+        get
+        {
+            GameObject root = GameObject.Find("@UI_Root");
+            if (root == null)
+                root = new GameObject { name = "@UI_Root" };
+            return root;
+        }
+    }
 
-		go.GetOrAddComponent<GraphicRaycaster>();
+    public void CacheAllPopups()
+    {
+        var list = AppDomain.CurrentDomain.GetAssemblies()
+            .SelectMany(assembly => assembly.GetTypes())
+            .Where(type => type.IsSubclassOf(typeof(UI_Popup)));
 
-		if (sort)
-		{
-			canvas.sortingOrder = _order;
-			_order++;
-		}
-		else
-		{
-			canvas.sortingOrder = sortOrder;
-		}
-	}
+        foreach (Type type in list)
+        {
+            CachePopupUI(type);
+        }
 
-	public T GetSceneUI<T>() where T : UI_Base
-	{
-		return _sceneUI as T;
-	}
+        // ShowPopupUI<UI_WaypointPopup>();
 
-	public T MakeWorldSpaceUI<T>(Transform parent = null, string name = null) where T : UI_Base
-	{
-		if (string.IsNullOrEmpty(name))
-			name = typeof(T).Name;
+        CloseAllPopupUI();
+    }
 
-		GameObject go = Managers.Resource.Instantiate($"{name}");
-		if (parent != null)
-			go.transform.SetParent(parent);
+    public Canvas SetCanvas(GameObject go, bool sort = true, int sortOrder = 0, bool isToast = false)
+    {
+        Canvas canvas = Util.GetOrAddComponent<Canvas>(go);
+        if (canvas != null)
+        {
+            canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+            canvas.overrideSorting = true;
+        }
 
-		Canvas canvas = go.GetOrAddComponent<Canvas>();
-		canvas.renderMode = RenderMode.WorldSpace;
-		canvas.worldCamera = Camera.main;
+        CanvasScaler cs = go.GetOrAddComponent<CanvasScaler>();
+        if (cs != null)
+        {
+            cs.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+            cs.referenceResolution = new Vector2(1440, 2960);
+        }
 
-		return Util.GetOrAddComponent<T>(go);
-	}
+        go.GetOrAddComponent<GraphicRaycaster>();
 
-	public T MakeSubItem<T>(Transform parent = null, string name = null, bool pooling = true) where T : UI_Base
-	{
-		if (string.IsNullOrEmpty(name))
-			name = typeof(T).Name;
+        if (sort)
+        {
+            canvas.sortingOrder = _pupupOrder;
+            _pupupOrder++;
+        }
 
-		GameObject go = Managers.Resource.Instantiate(name, parent, pooling);
-		go.transform.SetParent(parent);
+        if (isToast)
+        {
+            _toastOrder++;
+            canvas.sortingOrder = _toastOrder;
+        }
 
-		return Util.GetOrAddComponent<T>(go);
-	}
+        return canvas;
+    }
 
-	public T ShowBaseUI<T>(string name = null) where T : UI_Base
-	{
-		if (string.IsNullOrEmpty(name))
-			name = typeof(T).Name;
+    public T GetSceneUI<T>() where T : UI_Base
+    {
+        return _sceneUI as T;
+    }
 
-		GameObject go = Managers.Resource.Instantiate(name);
-		T baseUI = Util.GetOrAddComponent<T>(go);
+    public T MakeWorldSpaceUI<T>(Transform parent = null, string name = null) where T : UI_Base
+    {
+        if (string.IsNullOrEmpty(name))
+            name = typeof(T).Name;
 
-		go.transform.SetParent(Root.transform);
+        GameObject go = Managers.Resource.Instantiate($"{name}");
+        if (parent != null)
+            go.transform.SetParent(parent);
 
-		return baseUI;
-	}
+        Canvas canvas = go.GetOrAddComponent<Canvas>();
+        canvas.renderMode = RenderMode.WorldSpace;
+        canvas.worldCamera = Camera.main;
 
-	public T ShowSceneUI<T>(string name = null) where T : UI_Scene
-	{
-		if (string.IsNullOrEmpty(name))
-			name = typeof(T).Name;
+        return Util.GetOrAddComponent<T>(go);
+    }
 
-		GameObject go = Managers.Resource.Instantiate(name);
-		T sceneUI = Util.GetOrAddComponent<T>(go);
-		_sceneUI = sceneUI;
+    public T MakeSubItem<T>(Transform parent = null, string name = null, bool pooling = false)
+        where T : UI_Base
+    {
+        if (string.IsNullOrEmpty(name))
+            name = typeof(T).Name;
 
-		go.transform.SetParent(Root.transform);
+        GameObject go = Managers.Resource.Instantiate($"{name}", parent, pooling);
+        go.transform.SetParent(parent);
+        return Util.GetOrAddComponent<T>(go);
+    }
 
-		return sceneUI;
-	}
+    public T ShowSceneUI<T>(string name = null) where T : UI_Scene
+    {
+        if (string.IsNullOrEmpty(name))
+            name = typeof(T).Name;
 
-	public T ShowPopupUI<T>(string name = null) where T : UI_Popup
-	{
-		if (string.IsNullOrEmpty(name))
-			name = typeof(T).Name;
+        GameObject go = Managers.Resource.Instantiate($"{name}");
+        T sceneUI = Util.GetOrAddComponent<T>(go);
+        _sceneUI = sceneUI;
 
-		GameObject go = Managers.Resource.Instantiate(name);
-		T popup = Util.GetOrAddComponent<T>(go);
-		_popupStack.Push(popup);
+        go.transform.SetParent(Root.transform);
 
-		go.transform.SetParent(Root.transform);
+        return sceneUI;
+    }
 
-		return popup;
-	}
+    public void CachePopupUI(Type type)
+    {
+        string name = type.Name;
 
-	public void ClosePopupUI(UI_Popup popup)
-	{
-		if (_popupStack.Count == 0)
-			return;
+        if (_popups.TryGetValue(name, out UI_Popup popup) == false)
+        {
+            GameObject go = Managers.Resource.Instantiate(name, Root.transform);
+            popup = go.GetComponent<UI_Popup>();
+            _popups[name] = popup;
+        }
 
-		if (_popupStack.Peek() != popup)
-		{
-			Debug.Log("Close Popup Failed!");
-			return;
-		}
+        _popupStack.Push(popup);
+    }
 
-		ClosePopupUI();
-	}
+    public T ShowPopupUI<T>(string name = null) where T : UI_Popup
+    {
+        if (string.IsNullOrEmpty(name))
+            name = typeof(T).Name;
 
-	public void ClosePopupUI()
-	{
-		if (_popupStack.Count == 0)
-			return;
+        if (_popups.TryGetValue(name, out UI_Popup popup) == false)
+        {
+            GameObject go = Managers.Resource.Instantiate(name);
+            popup = Util.GetOrAddComponent<T>(go);
+            _popups[name] = popup;
+        }
 
-		UI_Popup popup = _popupStack.Pop();
-		Managers.Resource.Destroy(popup.gameObject);
-		_order--;
-	}
+        _popupStack.Push(popup);
 
-	public void CloseAllPopupUI()
-	{
-		while (_popupStack.Count > 0)
-			ClosePopupUI();
-	}
+        popup.transform.SetParent(Root.transform);
+        popup.gameObject.SetActive(true);
+        _pupupOrder++;
+        popup.UICanvas.sortingOrder = _pupupOrder;
+        return popup as T;
+    }
 
-	public int GetPopupCount()
-	{
-		return _popupStack.Count;
-	}
+    public void ClosePopupUI(UI_Popup popup)
+    {
+        if (_popupStack.Count == 0)
+            return;
 
-	public void Clear()
-	{
-		CloseAllPopupUI();
-		_sceneUI = null;
-	}
+        if (_popupStack.Peek() != popup)
+        {
+            Debug.Log("Close Popup Failed!");
+            return;
+        }
+
+        Managers.Sound.PlayPopupClose();
+        ClosePopupUI();
+    }
+
+    public void ClosePopupUI()
+    {
+        if (_popupStack.Count == 0)
+            return;
+
+        UI_Popup popup = _popupStack.Pop();
+        popup.gameObject.SetActive(false);
+        _pupupOrder--;
+    }
+
+    public void CloseAllPopupUI()
+    {
+        while (_popupStack.Count > 0)
+            ClosePopupUI();
+    }
+
+    public int GetPopupCount()
+    {
+        return _popupStack.Count;
+    }
+
+    public void Clear()
+    {
+        CloseAllPopupUI();
+        Time.timeScale = 1;
+        _sceneUI = null;
+    }
+
+
+    #region Toast
+
+    private void PrepareToast()
+    {
+        if (!isToastLoaded)
+        {
+            GameObject instance = MonoBehaviour.Instantiate(Managers.Resource.Load<GameObject>("ToastUI"));
+            instance.name = "[ TOAST UI ]";
+            _toastUI = instance.GetComponent<ToastUI>();
+            isToastLoaded = true;
+        }
+    }
+
+    public void ShowToast(string text, float duration = 1f, EToastColor color = EToastColor.Black, EToastPosition position = EToastPosition.MiddleCenter)
+    {
+        PrepareToast();
+        _toastUI.SetInfo(text, duration, color, position);
+    }
+
+    public void Dismiss()
+    {
+        if (isToastLoaded)
+            _toastUI.Dismiss();
+    }
+
+    #endregion
 }

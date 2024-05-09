@@ -15,65 +15,88 @@ MonoBehaviour:
   m_GroupName: Prefabs
   m_Data:
     m_SerializedData: []
-  m_GUID: ede2fdeb35475334c92cb367c5756bb5
+  m_GUID: d25a294413ef7fd429c6b0c8b86aaa64
   m_SerializeEntries:
-  - m_GUID: 457893e01e80a0046bcdc957ae48b5ff
-    m_Address: Hero
+  - m_GUID: e651997c77f72014eb20f739a1068535
+    m_Address: GatherablePrefab
     m_ReadOnly: 0
     m_SerializedLabels:
-    - PreLoad
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5a40e413d750cdb44b0fe888fbf55284
-    m_Address: BaseMap
+  - m_GUID: 8ef7b993fa90a46439fe244349a7e3e0
+    m_Address: HeroPrefab
     m_ReadOnly: 0
     m_SerializedLabels:
-    - PreLoad
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0169cff7809c771498c2f0017eb9bb41
-    m_Address: Monster
+  - m_GUID: 43846ae6ba84a8947b92f5cbf33f9518
+    m_Address: ItemHolder
     m_ReadOnly: 0
     m_SerializedLabels:
-    - PreLoad
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2edc19484e582d345a7d48dc22f67eeb
-    m_Address: HeroCamp
+  - m_GUID: 4c93d4f5faf8eab448841a1539693519
+    m_Address: CampPrefab
     m_ReadOnly: 0
     m_SerializedLabels:
-    - PreLoad
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3190aefbc02d0a44db79bb4695a59d35
-    m_Address: Env
+  - m_GUID: 1c2ad1ad8ae65194aa075f32d95f3eae
+    m_Address: MonsterPrefab
     m_ReadOnly: 0
     m_SerializedLabels:
-    - PreLoad
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9a9eae634c14d9b48a24ca213af416ec
-    m_Address: Projectile
+  - m_GUID: 30c3dd4f37e07ba499a9b12609e9c51b
+    m_Address: ProjectilePrefab
     m_ReadOnly: 0
     m_SerializedLabels:
-    - PreLoad
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 17f2042330a4cd548afdf146932ebddc
-    m_Address: SpellIndicator
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - PreLoad
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 249c44dd4aa74b24dbbcbcb9f0123461
+  - m_GUID: 45ad1fe8ae7cffc42bc784774d98e194
     m_Address: DamageFont
     m_ReadOnly: 0
     m_SerializedLabels:
-    - PreLoad
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6822f61760998b348a8109cbe686a9b7
-    m_Address: EffectBase
+  - m_GUID: ad008d35556e8f745a595d7bedecf9df
+    m_Address: SpellIndicator
     m_ReadOnly: 0
     m_SerializedLabels:
-    - PreLoad
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4947142505866f04c9032a3da8d061be
+    m_Address: NpcPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 958fffdc50c13414e932bb10f37facd2
+    m_Address: EffectPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfed72c696b2d1741908bd4cbc36e6b8
+    m_Address: AoEPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9038d472eca66f45b4c71369084672c
+    m_Address: CreatureCheatPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4173937d953a4fc40bd0e9c317ee5eab
+    m_Address: RuneStoneSlot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 44a2531e51a56944598bc231451ecb34, type: 2}
   m_SchemaSet:
     m_Schemas:
     - {fileID: 11400000, guid: b97bdc7418a350141ada5d2c318cf18d, type: 2}
-    - {fileID: 11400000, guid: d720f10219984f44988d105e6c7f314d, type: 2}

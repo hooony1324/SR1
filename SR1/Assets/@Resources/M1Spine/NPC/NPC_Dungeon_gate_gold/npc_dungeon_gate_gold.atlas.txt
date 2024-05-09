@@ -1,0 +1,10 @@
+npc_dungeon_gate_gold.png
+size:1024,512
+filter:Linear,Linear
+pma:true
+dungeon_gate_2
+bounds:2,2,388,470
+offsets:3,3,394,476
+dungeon_gate_light_2
+bounds:392,268,223,204
+offsets:28,23,279,254

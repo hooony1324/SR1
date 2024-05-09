@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "currencyType": 3,
+      "Name": "생고기",
+      "ItemGroupType": 3,
+      "Type": 0,
+      "SubType": 0,
+      "Grade": 1,
+      "MaxStack": 0,
+      "DataId": 400000,
+      "DescriptionTextID": "생고기",
+      "SpriteName": "gr_icon_meats.sprite"
+    },
+    {
+      "currencyType": 1,
+      "Name": "장작",
+      "ItemGroupType": 3,
+      "Type": 0,
+      "SubType": 0,
+      "Grade": 1,
+      "MaxStack": 0,
+      "DataId": 400100,
+      "DescriptionTextID": "장작",
+      "SpriteName": "gr_icon_wood.sprite"
+    },
+    {
+      "currencyType": 2,
+      "Name": "미네랄",
+      "ItemGroupType": 3,
+      "Type": 0,
+      "SubType": 0,
+      "Grade": 1,
+      "MaxStack": 0,
+      "DataId": 400200,
+      "DescriptionTextID": "미네랄",
+      "SpriteName": "gr_icon_cristal.sprite"
+    },
+    {
+      "currencyType": 4,
+      "Name": "골드",
+      "ItemGroupType": 3,
+      "Type": 0,
+      "SubType": 0,
+      "Grade": 1,
+      "MaxStack": 0,
+      "DataId": 400300,
+      "DescriptionTextID": "골드",
+      "SpriteName": "Gold_Temp.sprite"
+    },
+    {
+      "currencyType": 7,
+      "Name": "루비",
+      "ItemGroupType": 3,
+      "Type": 0,
+      "SubType": 0,
+      "Grade": 1,
+      "MaxStack": 0,
+      "DataId": 400400,
+      "DescriptionTextID": "루비",
+      "SpriteName": "red_currency.sprite"
+    },
+    {
+      "currencyType": 5,
+      "Name": "룬잔해",
+      "ItemGroupType": 3,
+      "Type": 0,
+      "SubType": 0,
+      "Grade": 1,
+      "MaxStack": 0,
+      "DataId": 400500,
+      "DescriptionTextID": "룬 잔해",
+      "SpriteName": "ui_459.sprite"
+    },
+    {
+      "currencyType": 8,
+      "Name": "초원의구슬",
+      "ItemGroupType": 3,
+      "Type": 0,
+      "SubType": 0,
+      "Grade": 1,
+      "MaxStack": 0,
+      "DataId": 400600,
+      "DescriptionTextID": "초원의구슬",
+      "SpriteName": "ui_181.sprite"
+    },
+    {
+      "currencyType": 6,
+      "Name": "다이아",
+      "ItemGroupType": 3,
+      "Type": 0,
+      "SubType": 0,
+      "Grade": 1,
+      "MaxStack": 0,
+      "DataId": 400700,
+      "DescriptionTextID": "다이아",
+      "SpriteName": "ui_460"
+    }
+  ]
+}

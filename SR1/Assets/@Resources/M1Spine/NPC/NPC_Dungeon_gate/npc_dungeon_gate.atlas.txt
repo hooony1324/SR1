@@ -1,0 +1,10 @@
+npc_dungeon_gate.png
+size:1024,512
+filter:Linear,Linear
+pma:true
+dungeon_gate_1
+bounds:2,2,387,475
+offsets:3,3,393,481
+dungeon_gate_light_1
+bounds:391,229,248,248
+offsets:30,29,307,307

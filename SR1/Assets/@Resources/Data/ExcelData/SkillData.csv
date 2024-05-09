@@ -1,24 +1,206 @@
-﻿DataId,Name,ClassName,Description,ProjectileId,PrefabLabel,IconLabel,AnimName,CoolTime,DamageMultiplier,SkillDuration,AnimImpactDuration,CastingSound,SkillRange,ScaleMultiplier,TargetCount,Effects,NextLevelId,AoE,EffectSize
-10001,기본공격,NormalAttack,근접평타,0,,BattleSkillIcon_01,attack,1.2,1,,0,EnergyBolt_Start,0,1,20,,,80001,
-10002,위자드 직선평타,NormalAttack,주변의 적을 향해 에너지 볼트를 발사한다,70001,ProjectilePrefab,BattleSkillIcon_01,attack,1.2,1,,0,EnergyBolt_Start,0,1,20,,,,
-10003,화살든 고블린 평타,NormalAttack,주변의 적을 향해 에너지 볼트를 발사한다,70002,ProjectilePrefab,BattleSkillIcon_01,attack_b,1.2,1.28,,0,EnergyBolt_Start,0,1,20,,,,
-10004,보스 원형 공격,AreaAttack,보스 원형 공격,0,SpellIndicator,,skill_a,5,1,,0.9,,3,1,20,,,,
-10005,돌진,Dash,돌진,0,SpellIndicator,,attack,7,1,,2,,5,1,20,,,,
-10006,주인공스킬1,,전방으로 검을 휘둘러 적을 멀리 날린다.,,,,attack,9,1,,0,,1.8,1,20,,,,
-10007,주인공스킬2,,자신의 검을 전개시켜 지속적인 광역피해를 준다.,,,,attack,11,1,,0,,1.8,1,20,,,,
-10008,맹독확산1,PoisonSpread,독이 든 병을 던져 지역을 오염시키고 지속적으로 데미지를 준다.,70003,ProjectilePrefab,,skill_a,5,1.2,5,0,,4,1,20,,10009,80001,CircleSmall
-10009,맹독확산2,PoisonSpread,독이 든 병을 던져 지역을 오염시키고 지속적으로 데미지를 준다.,70003,ProjectilePrefab,,skill_a,5,1.3,5,0,,4,1,20,,10010,80002,CircleNormal
-10010,맹독확산3,PoisonSpread,독이 든 병을 던져 지역을 오염시키고 지속적으로 데미지를 준다.,70003,ProjectilePrefab,,skill_a,5,1.4,5,0,,4,1,20,,,80003,CircleBig
-10011,냉기확산1,ColdSpread,온 세상을 얼려버릴것 같은 한기가 가득찬 병을 던져 광역 범위에 있는 적을 얼리고 피해를 준다.,70004,ProjectilePrefab,,skill_b,10,1,5,0,,4,1,20,,10012,80004,CircleSmall
-10012,냉기확산2,ColdSpread,온 세상을 얼려버릴것 같은 한기가 가득찬 병을 던져 광역 범위에 있는 적을 얼리고 피해를 준다.,70004,ProjectilePrefab,,skill_b,10,1,5,0,,4,1,20,,10013,80005,CircleNormal
-10013,냉기확산3,ColdSpread,온 세상을 얼려버릴것 같은 한기가 가득찬 병을 던져 광역 범위에 있는 적을 얼리고 피해를 준다.,70004,ProjectilePrefab,,skill_b,10,1,5,0,,4,1,20,,,80006,CircleBig
-10014,뱀파스킬1,,전방의 적에게 돌진하여 출혈상태로 만들고 5회 연속으로 검을 휘둘러 피해를 준다.,,,,attack,17,1,,0,,4,1,20,,,,
-10015,뱀파스킬2,,검을 휘둘러 광역피해를 주고 피해량의 일부를 체력으로 흡수한다. 출혈상태인 적에게는 더 큰 피해를 준다.,,,,attack,19,1,,0,,1.8,1,20,,,,
-10018,사자수인1,AreaAirbone,자리에서 뛰어올라 바닥을 내려찍으며 자신을 중심으로 광역피해를 주고 적을 띄운다.,0,SpellIndicator,,skill_a,5,1,1,0,,1.8,1,20,62002,,,
-10019,사자후인2,LionShout,자센의 체력을 소모하여 아군3명을 광분상태로 만들어 가속시키고 흡혈량을 증가시킨다.,0,SpellIndicator,,skill_b,15,1,4,0,,5,1,3,61003&61005&61007,,,
-10020,화염검1,FireSword,자신을 중심으로 광역 범위에 적들에게 데미지를 주고 화상 상태로 만든다.,,AoEPrefab,,skill_a,5,1.3,,,,1.8,1,20,,10021,80007,ConeBig
-10021,화염검2,FireSword,자신을 중심으로 광역 범위에 적들에게 데미지를 주고 화상 상태로 만든다.,,AoEPrefab,,skill_a,5,1.3,,,,1.8,1,20,,10022,80008,ConeBig
-10022,화염검3,FireSword,자신을 중심으로 광역 범위에 적들에게 데미지를 주고 화상 상태로 만든다.,,AoEPrefab,,skill_a,5,1.3,,,,1.8,1,20,,,80009,ConeBig
-10023,다중 화염검1,MultiFireSword,화염으로 이루어진 검을 소환하여 광역 피해를 준다,,AoEPrefab,,skill_b,10,1.3,,,,4,1,20,,10024,80010,CircleBig
-10024,다중 화염검2,MultiFireSword,화염으로 이루어진 검을 소환하여 광역 피해를 준다,,AoEPrefab,,skill_b,10,1.3,,,,4,1,20,,10025,80011,CircleBig
-10025,다중 화염검1,MultiFireSword,화염으로 이루어진 검을 소환하여 광역 피해를 준다,,AoEPrefab,,skill_b,10,1.3,,,,4,1,20,,,80012,CircleBig
+﻿DataId,Name,NameTextId,ClassName,Description,DescriptionTextId,ProjectileId,IconLabel,AnimName,CoolTime,SkillDuration,CastingAnimname,CastingSound,SkillRange,TargetCount,Effects,NextLevelId,AoE,EffectSize
+10001,기본공격,SamSkillAName,NormalAttack,근접평타,SamSkillADescription,0,BattleSkillIcon_01,attack,1.2,,,EnergyBolt_Start,2.2,20,60015,,,
+10002,위자드 직선평타,SamSkillAName,NormalAttack,주변의 적을 향해 에너지 볼트를 발사한다,SamSkillADescription,70001,BattleSkillIcon_01,attack,1.2,,,EnergyBolt_Start,8,20,60015,,,
+10003,화살든 고블린 평타,SamSkillAName,NormalAttack,주변의 적을 향해 에너지 볼트를 발사한다,SamSkillADescription,70002,BattleSkillIcon_01,attack,1.2,,,EnergyBolt_Start,8,20,60015,,,
+10004,보스 원형 공격,SamSkillAName,GuidedAreaAttack,보스 원형 공격,SamSkillADescription,0,,skill_a,10,0.9667,casting_a,,3.6,20,60017,,,ConeNormal
+10005,돌진,SamSkillAName,Dash,돌진,SamSkillADescription,0,,attack,7,,,,6,20,,,,
+10026,채집스킬,SamSkillAName,EnvSkill,자원캐기,SamSkillADescription,0,BattleSkillIcon_01,gather,1.2,,,EnergyBolt_Start,1.7,20,,,,
+10039,벌평타,BeeDefaultSkill,NormalAttack,벌 기본 스킬,SamSkillADescription,70012,,attack,1.2,,,,8,1,60015,,,
+11001,윌보어 엉덩이,SamSkillAName,GuidedAreaAttack,보스 원형 공격,SamSkillADescription,0,,skill_a,15,3.5667,casting_a,,4,20,62002,,,CircleBig
+11002,윌보어 돌진,SamSkillAName,Dash,돌진,SamSkillADescription,,,skill_b,22,3.333,casting_b,,8,,,,,
+100001,5,SamSkillAName,ComboSkill,Temp,SamSkillADescription,0,BattleSkillIcon_01,skill_a,10,,,EnergyBolt_Start,2.2,1,60015,100002,,
+,,,,,,,,,,,,,,,60016,,,
+100002,연속 찌르기2,SamSkillAName,ComboSkill,Temp,SamSkillADescription_2,0,BattleSkillIcon_01,skill_a,10,,,EnergyBolt_Start,2.2,1,60015,100003,,
+,,,,,,,,,,,,,,,60016,,,
+100003,연속 찌르기3,SamSkillAName,ComboSkill,Temp,SamSkillADescription_3,0,BattleSkillIcon_01,skill_a,10,,,EnergyBolt_Start,2.2,1,60015,,,
+,,,,,,,,,,,,,,,60016,,,
+100011,곡식의 축복1,SamSkillBName,PassiveSkill,Temp,SamSkillBDescription,0,BattleSkillIcon_01,,8,,,EnergyBolt_Start,-1,20,60018,100012,,
+100012,곡식의 축복2,SamSkillBName,PassiveSkill,Temp,SamSkillBDescription_2,0,BattleSkillIcon_01,,8,,,EnergyBolt_Start,-1,20,60019,100013,,
+100013,곡식의 축복3,SamSkillBName,PassiveSkill,Temp,SamSkillBDescription_3,0,BattleSkillIcon_01,,8,,,EnergyBolt_Start,-1,20,60020,,,
+100020,루크 기본공격,,NormalAttack,주변의 적을 향해 에너지 볼트를 발사한다,,70009,BattleSkillIcon_01,attack,1.2,,,EnergyBolt_Start,8,20,60015,,,
+100021,연사,LukeSkillAName,ComboSkill,Temp,LukeSkillADescription,70009,BattleSkillIcon_01,skill_a,12,,,EnergyBolt_Start,8,20,60015,100022,,
+,,,,,,,,,,,,,,,60015,,,
+,,,,,,,,,,,,,,,60016,,,
+100022,연사,LukeSkillAName,ComboSkill,Temp,LukeSkillADescription_2,70009,BattleSkillIcon_01,skill_a,12,,,EnergyBolt_Start,8,20,60015,100023,,
+,,,,,,,,,,,,,,,60015,,,
+,,,,,,,,,,,,,,,60016,,,
+100023,연사,LukeSkillAName,ComboSkill,Temp,LukeSkillADescription_3,70009,BattleSkillIcon_01,skill_a,12,,,EnergyBolt_Start,8,20,60015,,,
+,,,,,,,,,,,,,,,60015,,,
+,,,,,,,,,,,,,,,60016,,,
+100031,날렵한 몸놀림,LukeSkillBName,PassiveSkill,Temp,LukeSkillBDescription,0,BattleSkillIcon_01,,8,,,EnergyBolt_Start,-1,20,60021,100032,,
+100032,날렵한 몸놀림,LukeSkillBName,PassiveSkill,Temp,LukeSkillBDescription_2,0,BattleSkillIcon_01,,8,,,EnergyBolt_Start,-1,20,60022,100033,,
+100033,날렵한 몸놀림,LukeSkillBName,PassiveSkill,Temp,LukeSkillBDescription_3,0,BattleSkillIcon_01,,8,,,EnergyBolt_Start,-1,20,60023,,,
+100041,강하게 내려치기,DukSkillAName,NormalSkill,Temp,DukSkillADescription,0,BattleSkillIcon_01,attack,9,,,EnergyBolt_Start,2.2,20,,100042,,
+100042,강하게 내려치기,DukSkillAName,NormalSkill,Temp,DukSkillADescription_2,0,BattleSkillIcon_01,attack,9,,,EnergyBolt_Start,2.2,20,,100043,,
+100043,강하게 내려치기,DukSkillAName,NormalSkill,Temp,DukSkillADescription_3,0,BattleSkillIcon_01,attack,9,,,EnergyBolt_Start,2.2,20,,,,
+100051,소고기의 힘,DukSkillBName,PassiveSkill,Temp,DukSkillBDescription,0,BattleSkillIcon_01,,8,,,EnergyBolt_Start,-1,20,60024,100052,,
+100052,소고기의 힘,DukSkillBName,PassiveSkill,Temp,DukSkillBDescription_2,0,BattleSkillIcon_01,,8,,,EnergyBolt_Start,-1,20,60025,100053,,
+100053,소고기의 힘,DukSkillBName,PassiveSkill,Temp,DukSkillBDescription_3,0,BattleSkillIcon_01,,8,,,EnergyBolt_Start,-1,20,60026,,,
+100061,단도 뿌리기,TomSkillAName,NormalAttack,Temp,TomSkillADescription,0,BattleSkillIcon_01,attack,11,,,EnergyBolt_Start,2.2,20,,100062,,
+100062,단도 뿌리기,TomSkillAName,NormalAttack,Temp,TomSkillADescription_2,0,BattleSkillIcon_01,attack,11,,,EnergyBolt_Start,2.2,20,,100063,,
+100063,단도 뿌리기,TomSkillAName,NormalAttack,Temp,TomSkillADescription_3,0,BattleSkillIcon_01,attack,11,,,EnergyBolt_Start,2.2,20,,,,
+100071,예리한 시선,TomSkillBName,PassiveSkill,Temp,TomSkillBDescription,0,BattleSkillIcon_01,,8,,,EnergyBolt_Start,-1,20,60027,100072,,
+100072,예리한 시선,TomSkillBName,PassiveSkill,Temp,TomSkillBDescription_2,0,BattleSkillIcon_01,,8,,,EnergyBolt_Start,-1,20,60028,100073,,
+100073,예리한 시선,TomSkillBName,PassiveSkill,Temp,TomSkillBDescription_3,0,BattleSkillIcon_01,,8,,,EnergyBolt_Start,-1,20,60029,,,
+100081,마력탄,MarieSkillAName,ProjectileSkill,Temp,MarieSkillADescription,70013,BattleSkillIcon_01,attack,12,,,EnergyBolt_Start,7,1,60016,100082,,
+100082,마력탄,MarieSkillAName,ProjectileSkill,Temp,MarieSkillADescription_2,70013,BattleSkillIcon_01,attack,12,,,EnergyBolt_Start,7,1,60017,100083,,
+100083,마력탄,MarieSkillAName,ProjectileSkill,Temp,MarieSkillADescription_3,70013,BattleSkillIcon_01,attack,12,,,EnergyBolt_Start,7,1,60017,,,
+100091,마리 치유,MarieSkillBName,SingleTargetSkill,Temp,MarieSkillBDescription,0,BattleSkillIcon_01,attack,5,,,EnergyBolt_Start,7,1,60030,100092,,
+100092,마리 치유2,MarieSkillBName,SingleTargetSkill,Temp,MarieSkillBDescription_2,0,BattleSkillIcon_01,attack,5,,,EnergyBolt_Start,7,1,60031,100093,,
+100093,마리 치유3,MarieSkillBName,SingleTargetSkill,Temp,MarieSkillBDescription_3,0,BattleSkillIcon_01,attack,5,,,EnergyBolt_Start,7,1,60032,,,
+100101,강하게 내려치기,RookieSkillAName,SingleTargetSkill,Temp,RookieSkillADescription,0,BattleSkillIcon_01,skill_a,4,,,EnergyBolt_Start,2.2,20,62004,100102,,
+,,,,,,,,,,,,,,,60017,,,
+100102,강하게 내려치기,RookieSkillAName,SingleTargetSkill,Temp,RookieSkillADescription_2,0,BattleSkillIcon_01,skill_a,4,,,EnergyBolt_Start,2.2,20,62004,100103,,
+,,,,,,,,,,,,,,,60017,,,
+100103,강하게 내려치기,RookieSkillAName,SingleTargetSkill,Temp,RookieSkillADescription_3,0,BattleSkillIcon_01,skill_a,4,,,EnergyBolt_Start,2.2,20,62004,,,
+,,,,,,,,,,,,,,,60017,,,
+100111,방패로 밀치기,RookieSkillBName,SingleTargetSkill,Temp,RookieSkillBDescription,0,BattleSkillIcon_01,skill_b,49,,,EnergyBolt_Start,2.2,20,62001,100112,,
+,,,,,,,,,,,,,,,60017,,,
+100112,방패로 밀치기,RookieSkillBName,SingleTargetSkill,Temp,RookieSkillBDescription_2,0,BattleSkillIcon_01,skill_b,49,,,EnergyBolt_Start,2.2,20,62001,100113,,
+,,,,,,,,,,,,,,,60017,,,
+100113,방패로 밀치기,RookieSkillBName,SingleTargetSkill,Temp,RookieSkillBDescription_3,0,BattleSkillIcon_01,skill_b,49,,,EnergyBolt_Start,2.2,20,62001,,,
+,,,,,,,,,,,,,,,60017,,,
+100121,파이어볼,ChloeSkillAName,ProjectileSkill,Temp,ChloeSkillADescription,70011,BattleSkillIcon_01,castingtoskill_a,9,,,EnergyBolt_Start,7,20,,100122,80022,CircleSmall
+100122,파이어볼,ChloeSkillAName,ProjectileSkill,Temp,ChloeSkillADescription_2,70011,BattleSkillIcon_01,castingtoskill_a,9,,,EnergyBolt_Start,7,20,,100123,80023,CircleNormal
+100123,파이어볼,ChloeSkillAName,ProjectileSkill,Temp,ChloeSkillADescription_3,70011,BattleSkillIcon_01,castingtoskill_a,9,,,EnergyBolt_Start,7,20,,,80024,CircleBig
+100131,라이트닝,ChloeSkillBName,SingleTargetSkill,Temp,ChloeSkillBDescription,0,BattleSkillIcon_01,castingtoskill_b,44,,,EnergyBolt_Start,7,20,,100132,80025,Single
+100132,라이트닝,ChloeSkillBName,SingleTargetSkill,Temp,ChloeSkillBDescription_2,0,BattleSkillIcon_01,castingtoskill_b,44,,,EnergyBolt_Start,7,20,,100133,80026,Single
+100133,라이트닝,ChloeSkillBName,SingleTargetSkill,Temp,ChloeSkillBDescription_3,0,BattleSkillIcon_01,castingtoskill_b,44,,,EnergyBolt_Start,7,20,,,80027,Single
+100141,피의 송곳,AndreSkillAName,NormalAttack,Temp,AndreSkillADescription,,,attack,13,,,,4,20,,100142,,
+100142,피의 송곳,AndreSkillAName,NormalAttack,Temp,AndreSkillADescription_2,,,attack,13,,,,4,20,,100143,,
+100143,피의 송곳,AndreSkillAName,NormalAttack,Temp,AndreSkillADescription_3,,,attack,13,,,,4,20,,,,
+100151,흡혈,AndreSkillBName,NormalAttack,Temp,AndreSkillBDescription,,,attack,55,,,,2.2,20,,100152,,
+100152,흡혈,AndreSkillBName,NormalAttack,Temp,AndreSkillBDescription_2,,,attack,55,,,,2.2,20,,100153,,
+100153,흡혈,AndreSkillBName,NormalAttack,Temp,AndreSkillBDescription_3,,,attack,55,,,,2.2,20,,,,
+100161,라라 스킬A 치유,LaraSkillAName,SingleTargetSkill,Temp,LaraSkillADescription,0,BattleSkillIcon_01,skill_a,1.2,,,EnergyBolt_Start,7,20,60033,100162,,
+100162,라라 스킬A 치유,LaraSkillAName,SingleTargetSkill,Temp,LaraSkillADescription_2,0,BattleSkillIcon_01,skill_a,1.2,,,EnergyBolt_Start,7,20,60034,100163,,
+100163,라라 스킬A 치유,LaraSkillAName,SingleTargetSkill,Temp,LaraSkillADescription_3,0,BattleSkillIcon_01,skill_a,1.2,,,EnergyBolt_Start,7,20,60035,,,
+100171,생명의 기운,LaraSkillBName,SelfCenteredAreaSkill,Temp,LaraSkillBDescription,0,BattleSkillIcon_01,skill_b,5,,,EnergyBolt_Start,7,20,,100172,80028,CircleBig
+100172,생명의 기운,LaraSkillBName,SelfCenteredAreaSkill,Temp,LaraSkillBDescription_2,0,BattleSkillIcon_01,skill_b,5,,,EnergyBolt_Start,7,20,,100173,80029,CircleBig
+100173,생명의 기운,LaraSkillBName,SelfCenteredAreaSkill,Temp,LaraSkillBDescription_3,0,BattleSkillIcon_01,skill_b,5,,,EnergyBolt_Start,7,20,,,80030,CircleBig
+100181,도약,MichelleSkillAName,NormalAttack,Temp,MichelleSkillADescription,0,BattleSkillIcon_01,attack,11,,,EnergyBolt_Start,2.2,20,,100182,,
+100182,도약,MichelleSkillAName,NormalAttack,Temp,MichelleSkillADescription_2,0,BattleSkillIcon_01,attack,11,,,EnergyBolt_Start,2.2,20,,100183,,
+100183,도약,MichelleSkillAName,NormalAttack,Temp,MichelleSkillADescription_3,0,BattleSkillIcon_01,attack,11,,,EnergyBolt_Start,2.2,20,,,,
+100191,휩쓸기,MichelleSkillBName,NormalAttack,Temp,MichelleSkillBDescription,0,BattleSkillIcon_01,attack,51,,,EnergyBolt_Start,2.2,20,,100192,,
+100192,휩쓸기,MichelleSkillBName,NormalAttack,Temp,MichelleSkillBDescription_2,0,BattleSkillIcon_01,attack,51,,,EnergyBolt_Start,2.2,20,,100193,,
+100193,휩쓸기,MichelleSkillBName,NormalAttack,Temp,MichelleSkillBDescription_3,0,BattleSkillIcon_01,attack,51,,,EnergyBolt_Start,2.2,20,,,,
+100201,치유의 노래,YulieSkillAName,NormalAttack,Temp,YulieSkillADescription,0,BattleSkillIcon_01,attack,13,,,EnergyBolt_Start,2.2,20,,100202,,
+100202,치유의 노래,YulieSkillAName,NormalAttack,Temp,YulieSkillADescription_2,0,BattleSkillIcon_01,attack,13,,,EnergyBolt_Start,2.2,20,,100203,,
+100203,치유의 노래,YulieSkillAName,NormalAttack,Temp,YulieSkillADescription_3,0,BattleSkillIcon_01,attack,13,,,EnergyBolt_Start,2.2,20,,,,
+100211,전장의 서곡,YulieSkillBName,NormalAttack,Temp,YulieSkillBDescription,0,BattleSkillIcon_01,attack,53,,,EnergyBolt_Start,2.2,20,,100212,,
+100212,전장의 서곡,YulieSkillBName,NormalAttack,Temp,YulieSkillBDescription_2,0,BattleSkillIcon_01,attack,53,,,EnergyBolt_Start,2.2,20,,100213,,
+100213,전장의 서곡,YulieSkillBName,NormalAttack,Temp,YulieSkillBDescription_3,0,BattleSkillIcon_01,attack,53,,,EnergyBolt_Start,2.2,20,,,,
+100221,마구찌르기,StormSkillAName,NormalAttack,Temp,StormSkillADescription,0,BattleSkillIcon_01,attack,8,,,EnergyBolt_Start,2.2,20,,100222,,
+100222,마구찌르기,StormSkillAName,NormalAttack,Temp,StormSkillADescription_2,0,BattleSkillIcon_01,attack,8,,,EnergyBolt_Start,2.2,20,,100223,,
+100223,마구찌르기,StormSkillAName,NormalAttack,Temp,StormSkillADescription_3,0,BattleSkillIcon_01,attack,8,,,EnergyBolt_Start,2.2,20,,,,
+100231,바람 가르기,StormSkillBName,NormalAttack,Temp,StormSkillBDescription,0,BattleSkillIcon_01,attack,48,,,EnergyBolt_Start,2.2,20,,100232,,
+100232,바람 가르기,StormSkillBName,NormalAttack,Temp,StormSkillBDescription_2,0,BattleSkillIcon_01,attack,48,,,EnergyBolt_Start,2.2,20,,100233,,
+100233,바람 가르기,StormSkillBName,NormalAttack,Temp,StormSkillBDescription_3,0,BattleSkillIcon_01,attack,48,,,EnergyBolt_Start,2.2,20,,,,
+100241,맹독화살,EllieSkillAName,NormalAttack,Temp,EllieSkillADescription,0,BattleSkillIcon_01,attack,8,,,EnergyBolt_Start,2.2,20,,100242,,
+100242,맹독화살,EllieSkillAName,NormalAttack,Temp,EllieSkillADescription_2,0,BattleSkillIcon_01,attack,8,,,EnergyBolt_Start,2.2,20,,100243,,
+100243,맹독화살,EllieSkillAName,NormalAttack,Temp,EllieSkillADescription_3,0,BattleSkillIcon_01,attack,8,,,EnergyBolt_Start,2.2,20,,,,
+100251,멀티샷,EllieSkillBName,NormalAttack,Temp,EllieSkillBDescription,0,BattleSkillIcon_01,attack,52,,,EnergyBolt_Start,2.2,20,,100252,,
+100252,멀티샷,EllieSkillBName,NormalAttack,Temp,EllieSkillBDescription_2,0,BattleSkillIcon_01,attack,52,,,EnergyBolt_Start,2.2,20,,100253,,
+100253,멀티샷,EllieSkillBName,NormalAttack,Temp,EllieSkillBDescription_3,0,BattleSkillIcon_01,attack,52,,,EnergyBolt_Start,2.2,20,,,,
+100261,권법연타1,LeonSkillAName,SingleTargetSkill,적 1명을 수차례 가격하여 피해를 준다,LeonSkillADescription,,,skill_a,8,,,,2.2,1,60015,100262,,
+100262,권법연타2,LeonSkillAName,SingleTargetSkill,적 1명을 수차례 가격하여 피해를 준다,LeonSkillADescription_2,,,skill_a,8,,,,2.2,1,60015,100263,,
+100263,권법연타3,LeonSkillAName,SingleTargetSkill,적 1명을 수차례 가격하여 피해를 준다,LeonSkillADescription_3,,,skill_a,8,,,,2.2,1,60015,,,
+100271,포효1,LeonSkillBName,SelfCenteredAreaSkill,크게 포효하여 적들에게 광역 피해를 입히고 아군의 공격력을 상승시킨다,LeonSkillBDescription,,,skill_b,54,,,,5,20,,100272,80019,CircleSmall
+100272,포효2,LeonSkillBName,SelfCenteredAreaSkill,크게 포효하여 적들에게 광역 피해를 입히고 아군의 공격력을 상승시킨다,LeonSkillBDescription_2,,,skill_b,54,,,,5,20,,100273,80019,CircleNormal
+100273,포효3,LeonSkillBName,SelfCenteredAreaSkill,크게 포효하여 적들에게 광역 피해를 입히고 아군의 공격력을 상승시킨다,LeonSkillBDescription_3,,,skill_b,54,,,,5,20,,,80019,CircleBig
+100281,방패 돌진,WaltSkillAName,NormalAttack,Temp,WaltSkillADescription,0,BattleSkillIcon_01,attack,11,,,EnergyBolt_Start,2.2,20,,100282,,
+100282,방패 돌진,WaltSkillAName,NormalAttack,Temp,WaltSkillADescription_2,0,BattleSkillIcon_01,attack,11,,,EnergyBolt_Start,2.2,20,,100283,,
+100283,방패 돌진,WaltSkillAName,NormalAttack,Temp,WaltSkillADescription_3,0,BattleSkillIcon_01,attack,11,,,EnergyBolt_Start,2.2,20,,,,
+100291,비비 돌진,WaltSkillBName,NormalAttack,Temp,WaltSkillBDescription,0,BattleSkillIcon_01,attack,52,,,EnergyBolt_Start,2.2,20,,100292,,
+100292,비비 돌진,WaltSkillBName,NormalAttack,Temp,WaltSkillBDescription_2,0,BattleSkillIcon_01,attack,52,,,EnergyBolt_Start,2.2,20,,100293,,
+100293,비비 돌진,WaltSkillBName,NormalAttack,Temp,WaltSkillBDescription_3,0,BattleSkillIcon_01,attack,52,,,EnergyBolt_Start,2.2,20,,,,
+100301,해골 부대,XionSkillAName,NormalAttack,Temp,XionSkillADescription,0,BattleSkillIcon_01,attack,8,,,EnergyBolt_Start,2.2,20,,100302,,
+100302,해골 부대,XionSkillAName,NormalAttack,Temp,XionSkillADescription_2,0,BattleSkillIcon_01,attack,8,,,EnergyBolt_Start,2.2,20,,100303,,
+100303,해골 부대,XionSkillAName,NormalAttack,Temp,XionSkillADescription_3,0,BattleSkillIcon_01,attack,8,,,EnergyBolt_Start,2.2,20,,,,
+100311,자폭 해골,XionSkillBName,NormalAttack,Temp,XionSkillBDescription,0,BattleSkillIcon_01,attack,12,,,EnergyBolt_Start,2.2,20,,100312,,
+100312,자폭 해골,XionSkillBName,NormalAttack,Temp,XionSkillBDescription_2,0,BattleSkillIcon_01,attack,12,,,EnergyBolt_Start,2.2,20,,100313,,
+100313,자폭 해골,XionSkillBName,NormalAttack,Temp,XionSkillBDescription_3,0,BattleSkillIcon_01,attack,12,,,EnergyBolt_Start,2.2,20,,,,
+100321,저스티스 해머,AlexSkillAName,NormalAttack,Temp,AlexSkillADescription,0,BattleSkillIcon_01,attack,8,,,EnergyBolt_Start,2.2,20,,100322,,
+100322,저스티스 해머,AlexSkillAName,NormalAttack,Temp,AlexSkillADescription_2,0,BattleSkillIcon_01,attack,8,,,EnergyBolt_Start,2.2,20,,100323,,
+100323,저스티스 해머,AlexSkillAName,NormalAttack,Temp,AlexSkillADescription_3,0,BattleSkillIcon_01,attack,8,,,EnergyBolt_Start,2.2,20,,,,
+100331,신성화,AlexSkillBName,NormalAttack,Temp,AlexSkillBDescription,0,BattleSkillIcon_01,attack,50,,,EnergyBolt_Start,2.2,20,,100332,,
+100332,신성화,AlexSkillBName,NormalAttack,Temp,AlexSkillBDescription_2,0,BattleSkillIcon_01,attack,50,,,EnergyBolt_Start,2.2,20,,100333,,
+100333,신성화,AlexSkillBName,NormalAttack,Temp,AlexSkillBDescription_3,0,BattleSkillIcon_01,attack,50,,,EnergyBolt_Start,2.2,20,,,,
+100341,맹독확산1,LaurenSkillAName,ProjectileSkill,독이 든 병을 던져 지역을 오염시키고 지속적으로 데미지를 준다.,LaurenSkillADescription,70003,,skill_a,8,5,,,5,20,,100342,80001,CircleBig
+100342,맹독확산2,LaurenSkillAName,ProjectileSkill,독이 든 병을 던져 지역을 오염시키고 지속적으로 데미지를 준다.,LaurenSkillADescription_2,70003,,skill_a,8,5,,,5,20,,100343,80002,CircleBig
+100343,맹독확산3,LaurenSkillAName,ProjectileSkill,독이 든 병을 던져 지역을 오염시키고 지속적으로 데미지를 준다.,LaurenSkillADescription_3,70003,,skill_a,8,5,,,5,20,,,80003,CircleBig
+100351,냉기확산1,LaurenSkillBName,ProjectileSkill,,LaurenSkillBDescription,70004,,skill_b,51,5,,,5,20,,100352,80004,CircleBig
+100352,냉기확산2,LaurenSkillBName,ProjectileSkill,,LaurenSkillBDescription_2,70004,,skill_b,51,5,,,5,20,,100353,80005,CircleBig
+100353,냉기확산3,LaurenSkillBName,ProjectileSkill,,LaurenSkillBDescription_3,70004,,skill_b,51,5,,,5,20,,,80006,CircleBig
+100361,화염검1,OwenSkillAName,SelfCenteredAreaSkill,자신을 중심으로 광역 범위에 적들에게 데미지를 주고 화상 상태로 만든다.,OwenSkillADescription,,,skill_a,6,,,,2.2,20,,100362,80007,ConeSmall
+100362,화염검2,OwenSkillAName,SelfCenteredAreaSkill,자신을 중심으로 광역 범위에 적들에게 데미지를 주고 화상 상태로 만든다.,OwenSkillADescription_2,,,skill_a,6,,,,2.2,20,,100363,80008,ConeNormal
+100363,화염검3,OwenSkillAName,SelfCenteredAreaSkill,자신을 중심으로 광역 범위에 적들에게 데미지를 주고 화상 상태로 만든다.,OwenSkillADescription_3,,,skill_a,6,,,,2.2,20,,,80009,ConeBig
+100371,다중 화염검1,OwenSkillBName,TargetCenterdAreaSkill,화염으로 이루어진 검을 소환하여 광역 피해를 준다,OwenSkillBDescription,,,skill_b,46,,,,5,20,,100372,80010,CircleSmall
+100372,다중 화염검2,OwenSkillBName,TargetCenterdAreaSkill,화염으로 이루어진 검을 소환하여 광역 피해를 준다,OwenSkillBDescription_2,,,skill_b,46,,,,5,20,,100373,80011,CircleNormal
+100373,다중 화염검1,OwenSkillBName,TargetCenterdAreaSkill,화염으로 이루어진 검을 소환하여 광역 피해를 준다,OwenSkillBDescription_3,,,skill_b,46,,,,5,20,,,80012,CircleBig
+100381,조련의 채찍,BellaSkillAName,NormalAttack,Temp,BellaSkillADescription,0,BattleSkillIcon_01,attack,12,,,EnergyBolt_Start,2.2,20,,100382,,
+100382,조련의 채찍,BellaSkillAName,NormalAttack,Temp,BellaSkillADescription_2,0,BattleSkillIcon_01,attack,12,,,EnergyBolt_Start,2.2,20,,100383,,
+100383,조련의 채찍,BellaSkillAName,NormalAttack,Temp,BellaSkillADescription_3,0,BattleSkillIcon_01,attack,12,,,EnergyBolt_Start,2.2,20,,,,
+100391,매혹의 춤,BellaSkillBName,NormalAttack,Temp,BellaSkillBDescription,0,BattleSkillIcon_01,attack,53,,,EnergyBolt_Start,2.2,20,,100392,,
+100392,매혹의 춤,BellaSkillBName,NormalAttack,Temp,BellaSkillBDescription_2,0,BattleSkillIcon_01,attack,53,,,EnergyBolt_Start,2.2,20,,100393,,
+100393,매혹의 춤,BellaSkillBName,NormalAttack,Temp,BellaSkillBDescription_3,0,BattleSkillIcon_01,attack,53,,,EnergyBolt_Start,2.2,20,,,,
+100401,인형의 난타1,BettySkillAName,SelfCenteredAreaSkill,인형이 커다란 손을 6번 휘둘러 전방의 적들에게 광역 피해를 입힌다,BettySkillADescription,,,skill_a,7,,,,2.2,20,,100402,80013,CircleSmall
+100402,인형의 난타2,BettySkillAName,SelfCenteredAreaSkill,인형이 커다란 손을 6번 휘둘러 전방의 적들에게 광역 피해를 입힌다,BettySkillADescription_2,,,skill_a,7,,,,2.2,20,,100403,80014,CircleSmall
+100403,인형의 난타3,BettySkillAName,SelfCenteredAreaSkill,인형이 커다란 손을 6번 휘둘러 전방의 적들에게 광역 피해를 입힌다,BettySkillADescription_3,,,skill_a,7,,,,2.2,20,,,80015,CircleSmall
+100411,인형의 브레스1,BettySkillBName,SelfCenteredAreaSkill,전방에 혹독한 한기를 뱉어 광역 피해를 주고 얼린다.,BettySkillBDescription,,,skill_b,49,,,,2.2,20,,100412,80016,ConeSmall
+100412,인형의 브레스2,BettySkillBName,SelfCenteredAreaSkill,전방에 혹독한 한기를 뱉어 광역 피해를 주고 얼린다.,BettySkillBDescription_2,,,skill_b,49,,,,2.2,20,,100413,80017,ConeNormal
+100413,인형의 브레스3,BettySkillBName,SelfCenteredAreaSkill,전방에 혹독한 한기를 뱉어 광역 피해를 주고 얼린다.,BettySkillBDescription_3,,,skill_b,49,,,,2.2,20,,,80018,ConeBig
+100421,화염 가르기,ValakSkillAName,NormalAttack,Temp,ValakSkillADescription,0,BattleSkillIcon_01,attack,8,,,EnergyBolt_Start,2.2,20,,100422,,
+100422,화염 가르기,ValakSkillAName,NormalAttack,Temp,ValakSkillADescription_2,0,BattleSkillIcon_01,attack,8,,,EnergyBolt_Start,2.2,20,,100423,,
+100423,화염 가르기,ValakSkillAName,NormalAttack,Temp,ValakSkillADescription_3,0,BattleSkillIcon_01,attack,8,,,EnergyBolt_Start,2.2,20,,,,
+100431,화염 브레스,ValakSkillBName,NormalAttack,Temp,ValakSkillBDescription,0,BattleSkillIcon_01,attack,46,,,EnergyBolt_Start,2.2,20,,100432,,
+100432,화염 브레스,ValakSkillBName,NormalAttack,Temp,ValakSkillBDescription_2,0,BattleSkillIcon_01,attack,46,,,EnergyBolt_Start,2.2,20,,100433,,
+100433,화염 브레스,ValakSkillBName,NormalAttack,Temp,ValakSkillBDescription_3,0,BattleSkillIcon_01,attack,46,,,EnergyBolt_Start,2.2,20,,,,
+100441,매혹,VanessaSkillAName,NormalAttack,Temp,VanessaSkillADescription,0,BattleSkillIcon_01,attack,6,,,EnergyBolt_Start,2.2,20,,100442,,
+100442,매혹,VanessaSkillAName,NormalAttack,Temp,VanessaSkillADescription_2,0,BattleSkillIcon_01,attack,6,,,EnergyBolt_Start,2.2,20,,100443,,
+100443,매혹,VanessaSkillAName,NormalAttack,Temp,VanessaSkillADescription_3,0,BattleSkillIcon_01,attack,6,,,EnergyBolt_Start,2.2,20,,,,
+100451,악마의 날개,VanessaSkillBName,NormalAttack,Temp,VanessaSkillBDescription,0,BattleSkillIcon_01,attack,50,,,EnergyBolt_Start,2.2,20,,100452,,
+100452,악마의 날개,VanessaSkillBName,NormalAttack,Temp,VanessaSkillBDescription_2,0,BattleSkillIcon_01,attack,50,,,EnergyBolt_Start,2.2,20,,100453,,
+100453,악마의 날개,VanessaSkillBName,NormalAttack,Temp,VanessaSkillBDescription_3,0,BattleSkillIcon_01,attack,50,,,EnergyBolt_Start,2.2,20,,,,
+100461,대지 분쇄,AranSkillAName,NormalAttack,Temp,AranSkillADescription,0,BattleSkillIcon_01,attack,9,,,EnergyBolt_Start,2.2,20,,100462,,
+100462,대지 분쇄,AranSkillAName,NormalAttack,Temp,AranSkillADescription_2,0,BattleSkillIcon_01,attack,9,,,EnergyBolt_Start,2.2,20,,100463,,
+100463,대지 분쇄,AranSkillAName,NormalAttack,Temp,AranSkillADescription_3,0,BattleSkillIcon_01,attack,9,,,EnergyBolt_Start,2.2,20,,,,
+100471,거인의 손,AranSkillBName,NormalAttack,Temp,AranSkillBDescription,0,BattleSkillIcon_01,attack,48,,,EnergyBolt_Start,2.2,20,,100472,,
+100472,거인의 손,AranSkillBName,NormalAttack,Temp,AranSkillBDescription_2,0,BattleSkillIcon_01,attack,48,,,EnergyBolt_Start,2.2,20,,100473,,
+100473,거인의 손,AranSkillBName,NormalAttack,Temp,AranSkillBDescription_3,0,BattleSkillIcon_01,attack,48,,,EnergyBolt_Start,2.2,20,,,,
+100481,정령 소환,SylviaSkillAName,NormalAttack,Temp,SylviaSkillADescription,0,BattleSkillIcon_01,attack,5,,,EnergyBolt_Start,2.2,20,,100482,,
+100482,정령 소환,SylviaSkillAName,NormalAttack,Temp,SylviaSkillADescription_2,0,BattleSkillIcon_01,attack,5,,,EnergyBolt_Start,2.2,20,,100483,,
+100483,정령 소환,SylviaSkillAName,NormalAttack,Temp,SylviaSkillADescription_3,0,BattleSkillIcon_01,attack,5,,,EnergyBolt_Start,2.2,20,,,,
+100491,대지의 축복,SylviaSkillBName,NormalAttack,Temp,SylviaSkillBDescription,0,BattleSkillIcon_01,attack,48,,,EnergyBolt_Start,2.2,20,,100492,,
+100492,대지의 축복,SylviaSkillBName,NormalAttack,Temp,SylviaSkillBDescription_2,0,BattleSkillIcon_01,attack,48,,,EnergyBolt_Start,2.2,20,,100493,,
+100493,대지의 축복,SylviaSkillBName,NormalAttack,Temp,SylviaSkillBDescription_3,0,BattleSkillIcon_01,attack,48,,,EnergyBolt_Start,2.2,20,,,,
+100501,지진,HardySkillAName,NormalAttack,Temp,HardySkillADescription,0,BattleSkillIcon_01,attack,11,,,EnergyBolt_Start,2.2,20,,100502,,
+100502,지진,HardySkillAName,NormalAttack,Temp,HardySkillADescription_2,0,BattleSkillIcon_01,attack,11,,,EnergyBolt_Start,2.2,20,,100503,,
+100503,지진,HardySkillAName,NormalAttack,Temp,HardySkillADescription_3,0,BattleSkillIcon_01,attack,11,,,EnergyBolt_Start,2.2,20,,,,
+100511,숲의 보호,HardySkillBName,NormalAttack,Temp,HardySkillBDescription,0,BattleSkillIcon_01,attack,51,,,EnergyBolt_Start,2.2,20,,100512,,
+100512,숲의 보호,HardySkillBName,NormalAttack,Temp,HardySkillBDescription_2,0,BattleSkillIcon_01,attack,51,,,EnergyBolt_Start,2.2,20,,100513,,
+100513,숲의 보호,HardySkillBName,NormalAttack,Temp,HardySkillBDescription_3,0,BattleSkillIcon_01,attack,51,,,EnergyBolt_Start,2.2,20,,,,
+100521,투창,LouisSkillAName,NormalAttack,Temp,LouisSkillADescription,70002,BattleSkillIcon_01,attack,5,,,EnergyBolt_Start,5,20,,100522,,
+100522,투창,LouisSkillAName,NormalAttack,Temp,LouisSkillADescription_2,70002,BattleSkillIcon_01,attack,5,,,EnergyBolt_Start,5,20,,100523,,
+100523,투창,LouisSkillAName,NormalAttack,Temp,LouisSkillADescription_3,70002,BattleSkillIcon_01,attack,5,,,EnergyBolt_Start,5,20,,,,
+100531,늑대 소환,LouisSkillBName,NormalAttack,Temp,LouisSkillBDescription,70002,BattleSkillIcon_01,attack,44,,,EnergyBolt_Start,5,20,,100532,,
+100532,늑대 소환,LouisSkillBName,NormalAttack,Temp,LouisSkillBDescription_2,70002,BattleSkillIcon_01,attack,44,,,EnergyBolt_Start,5,20,,100533,,
+100533,늑대 소환,LouisSkillBName,NormalAttack,Temp,LouisSkillBDescription_3,70002,BattleSkillIcon_01,attack,44,,,EnergyBolt_Start,5,20,,,,
+100541,그림자 베기,LucySkillAName,NormalAttack,Temp,LucySkillADescription,0,BattleSkillIcon_01,attack,5,,,EnergyBolt_Start,2.2,20,,100542,,
+100542,그림자 베기,LucySkillAName,NormalAttack,Temp,LucySkillADescription_2,0,BattleSkillIcon_01,attack,5,,,EnergyBolt_Start,2.2,20,,100543,,
+100543,그림자 베기,LucySkillAName,NormalAttack,Temp,LucySkillADescription_3,0,BattleSkillIcon_01,attack,5,,,EnergyBolt_Start,2.2,20,,,,
+100551,그림자 늪,LucySkillBName,NormalAttack,Temp,LucySkillBDescription,0,BattleSkillIcon_01,attack,48,,,EnergyBolt_Start,2.2,20,,100552,,
+100552,그림자 늪,LucySkillBName,NormalAttack,Temp,LucySkillBDescription_2,0,BattleSkillIcon_01,attack,48,,,EnergyBolt_Start,2.2,20,,100553,,
+100553,그림자 늪,LucySkillBName,NormalAttack,Temp,LucySkillBDescription_3,0,BattleSkillIcon_01,attack,48,,,EnergyBolt_Start,2.2,20,,,,
+100561,영혼 수확,KyleSkillAName,NormalAttack,Temp,KyleSkillADescription,0,BattleSkillIcon_01,attack,5,,,EnergyBolt_Start,2.2,20,,100562,,
+100562,영혼 수확,KyleSkillAName,NormalAttack,Temp,KyleSkillADescription_2,0,BattleSkillIcon_01,attack,5,,,EnergyBolt_Start,2.2,20,,100563,,
+100563,영혼 수확,KyleSkillAName,NormalAttack,Temp,KyleSkillADescription_3,0,BattleSkillIcon_01,attack,5,,,EnergyBolt_Start,2.2,20,,,,
+100571,망자의 대검,KyleSkillBName,NormalAttack,Temp,KyleSkillBDescription,0,BattleSkillIcon_01,attack,49,,,EnergyBolt_Start,2.2,20,,100572,,
+100572,망자의 대검,KyleSkillBName,NormalAttack,Temp,KyleSkillBDescription_2,0,BattleSkillIcon_01,attack,49,,,EnergyBolt_Start,2.2,20,,100573,,
+100573,망자의 대검,KyleSkillBName,NormalAttack,Temp,KyleSkillBDescription_3,0,BattleSkillIcon_01,attack,49,,,EnergyBolt_Start,2.2,20,,,,
+100581,폭탄 뿌리기,KunSkillAName,NormalAttack,Temp,KunSkillADescription,0,BattleSkillIcon_01,attack,10,,,EnergyBolt_Start,2.2,20,,100582,,
+100582,폭탄 뿌리기,KunSkillAName,NormalAttack,Temp,KunSkillADescription_2,0,BattleSkillIcon_01,attack,10,,,EnergyBolt_Start,2.2,20,,100583,,
+100583,폭탄 뿌리기,KunSkillAName,NormalAttack,Temp,KunSkillADescription_3,0,BattleSkillIcon_01,attack,10,,,EnergyBolt_Start,2.2,20,,,,
+100591,스마일 폭탄,KunSkillBName,NormalAttack,Temp,KunSkillBDescription,0,BattleSkillIcon_01,attack,46,,,EnergyBolt_Start,2.2,20,,100592,,
+100592,스마일 폭탄,KunSkillBName,NormalAttack,Temp,KunSkillBDescription_2,0,BattleSkillIcon_01,attack,46,,,EnergyBolt_Start,2.2,20,,100593,,
+100593,스마일 폭탄,KunSkillBName,NormalAttack,Temp,KunSkillBDescription_3,0,BattleSkillIcon_01,attack,46,,,EnergyBolt_Start,2.2,20,,,,

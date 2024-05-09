@@ -1,0 +1,84 @@
+{
+  "levels": [
+    {
+      "Level": 1,
+      "Exp": 10
+    },
+    {
+      "Level": 2,
+      "Exp": 15
+    },
+    {
+      "Level": 3,
+      "Exp": 20
+    },
+    {
+      "Level": 4,
+      "Exp": 25
+    },
+    {
+      "Level": 5,
+      "Exp": 30
+    },
+    {
+      "Level": 6,
+      "Exp": 35
+    },
+    {
+      "Level": 7,
+      "Exp": 40
+    },
+    {
+      "Level": 8,
+      "Exp": 45
+    },
+    {
+      "Level": 9,
+      "Exp": 50
+    },
+    {
+      "Level": 10,
+      "Exp": 55
+    },
+    {
+      "Level": 11,
+      "Exp": 60
+    },
+    {
+      "Level": 12,
+      "Exp": 70
+    },
+    {
+      "Level": 13,
+      "Exp": 80
+    },
+    {
+      "Level": 14,
+      "Exp": 90
+    },
+    {
+      "Level": 15,
+      "Exp": 100
+    },
+    {
+      "Level": 16,
+      "Exp": 110
+    },
+    {
+      "Level": 17,
+      "Exp": 120
+    },
+    {
+      "Level": 18,
+      "Exp": 130
+    },
+    {
+      "Level": 19,
+      "Exp": 140
+    },
+    {
+      "Level": 20,
+      "Exp": 150
+    }
+  ]
+}

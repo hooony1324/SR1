@@ -1,144 +1,154 @@
-using Data;
 using System.Collections;
-using System.Collections.Generic;
+using Data;
 using UnityEngine;
 using static Define;
 
 public class EffectBase : BaseObject
 {
     public Creature Owner;
-    public SkillBase Skill;
+    public Creature Source;
     public EffectData EffectData;
     public EEffectType EffectType;
-
-    protected float Remains { get; set; } = 0;
+    [field: SerializeField]protected float Remains { get; set; } = 0;
     protected EEffectSpawnType _spawnType;
-    protected bool Loop { get; set; } = true;
 
-    public override bool Init()
+    protected bool isLoop = true;
+    
+    protected override bool Init()
     {
         if (base.Init() == false)
             return false;
-
         return true;
     }
 
-    public virtual void SetInfo(int templateID, Creature owner, EEffectSpawnType spawnType, SkillBase skill)
+    public virtual void SetInfo(EffectData data, InteractionObject owner, InteractionObject source, EEffectSpawnType spawnType)
     {
-        DataTemplateID = templateID;
-        EffectData = Managers.Data.EffectDic[templateID];
-
-        Skill = skill;
-
-        Owner = owner;
+        EffectData = data;
+        EffectType = data.EffectType;
+        Owner = owner as Creature;
+        Source = source as Creature;
         _spawnType = spawnType;
+        isLoop = true;
+        #region Spine Animation
+            SetSpineAnimation(EffectData.SkeletonDataID, SortingLayers.SKILL_EFFECT, gameObject.name);
+        #endregion
 
-        if (string.IsNullOrEmpty(EffectData.SkeletonDataID) == false)
-            SetSpineAnimation(EffectData.SkeletonDataID, SortingLayers.SKILL_EFFECT);
-
-        EffectType = EffectData.EffectType;
-
-        // AoE
+        // AoE에서 사용,범위 벗어나면 AoE가 꺼줌
         if (_spawnType == EEffectSpawnType.External)
             Remains = float.MaxValue;
         else
             Remains = EffectData.TickTime * EffectData.TickCount;
+                
+        if(EffectType == EEffectType.Freeze)
+            isLoop = false;
 
-        // Duration = EffectData.TickTime * EffectData.TickCount;
-        // Period = EffectData.TickTime;
     }
-
+    
     public virtual void ApplyEffect()
     {
         ShowEffect();
-        StartCoroutine(CoStartTimer());
-    }
-
-    protected virtual void ShowEffect()
-    {
-        if (SkeletonAnim != null && SkeletonAnim.skeletonDataAsset != null)
-            PlayAnimation(0, AnimName.IDLE, Loop);
-    }
-
-    protected void AddModifier(CreatureStat stat, object source, int order = 0)
-    {
-        if (EffectData.Amount != 0)
-        {
-            StatModifier add = new StatModifier(EffectData.Amount, EStatModType.Add, order, source);
-            stat.AddModifier(add);
-        }
-
-        if (EffectData.PercentAdd != 0)
-        {
-            StatModifier percentAdd = new StatModifier(EffectData.PercentAdd, EStatModType.PercentAdd, order, source);
-            stat.AddModifier(percentAdd);
-        }
-
-        if (EffectData.PercentMult != 0)
-        {
-            StatModifier percentMult = new StatModifier(EffectData.PercentMult, EStatModType.PercentMult, order, source);
-            stat.AddModifier(percentMult);
-        }
-    }
-
-    protected void RemoveModifier(CreatureStat stat, object source)
-    {
-        stat.ClearModifiersFromSource(source);
     }
 
     public virtual bool ClearEffect(EEffectClearType clearType)
     {
-        Debug.Log($"ClearEffect - {gameObject.name} {EffectData.ClassName} -> {clearType}");
-
+        // Debug.Log($"ClearEffect - {gameObject.name} {EffectData.ClassName} -> {clearType}");
+        if (Owner == null)
+            return false;
+        
         switch (clearType)
         {
             case EEffectClearType.TimeOut:
             case EEffectClearType.TriggerOutAoE:
-            case EEffectClearType.EndOfAirborne:
-                Managers.Object.Despawn(this);
+            case EEffectClearType.EndOfCC:
+                if (IsCrowdControl())
+                {
+                    Owner.CreatureState = ECreatureState.Idle;
+                }
+                Owner.Effects.RemoveEffect(this);
+
                 return true;
 
             case EEffectClearType.ClearSkill:
-                // AoE범위 안에 있는경우 해제 X
+                //AoE범위 안에 있는경우 해제 X
                 if (_spawnType != EEffectSpawnType.External)
                 {
-                    Managers.Object.Despawn(this);
+                    Owner.Effects.RemoveEffect(this);
                     return true;
                 }
+                break;
+            case EEffectClearType.Disable:
+                Owner.Effects.RemoveEffect(this);
                 break;
         }
 
         return false;
     }
 
-    protected virtual void ProcessDot()
+    protected void ShowEffect()
     {
-
+        if (string.IsNullOrEmpty(EffectData.PrefabName) == false)
+        {
+            GameObject go =Managers.Object.SpawnGameObject(Owner.Position, EffectData.PrefabName);
+            go.transform.SetParent(Owner.Effects.transform, false);
+            go.transform.localPosition = Vector3.zero;
+            return;
+        }
+        
+        if(SkeletonAnim != null)
+            PlayAnimation(0, AnimName.IDLE, isLoop);
     }
 
+    protected virtual void ProcessDot()
+    { }
 
-    protected virtual IEnumerator CoStartTimer()
+    protected  IEnumerator StartTimer()
     {
-        float sumTime = 0f;
+        if (EffectType == EEffectType.Airborne || EffectType == EEffectType.Knockback)
+        {
+            yield break;
+        }
+
+        float tickTimer = 0f;
 
         ProcessDot();
 
-        while (Remains > 0)
+        if (EffectType == Define.EEffectType.Instant)
         {
-            Remains -= Time.deltaTime;
-            sumTime += Time.deltaTime;
-
-            // 틱마다 ProcessDotTick 호출
-            if (sumTime >= EffectData.TickTime)
-            {
-                ProcessDot();
-                sumTime -= EffectData.TickTime;
-            }
-
-            yield return null;
+            yield return new WaitForSeconds(1f);
         }
-
+        else
+        {
+            while (Remains > 0)
+            {
+                Remains -= Time.deltaTime;
+                tickTimer += Time.deltaTime;
+            
+                // 틱마다 ProcessDotTick 호출
+                if (tickTimer >= EffectData.TickTime)
+                {
+                    ProcessDot();
+                    tickTimer -= EffectData.TickTime;
+                }
+            
+                yield return null;
+            }
+        }
         Remains = 0;
         ClearEffect(EEffectClearType.TimeOut);
+    }
+
+    private bool IsCrowdControl()
+    {
+        switch (EffectType)
+        {
+            case EEffectType.Knockback:
+            case EEffectType.Airborne:
+            case EEffectType.Stun:
+            case EEffectType.Pull:
+            case EEffectType.Freeze:
+                return true;
+        }
+
+        return false;
     }
 }

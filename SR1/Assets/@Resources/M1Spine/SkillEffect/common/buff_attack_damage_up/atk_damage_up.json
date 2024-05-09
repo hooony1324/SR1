@@ -1,0 +1,37 @@
+{ "skeleton": { "images": "C:/SVN/Art/ani/effect/attack_damage_up/texture/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 3, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "bg", "bone": "root", "attachment": "bg" },
+	{ "name": "1", "bone": "root" },
+	{ "name": "2", "bone": "root" },
+	{ "name": "3", "bone": "root" },
+	{ "name": "4", "bone": "root", "attachment": "4" },
+	{ "name": "레이어 1", "bone": "root", "attachment": "레이어 1" }
+],
+"skins": {
+	"default": {
+		"bg": {
+			"bg": { "x": 200, "y": -200, "width": 406, "height": 406 }
+		},
+		"1": {
+			"1": { "x": 190.5, "y": -332, "width": 263, "height": 90 }
+		},
+		"2": {
+			"2": { "x": 198, "y": -334.5, "width": 250, "height": 87 }
+		},
+		"3": {
+			"3": { "x": 202, "y": -329, "width": 242, "height": 96 }
+		},
+		"4": {
+			"4": { "x": 200.5, "y": -333.5, "width": 221, "height": 83 }
+		},
+		"레이어 1": {
+			"레이어 1": { "x": 200, "y": -257.5, "width": 146, "height": 195 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

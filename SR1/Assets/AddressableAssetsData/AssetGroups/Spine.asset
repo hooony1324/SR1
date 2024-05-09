@@ -1,0 +1,576 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Spine
+  m_EditorClassIdentifier: 
+  m_GroupName: Spine
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 644f5c61a7a02e542aab387e22a6dff0
+  m_SerializeEntries:
+  - m_GUID: c7c834880c8d8774da453c252b4185a6
+    m_Address: 022_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf9ec093fe189a04d92278eaa0f28574
+    m_Address: goblin_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b473b514912b8804aa13a19894b6d4eb
+    m_Address: 020_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c04a934a0d842c449af7df0ced7349d3
+    m_Address: slime_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 378dd7a7a523b164496aa5b261580005
+    m_Address: bear_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d89853370f7a3164f99dbc20eea32225
+    m_Address: wood_common_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df80bf8d422a13445870a721c43099d8
+    m_Address: spider_common_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e42fb9220d96d7e4c86a9de95818b96b
+    m_Address: wood_2_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfd750e2c65c7944e836f8353fec2cea
+    m_Address: wood_1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16d302be7648cc741b28ab0f54bb617c
+    m_Address: 017_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 268f7c3bb93d25d43b9f2ebd01b61a57
+    m_Address: 004_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3216f9a8939d554ca2ebadaa61f6b22
+    m_Address: 005_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b1019214b921244a8330c6fbae15f8a
+    m_Address: npc_camp_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3dfafd975414da4998a0f866c40e07e
+    m_Address: npc_dungeon_gate_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba99d5d2e0eeab542a19708c34adaaa1
+    m_Address: npc_smith_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c34f8e8a3fb833a4c8309493b2f11aa2
+    m_Address: npc_training_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46b7d6af8ab715b408ef0c1a2b5f639c
+    m_Address: npc_portal_2_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acf7940995ffcb14184d0f5f1e081f9c
+    m_Address: wood_rare_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 412e86c0477da6a42be997234cf0dd49
+    m_Address: buff_blood_up_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb66a3ab50dd92142af4a227daa67639
+    m_Address: chloe_skill_1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26f2244b990f5ae459290af6d2a7aa2b
+    m_Address: stun_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f56ff53c22d27df4aa187dd5c2caf54f
+    m_Address: debuff_burning_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db99d3af36e18d94fa4d82ce5255f856
+    m_Address: buff_attack_speed_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0cc21ba2e5bbd142b438282c9a00598
+    m_Address: heal_1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16ded4fc60393844ab24e93e03be843d
+    m_Address: loren_skill_2_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f3bb8bb48f0e7346b62204f1fa35dea
+    m_Address: debuff_poison_1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd225f6bb768c5444800dfbd27118acd
+    m_Address: owen_skill_2_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 417beed044cd3a04184c7c6caba85ecb
+    m_Address: loren_skill_1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 350095c80b7108043a7ab0d94276b5d4
+    m_Address: debuff_freezing_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76d3eb1c77a7e3c4180773fd08350fc0
+    m_Address: 003_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9af7977422e9aec43b8a9a1140ccf692
+    m_Address: owen_skill_1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b77f658e56e14e48a2f5aeda6bead62
+    m_Address: 002_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b512cac7257e3c04898ae7be6e0db84b
+    m_Address: veti_skill_1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ced561fcd58d66d4c85a437e76f92fdb
+    m_Address: wild_boar_boss_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e08eef4aa88f9d54892b3030c980a1c4
+    m_Address: 006_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57bf06976ff9c50479b04730af49f94d
+    m_Address: frog_common_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df8a6a43ca8b2474cba1ddb67601091b
+    m_Address: 007_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 499db62b94670c04aabcd23f0cb96200
+    m_Address: 008_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af0b55a4d962bd24eae0c5781b3bc442
+    m_Address: empty_skeleton
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca1133db523ba1741b3a29d20c5609c3
+    m_Address: 023_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d09a0b485931374680398ce394de26a
+    m_Address: 026_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1f3de98401d58b42abe5f7a8eefe9f5
+    m_Address: frog_boss_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1152907c2fde814aa1182df4f63e20a
+    m_Address: 028_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d3918ad80849e741a56d49457a1ca75
+    m_Address: 027_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ce17ac50939a804bb5f392fb7971eef
+    m_Address: spider_rare_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26b6bf94695dbaf4b900289255a0a924
+    m_Address: bee_rare_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 880bb7bc06c88334fb20e314ee2a68e1
+    m_Address: flower_boss_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 063bf282551654b4481f2670e723e50a
+    m_Address: scarecrow_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f50c629721f35d747ae326ea1f978964
+    m_Address: npc_storages_coin_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f696e4fe8a6e78041a086439b2a993e1
+    m_Address: npc_storages_mine_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0fa69810df238e4d8946a23c3a13724
+    m_Address: shot_test_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 191589009586a124095c92a3a57f964b
+    m_Address: form_jinn_common_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ecdcf590219f144faab6ab9e3144c8c
+    m_Address: form_jinn_rare_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27d1b9dfdc83ba141aa23de4108d89db
+    m_Address: chicken_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b39b1570d984bc043ae032bf2ecd95d4
+    m_Address: farm_ghost_common_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80e75f1e2e49ff14693f84e1c8b9936d
+    m_Address: farm_ghost_rare_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75bce4c9d2b566f4e98a785ad9dd1b0f
+    m_Address: 030_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da67b50d049c8114daa028da20751dee
+    m_Address: 029_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c2485769fb29a04e953f3136346cce4
+    m_Address: 019_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ca53758ac833cd4599a6cc0a24d3e28
+    m_Address: warm_common_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22e03cccc26fdf0449fba315d4c1e997
+    m_Address: npc_run_stone_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5583bd05b07c9b46b2794d35d903f2c
+    m_Address: wild_boar_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fc50253410a45f40936a041ab8e710e
+    m_Address: forest_mine_2_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43f225fa4079a9f438c0208b0263daed
+    m_Address: forest_mine_3_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb161e6f5aa542d49a7d16359b48ad2c
+    m_Address: 010_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d29663b387600d41bef751899570e1c
+    m_Address: 011_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 370e1e4e79c96774893e7035ea611947
+    m_Address: forest_mine_1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e78b99b3464d0848b0c5b28e6834717
+    m_Address: 013_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fff92fb086c79254fb35b8c3169181e1
+    m_Address: thunder_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d96f9476d27410a4c8645dedd200e7ad
+    m_Address: smoke_01_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c6bedb0f9bba4e4da122b494be8e594
+    m_Address: fireball_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48cb304e3ce284a419c0338aa8e355c3
+    m_Address: 014_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c32bcd236eb546a41bec74878d58b329
+    m_Address: 015_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a1a14be72bcf4a489586b74bae07ec1
+    m_Address: zombie_common_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 993ecb7ee5258d74db59009a13c1073f
+    m_Address: skeleton_rare_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96f86c40d31ddf94295105bcac6147a8
+    m_Address: skeleton_common_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d0485cfe77bf884f8280ddba698bea3
+    m_Address: living_armor_common_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12560b557688c144c9f44bf12723b5a0
+    m_Address: living_armor_rare_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e12f1bbf1806e242b4badd0dd89fa24
+    m_Address: grave_keeper_common_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 766e64d229724c240b6084cbd51579a9
+    m_Address: ghost_sword_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c4095bb32e891648af2c4b245d2ccce
+    m_Address: ghost_canon_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6078148a0ce900f40aab3d502cc2fc7d
+    m_Address: skeleton_unique_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ca43639a4dd1604f8f32c3bcfc3170c
+    m_Address: npc_merchant_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52a639e4387c48d439920dd4f04f7dd0
+    m_Address: npc_portal_1_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d7b8c9a48c7ad1408c9f638fc4cd7de
+    m_Address: npc_storages_wood_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eddfb82939323814f9868b4e93aa7d52
+    m_Address: 009_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d017c70c03ee37449a33302f2cbbc710
+    m_Address: npc_dungeon_gate_gold_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46b31fc28451c544cad593833c7d3f8d
+    m_Address: bee_common_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 652b7f731e606ea4cae594364b4bddea
+    m_Address: npc_luke_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1490e75ff6810f14e9765628486d0f18
+    m_Address: ui_npc_camp_fire_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b9e15bc4de9e3f4cb44dd0dddc53591
+    m_Address: npc_sam_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c515e08865f5cd941bd95ac07778d9a4
+    m_Address: npc_chloe_SkeletonData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 44a2531e51a56944598bc231451ecb34, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7d2c4a76bd1e416439eb329826866664, type: 2}
