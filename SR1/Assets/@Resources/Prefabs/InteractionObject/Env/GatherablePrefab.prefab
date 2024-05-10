@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 94736924598529668}
   - component: {fileID: 7817643621834788960}
   m_Layer: 7
-  m_Name: EnvPrefab
+  m_Name: GatherablePrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,6 +146,9 @@ MonoBehaviour:
     materialsInsideMask: []
     materialsOutsideMask: []
   disableRenderingOnOverride: 1
+  physicsPositionInheritanceFactor: {x: 1, y: 1}
+  physicsRotationInheritanceFactor: 1
+  physicsMovementRelativeTo: {fileID: 0}
   updateTiming: 1
   unscaledTime: 0
   _animationName: 

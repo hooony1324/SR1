@@ -17,8 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: d25a294413ef7fd429c6b0c8b86aaa64
   m_SerializeEntries:
-  - m_GUID: e651997c77f72014eb20f739a1068535
-    m_Address: GatherablePrefab
+  - m_GUID: 4c93d4f5faf8eab448841a1539693519
+    m_Address: CampPrefab
     m_ReadOnly: 0
     m_SerializedLabels:
     - Preload
@@ -35,14 +35,14 @@ MonoBehaviour:
     m_SerializedLabels:
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4c93d4f5faf8eab448841a1539693519
-    m_Address: CampPrefab
+  - m_GUID: f9038d472eca66f45b4c71369084672c
+    m_Address: CreatureCheatPrefab
     m_ReadOnly: 0
     m_SerializedLabels:
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1c2ad1ad8ae65194aa075f32d95f3eae
-    m_Address: MonsterPrefab
+  - m_GUID: e651997c77f72014eb20f739a1068535
+    m_Address: GatherablePrefab
     m_ReadOnly: 0
     m_SerializedLabels:
     - Preload
@@ -83,8 +83,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f9038d472eca66f45b4c71369084672c
-    m_Address: CreatureCheatPrefab
+  - m_GUID: 1c2ad1ad8ae65194aa075f32d95f3eae
+    m_Address: MonsterPrefab
     m_ReadOnly: 0
     m_SerializedLabels:
     - Preload
