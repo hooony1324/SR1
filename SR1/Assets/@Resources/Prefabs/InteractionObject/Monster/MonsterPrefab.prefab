@@ -147,6 +147,7 @@ MonoBehaviour:
     SkillBId: 0
     DropItemId: 0
     Size: 0
+  IsReturning: 0
 --- !u!114 &6279154384663767905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,8 +198,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8259244433511647054}
   - component: {fileID: 2858460382199038833}
-  - component: {fileID: 2504496308380667646}
   - component: {fileID: 3607429449109144263}
+  - component: {fileID: 1831084467913588895}
   m_Layer: 6
   m_Name: SkeletonAnimation
   m_TagString: Untagged
@@ -271,7 +272,15 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2504496308380667646
+--- !u!33 &3607429449109144263
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4619973071439934642}
+  m_Mesh: {fileID: 0}
+--- !u!114 &1831084467913588895
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -311,14 +320,6 @@ MonoBehaviour:
   _animationName: 
   loop: 0
   timeScale: 1
---- !u!33 &3607429449109144263
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4619973071439934642}
-  m_Mesh: {fileID: 0}
 --- !u!1001 &2709990135526385396
 PrefabInstance:
   m_ObjectHideFlags: 0

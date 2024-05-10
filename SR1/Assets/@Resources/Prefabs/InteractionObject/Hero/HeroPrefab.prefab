@@ -166,8 +166,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6955404656062045836}
   - component: {fileID: 2956261206306598209}
-  - component: {fileID: 3243478166597211239}
   - component: {fileID: 4379717880518980484}
+  - component: {fileID: 8450581190480841642}
   m_Layer: 6
   m_Name: SkeletonAnimation
   m_TagString: Untagged
@@ -232,7 +232,15 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &3243478166597211239
+--- !u!33 &4379717880518980484
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7104248723056735595}
+  m_Mesh: {fileID: 0}
+--- !u!114 &8450581190480841642
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -244,7 +252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: 9b77f658e56e14e48a2f5aeda6bead62, type: 2}
+  skeletonDataAsset: {fileID: 0}
   initialSkinName: 
   fixPrefabOverrideViaMeshFilter: 2
   initialFlipX: 0
@@ -272,14 +280,6 @@ MonoBehaviour:
   _animationName: 
   loop: 0
   timeScale: 1
---- !u!33 &4379717880518980484
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7104248723056735595}
-  m_Mesh: {fileID: 0}
 --- !u!1 &8566668851611457733
 GameObject:
   m_ObjectHideFlags: 0

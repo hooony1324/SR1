@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1989438424406686311}
   - component: {fileID: 1416419917131735922}
   - component: {fileID: 8947726597730866744}
-  - component: {fileID: -2515410240981250036}
   - component: {fileID: -3760500730446889117}
+  - component: {fileID: 8014410026834702429}
   m_Layer: 7
   m_Name: NpcPrefab
   m_TagString: Untagged
@@ -112,7 +112,15 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &-2515410240981250036
+--- !u!33 &-3760500730446889117
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989438424406686306}
+  m_Mesh: {fileID: 0}
+--- !u!114 &8014410026834702429
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,14 +157,6 @@ MonoBehaviour:
   disableRenderingOnOverride: 1
   updateTiming: 1
   unscaledTime: 0
-  _animationName: idle
+  _animationName: 
   loop: 0
   timeScale: 1
---- !u!33 &-3760500730446889117
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1989438424406686306}
-  m_Mesh: {fileID: 0}
